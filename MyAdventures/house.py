@@ -22,7 +22,7 @@ class BuildDestroy:
     def build_window(self, x, y, z, width, height):
         for i in range(width):
             for j in range(height):
-                self.mc.setBlock(x + i, y + j, z, 102)  # id for Glass block
+                 self.mc.setBlock(x, y + j, z + i, 102)   # id for Glass block
 
     def build_roof(self, x, y, z, width, depth, height, block_id):
         for i in range(height): 
@@ -41,10 +41,11 @@ class BuildDestroy:
     def build_filler(self, x, y, z, width, height, block_id, direction='z'):
         for i in range(height):
             for j in range(width - 2 * i):
-                if direction == 'z':
+                if direction == 'z': #depth
                     self.mc.setBlock(x + i + j, y + i, z, block_id)
                 else:  # direction 'x'
                     self.mc.setBlock(x, y + i, z + i + j, block_id)
+
 
     def run(self):
         time.sleep(2)
@@ -74,10 +75,10 @@ class BuildDestroy:
         self.build_column(offset_x + house_width - 1, pos.y, offset_z + house_depth, house_height, 201)
 
         # Add windows
-        self.build_window(offset_x + 2, pos.y + 2, offset_z, 3, 3)
-        self.build_window(offset_x + 7, pos.y + 2, offset_z, 3, 3)
-        self.build_window(offset_x + 2, pos.y + 2, offset_z + house_depth, 3, 3)
-        self.build_window(offset_x + 7, pos.y + 2, offset_z + house_depth, 3, 3)
+        self.build_window(offset_x, pos.y + 2, offset_z + 2, 3, 3)  # Left wall window 1
+        self.build_window(offset_x, pos.y + 2, offset_z + house_depth - 4, 3, 3)  # Left wall window 2
+        self.build_window(offset_x + 4 + house_width - 5, pos.y + 2, offset_z + 2, 3, 3)  # Right wall window 1
+        self.build_window(offset_x + 4+ house_width - 5, pos.y + 2, offset_z + house_depth - 4, 3, 3)  # Right wall window 2
 
         # Build a filler between the wall and the roof
         self.build_filler(offset_x, pos.y + house_height, offset_z, house_width, roof_height - 1, 98, direction='z')
