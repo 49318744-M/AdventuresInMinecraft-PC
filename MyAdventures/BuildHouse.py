@@ -1,11 +1,12 @@
-import time
+from Builder import Builder
 import mcpi.minecraft as minecraft
 import mcpi.block as block
+import time
 
-class BuildDestroy:
+class BuildHouse(Builder):
     def __init__(self, mc):
         self.mc = mc
-        self.name = "BuildDestroyBot"
+        self.name = "BuildHouseDestroyBot"
 
     def build_wall(self, x, y, z, length, height, block_id, direction='x'):
         for i in range(length):
@@ -85,43 +86,6 @@ class BuildDestroy:
         self.mc.setBlock(x, y, z, 53, 2)  # Stairs (id 53)
         time.sleep(0.05)
 
-    def build_house(self, x, y, z, house_width, house_depth, house_height, roof_height):
-        # Build walls
-        self.build_wall(x, y, z, house_width, house_height, 98, direction='x')
-        self.build_wall(x, y, z, house_depth, house_height, 98, direction='z')
-        self.build_wall(x, y, z + house_depth, house_width, house_height, 98, direction='x')
-        self.build_wall(x + house_width - 1, y, z, house_depth, house_height, 98, direction='z')
-
-        # Build columns at the 4 corners in pink (id: 201)
-        self.build_column(x, y, z, house_height, 201)
-        self.build_column(x + house_width - 1, y, z, house_height, 201)
-        self.build_column(x, y, z + house_depth, house_height, 201)
-        self.build_column(x + house_width - 1, y, z + house_depth, house_height, 201)
-
-        # Add windows
-        self.build_window(x, y + 2, z + 2, 3, 3)
-        self.build_window(x, y + 2, z + house_depth - 4, 3, 3)
-        self.build_window(x + 4 + house_width - 5, y + 2, z + 2, 3, 3)
-        self.build_window(x + 4 + house_width - 5, y + 2, z + house_depth - 4, 3, 3)
-
-        # Build filler between the wall and the roof
-        self.build_filler(x, y + house_height, z, house_width, roof_height - 1, 98)
-        self.build_filler(x, y + house_height, z + house_depth, house_width, roof_height - 1, 98)
-
-        # Build the roof
-        self.build_roof(x, y + house_height, z - 1, house_width, house_depth + 3, roof_height, 17)
-
-        # Build door
-        self.build_door(x + 5, y + 2, z)
-
-        # Add decorations
-        self.add_decorations(x, y, z, house_width, house_depth, house_height)
-
-        # Build stairs
-        self.build_stairs(x + 5, y, z - 1, direction='z')  
-        self.build_stairs(x + 4, y, z - 1, direction='z')  
-        self.build_stairs(x + 6, y, z - 1, direction='z')  
-
     def destroy_wall(self, x, y, z, length, height, direction='x'):
         for i in range(length):
             for j in range(height):
@@ -158,14 +122,13 @@ class BuildDestroy:
             time.sleep(0.05)
 
     def destroy_filler(self, x, y, z, width, height):
-        for i in range(height - 1, -1, -1):  # Comienza desde la parte superior (height-1) y recorre hacia abajo
+        for i in range(height - 1, -1, -1):  
             for j in range(width - 2 * i):
-                self.mc.setBlock(x + i + j, y + i, z, 0)  # Remueve el bloque
+                self.mc.setBlock(x + i + j, y + i, z, 0)
                 time.sleep(0.1)
 
 
     def destroy_door(self, x, y, z): 
-        # Remove door blocks
         self.mc.setBlock(x, y - 1, z, 0)  
         self.mc.setBlock(x, y, z, 0)  
         time.sleep(0.05)
@@ -192,41 +155,5 @@ class BuildDestroy:
     def destroy_stairs(self, x, y, z):
         self.mc.setBlock(x, y, z, 0)  # Remove stairs
         time.sleep(0.1)
-
-    def destroy_house(self, x, y, z, house_width, house_depth, house_height, roof_height):
-        # Destroy stairs
-        self.destroy_stairs(x + 5, y, z - 1)
-        self.destroy_stairs(x + 4, y, z - 1)
-        self.destroy_stairs(x + 6, y, z - 1)
-
-        # Destroy decorations
-        self.destroy_decorations(x, y, z, house_width, house_depth, house_height)
-
-        # Destroy door
-        self.destroy_door(x + 5, y + 2, z)
-
-        # Destroy roof
-        self.destroy_roof(x, y + house_height, z - 1, house_width, house_depth + 3, roof_height)
-
-        # Destroy filler between the wall and the roof
-        self.destroy_filler(x, y + house_height, z, house_width, roof_height - 1)
-        self.destroy_filler(x, y + house_height, z + house_depth, house_width, roof_height - 1)
-
-        # Destroy windows
-        self.destroy_window(x, y + 2, z + 2, 3, 3)
-        self.destroy_window(x, y + 2, z + house_depth - 4, 3, 3)
-        self.destroy_window(x + 4 + house_width - 5, y + 2, z + 2, 3, 3)
-        self.destroy_window(x + 4 + house_width - 5, y + 2, z + house_depth - 4, 3, 3)
-
-        # Destroy columns at the 4 corners
-        self.destroy_column(x, y, z, house_height)
-        self.destroy_column(x + house_width - 1, y, z, house_height)
-        self.destroy_column(x, y, z + house_depth, house_height)
-        self.destroy_column(x + house_width - 1, y, z + house_depth, house_height)
-
-        # Destroy walls
-        self.destroy_wall(x, y, z, house_width, house_height, direction='x')
-        self.destroy_wall(x, y, z, house_depth, house_height, direction='z')
-        self.destroy_wall(x, y, z + house_depth, house_width, house_height, direction='x')
-        self.destroy_wall(x + house_width - 1, y, z, house_depth, house_height, direction='z')
+        
 
