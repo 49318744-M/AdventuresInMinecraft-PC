@@ -1,4 +1,3 @@
-#InsultBot
 import random
 import time
 from MinecraftAgent import MinecraftAgent
@@ -17,10 +16,11 @@ class InsultBot(MinecraftAgent):
         ]
         random.shuffle(self.insults)
 
-    def perform_task(self):
-        """Send a set of insults one by one."""
+    def perform_task(self, stop_event):
+        """Send a set of insults one by one, checking for interruption."""
         for insult in self.insults:
+            if stop_event.is_set():  # Check if the task should be stopped
+                break
             self.send_message(insult)
-            time.sleep(10)  # Wait 10 seconds before sending the next insult
-
-        self.send_message("Insults completed!")  # Inform that the task is finished
+            time.sleep(5)  # Wait before sending the next insult
+        random.shuffle(self.insults)

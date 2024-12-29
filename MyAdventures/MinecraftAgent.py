@@ -1,25 +1,19 @@
-from abc import ABC, abstractmethod
-from mcpi.minecraft import Minecraft
+import time
+from mcpi import minecraft
 
-class MinecraftAgent(ABC):
+class MinecraftAgent:
     def __init__(self, name):
         self.name = name
-        self.mc = Minecraft.create()  # Connect to Minecraft
-        self.position = self.mc.player.getTilePos()  # Get player's current position
-    
-    def move(self, x, y, z):
-        """Moves the agent to a specific position."""
-        self.mc.player.setTilePos(x, y, z)
-    
+        self.mc = minecraft.Minecraft.create()
+
+    def perform_task(self, stop_event):
+        """Defines the task to be performed by the agent. Supports interruption."""
+        while not stop_event.is_set():  # Check for stop event to interrupt the task
+            self.send_message(f"{self.name} is performing its task.")
+            time.sleep(5)  # Simulate performing a task
+
+        self.send_message(f"{self.name} has been interrupted.")
+
     def send_message(self, message):
         """Sends a message in the Minecraft world."""
         self.mc.postToChat(f"{self.name}: {message}")
-    
-    def get_position(self):
-        """Returns the current position of the agent."""
-        return self.mc.player.getTilePos()
-
-    @abstractmethod
-    def perform_task(self):
-        """Defines the task to be performed by the agent."""
-        pass

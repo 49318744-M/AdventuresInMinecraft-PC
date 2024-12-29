@@ -1,20 +1,25 @@
+from mcpi import minecraft
 from InsultBot import InsultBot
 from TNTbot import TNTBot
+from OracleBot import OracleBot
 from BotManager import BotManager
 
-def main():
-    manager = BotManager()
+if __name__ == "__main__":
+    # Create connection to Minecraft
+    mc = minecraft.Minecraft.create()
 
-    # Create instances of different bots (agents)
+    # Create the BotManager
+    bot_manager = BotManager(mc)
+
+    # Initialize bots
     insult_bot = InsultBot()
     tnt_bot = TNTBot()
+    oracle_bot = OracleBot(mc)
 
-    # Add bots to the BotManager
-    manager.add_agent(tnt_bot)
-    manager.add_agent(insult_bot)
+    # Add bots to the manager
+    bot_manager.add_agent("insult", insult_bot)
+    bot_manager.add_agent("tnt", tnt_bot)
+    bot_manager.add_agent("oracle", oracle_bot)
 
-    # Execute tasks for all bots periodically
-    manager.execute_all_tasks_periodically(10)  # Cambiar de bot cada 10 segundos
-
-if __name__ == "__main__":
-    main()
+    # Listen for commands from the Minecraft chat
+    bot_manager.listen_for_commands()
