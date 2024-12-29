@@ -1,19 +1,21 @@
-#TNTbot
-import mcpi.minecraft as minecraft
-import mcpi.block as block
 import time
+from mcpi.minecraft import Minecraft
+from mcpi.block import TNT, FIRE
+from MinecraftAgent import MinecraftAgent
 
-# Connect to the Minecraft game
-mc = minecraft.Minecraft.create()
+class TNTBot(MinecraftAgent):
+    def __init__(self):
+        super().__init__("TNTBot")
 
-while True:
-    pos = mc.player.getTilePos()  # Get the player's position
-    mc.setBlock(pos.x, pos.y, pos.z, block.TNT, 1)  # Place TNT
-    time.sleep(1)  # Wait a second
+    def perform_task(self):
+        """Place TNT and ignite it in the Minecraft world."""
+        pos = self.get_position()  # Get the current position of the agent
+        self.mc.setBlock(pos.x, pos.y, pos.z, TNT, 1)  # Place TNT
+        time.sleep(1)  # Wait a second
 
-    # Ignite the TNT by placing fire next to it
-    mc.setBlock(pos.x, pos.y, pos.z + 1, block.FIRE)  # Place fire next to the TNT
-    mc.postToChat("Boom!")
-    
-    time.sleep(3)  # Wait for the explosion to happen
-    time.sleep(5)  # Wait 5 seconds before the next explosion
+        # Ignite the TNT by placing fire next to it
+        self.mc.setBlock(pos.x, pos.y, pos.z + 1, FIRE)  # Place fire next to the TNT
+        self.send_message("Boom!")
+
+        time.sleep(3)  # Wait for the explosion to happen
+        self.send_message("TNT task completed!")

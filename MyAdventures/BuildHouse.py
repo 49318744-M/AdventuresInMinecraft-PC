@@ -155,5 +155,3 @@ class BuildHouse(Builder):
     def destroy_stairs(self, x, y, z):
         self.mc.setBlock(x, y, z, 0)  # Remove stairs
         time.sleep(0.1)
-        
-
