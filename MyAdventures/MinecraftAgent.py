@@ -17,3 +17,12 @@ class MinecraftAgent:
     def send_message(self, message):
         """Sends a message in the Minecraft world."""
         self.mc.postToChat(f"{self.name}: {message}")
+
+    def get_position(self):
+        """Returns the current position of the player."""
+        return self.mc.player.getTilePos()
+    
+    
+    def set_block(self, x, y, z, block):
+        """Sets the block at the specified position."""
+        self.mc.setBlock(x, y, z, block)

@@ -13,7 +13,6 @@ class BotManager:
         self.agents[name.lower()] = agent
 
     def execute_task(self, name):
-        """Execute the task of a specific bot by name."""
         agent = self.agents.get(name.lower())
         if agent:
             if self.current_task and self.current_task != name.lower():
@@ -32,7 +31,6 @@ class BotManager:
             self.mc.postToChat(f"Bot '{name}' not found.")
 
     def stop_current_task(self):
-        """Stop the current bot task."""
         if self.current_task:
             thread, event = self.current_threads[self.current_task]
             event.set()  # Set event to interrupt the task
@@ -43,15 +41,32 @@ class BotManager:
     def list_agents(self):
         return list(self.agents.keys())
 
+    def list_tasks(self, bot_name):
+        agent = self.agents.get(bot_name.lower())
+        if agent:
+            # Returns the names of the callable methods of the agent
+            return [method for method in dir(agent) if callable(getattr(agent, method)) and not method.startswith("__")]
+        return None
+
     def listen_for_commands(self):
-        self.mc.postToChat("BotManager is now listening for commands. Type 'list', '<bot_name>', or 'exit'.")
+        self.mc.postToChat("BotManager is now listening for commands. Type 'list', 'tasks <bot_name>', 'invoke <bot_name> <method_name>', or 'exit'.")
         while True:
             for event in self.mc.events.pollChatPosts():
                 command = event.message.strip().lower()
+                #list of agents
                 if command == "list":
                     self.mc.postToChat(f"Bots: {', '.join(self.list_agents())}")
+                #list of tasks of an agent
+                elif command.startswith("tasks "):
+                    bot_name = command.split(" ")[1]
+                    tasks = self.list_tasks(bot_name)
+                    if tasks:
+                        self.mc.postToChat(f"Available tasks for '{bot_name}': {', '.join(tasks)}")
+                    else:
+                        self.mc.postToChat(f"No tasks found for '{bot_name}'.")
+                #exit
                 elif command == "exit":
                     self.mc.postToChat("Exiting BotManager...")
                     return
                 else:
-                    self.execute_task(command)  # Execute the task for the requested bot
+                   self.execute_task(command)  # Execute the task for the requested bot
