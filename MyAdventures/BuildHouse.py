@@ -83,10 +83,11 @@ class BuildHouse(MinecraftAgent):
     def perform_task(self, stop_event):
         try:
             pos = self.mc.player.getTilePos()
+            print(f"Posición del jugador: x={pos.x}, y={pos.y}, z={pos.z}")
         except Exception as e:
             self.send_message(f"Error al obtener la posición del jugador: {e}")
-            return 
-        
+            return
+
         offset_x = pos.x + 5
         offset_z = pos.z
 
@@ -96,38 +97,61 @@ class BuildHouse(MinecraftAgent):
         house_height = 7
         roof_height = 5
 
-        # Construction
-        self.build_wall(offset_x, pos.y, offset_z, house_width, house_height, 98, direction='x')
-        self.build_wall(offset_x, pos.y, offset_z, house_depth, house_height, 98, direction='z')
-        self.build_wall(offset_x, pos.y, offset_z + house_depth, house_width, house_height, 98, direction='x')
-        self.build_wall(offset_x + house_width - 1, pos.y, offset_z, house_depth, house_height, 98, direction='z')
+        # Walls
+        for task in [
+            lambda: self.build_wall(offset_x, pos.y, offset_z, house_width, house_height, 98, direction='x'),
+            lambda: self.build_wall(offset_x, pos.y, offset_z, house_depth, house_height, 98, direction='z'),
+            lambda: self.build_wall(offset_x, pos.y, offset_z + house_depth, house_width, house_height, 98, direction='x'),
+            lambda: self.build_wall(offset_x + house_width - 1, pos.y, offset_z, house_depth, house_height, 98, direction='z'),
+        ]:
+            if stop_event.is_set():  # Verifica si la tarea debe interrumpirse
+                self.send_message("Construcción interrumpida.")
+                return
+            task()
 
         # Columns
-        self.build_column(offset_x, pos.y, offset_z, house_height, 201)
-        self.build_column(offset_x + house_width - 1, pos.y, offset_z, house_height, 201)
-        self.build_column(offset_x, pos.y, offset_z + house_depth, house_height, 201)
-        self.build_column(offset_x + house_width - 1, pos.y, offset_z + house_depth, house_height, 201)
+        for task in [
+            lambda: self.build_column(offset_x, pos.y, offset_z, house_height, 201),
+            lambda: self.build_column(offset_x + house_width - 1, pos.y, offset_z, house_height, 201),
+            lambda: self.build_column(offset_x, pos.y, offset_z + house_depth, house_height, 201),
+            lambda: self.build_column(offset_x + house_width - 1, pos.y, offset_z + house_depth, house_height, 201),
+        ]:
+            if stop_event.is_set():
+                self.send_message("Construcción interrumpida.")
+                return
+            task()
 
         # Windows
-        self.build_window(offset_x, pos.y + 2, offset_z + 2, 3, 3)
-        self.build_window(offset_x, pos.y + 2, offset_z + house_depth - 4, 3, 3)
-        self.build_window(offset_x + 4 + house_width - 5, pos.y + 2, offset_z + 2, 3, 3)
-        self.build_window(offset_x + 4 + house_width - 5, pos.y + 2, offset_z + house_depth - 4, 3, 3)
-
+        for task in [
+            lambda: self.build_window(offset_x, pos.y + 2, offset_z + 2, 3, 3),
+            lambda: self.build_window(offset_x, pos.y + 2, offset_z + house_depth - 4, 3, 3),
+            lambda: self.build_window(offset_x + 4 + house_width - 5, pos.y + 2, offset_z + 2, 3, 3),
+            lambda: self.build_window(offset_x + 4 + house_width - 5, pos.y + 2, offset_z + house_depth - 4, 3, 3),
+        ]:
+            if stop_event.is_set():
+                self.send_message("Construcción interrumpida.")
+                return
+            task()
+        
         # Filler
-        self.build_filler(offset_x, pos.y + house_height, offset_z, house_width, roof_height - 1, 98)
-        self.build_filler(offset_x, pos.y + house_height, offset_z + house_depth, house_width, roof_height - 1, 98)
+        if not stop_event.is_set():
+            self.build_filler(offset_x, pos.y + house_height, offset_z, house_width, roof_height - 1, 98)
+            self.build_filler(offset_x, pos.y + house_height, offset_z + house_depth, house_width, roof_height - 1, 98)
 
         # Roof
-        self.build_roof(offset_x, pos.y + house_height, offset_z - 1, house_width, house_depth + 3, roof_height, 17)
+        if not stop_event.is_set():
+            self.build_roof(offset_x, pos.y + house_height, offset_z - 1, house_width, house_depth + 3, roof_height, 17)
 
         # Door
-        self.build_door(offset_x + 5, pos.y + 2, offset_z)
+        if not stop_event.is_set():
+            self.build_door(offset_x + 5, pos.y + 2, offset_z)
 
         # Decorations
-        self.add_decorations(offset_x, pos.y, offset_z, house_width, house_depth, house_height)
+        if not stop_event.is_set():
+            self.add_decorations(offset_x, pos.y, offset_z, house_width, house_depth, house_height)
 
         # Stairs
-        self.build_stairs(offset_x + 5, pos.y, offset_z - 1, direction='z')
-        self.build_stairs(offset_x + 4, pos.y, offset_z - 1, direction='z')
-        self.build_stairs(offset_z + 6, pos.y, offset_z - 1, direction='z')
+        if not stop_event.is_set():
+            self.build_stairs(offset_x + 5, pos.y, offset_z - 1, direction='z')
+            self.build_stairs(offset_x + 4, pos.y, offset_z - 1, direction='z')
+            self.build_stairs(offset_z + 6, pos.y, offset_z - 1, direction=' z')

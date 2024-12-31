@@ -16,27 +16,35 @@ class BotManager:
         agent = self.agents.get(name.lower())
         if agent:
             if self.current_task and self.current_task != name.lower():
-                # Interrupt current bot task
+                # Interrumpir la tarea actual
                 self.mc.postToChat(f"Interrupting '{self.current_task}' bot.")
                 self.stop_current_task()
 
-            # Start new bot task
+            # Iniciar la nueva tarea
             self.mc.postToChat(f"Executing task for bot: {name}")
             task_event = threading.Event()
             task_thread = threading.Thread(target=agent.perform_task, args=(task_event,))
             self.current_threads[name.lower()] = (task_thread, task_event)
-            task_thread.start()
-            self.current_task = name.lower()  # Set current task to the new bot
+
+            try:
+                task_thread.start()
+                self.mc.postToChat(f"Bot '{name}' started successfully.")
+            except Exception as e:
+                self.mc.postToChat(f"Error starting bot '{name}': {e}")
+
+            self.current_task = name.lower()
         else:
             self.mc.postToChat(f"Bot '{name}' not found.")
+
 
     def stop_current_task(self):
         if self.current_task:
             thread, event = self.current_threads[self.current_task]
-            event.set()  # Set event to interrupt the task
-            thread.join()  # Wait for it to fully stop
+            event.set()  # Detener el hilo actual
+            thread.join()  # Esperar a que termine
+            del self.current_threads[self.current_task]  # Limpiar el hilo del bot detenido
             self.mc.postToChat(f"Bot '{self.current_task}' has been stopped.")
-            self.current_task = None  # Reset the current task
+            self.current_task = None
 
     def list_agents(self):
         return list(self.agents.keys())
@@ -68,5 +76,14 @@ class BotManager:
                 elif command == "exit":
                     self.mc.postToChat("Exiting BotManager...")
                     return
+                # Execute the task for the requested bot by name
+                elif command in self.agents:
+                    self.execute_task(command)
+                # If the OracleBot is active, delegate questions to it
+                elif self.current_task == "oracle" and "?" in command:
+                    oracle_bot = self.agents.get("oracle")
+                    if oracle_bot:
+                        answer = oracle_bot.get_response(command)
+                        self.mc.postToChat(f"OracleBot: {answer}")
                 else:
-                   self.execute_task(command)  # Execute the task for the requested bot
+                    self.mc.postToChat(f"Unknown command or bot: {command}")

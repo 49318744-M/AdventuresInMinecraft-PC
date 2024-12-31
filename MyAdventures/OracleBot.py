@@ -19,29 +19,27 @@ class OracleBot(MinecraftAgent):
                 return self.responses[key]
         return "Sorry, I don't know the answer to that question."
 
-    def respond_to_chat(self):
-        chat_events = self.mc.events.pollChatPosts()
-
-        for event in chat_events:
-            message = event.message
-
-            if message.endswith("?"):  # If the message is a question
-                answer = self.get_response(message)
-                self.mc.postToChat(f"{self.name}: {answer}")
+    def respond_to_chat(self, stop_event):
+        while not stop_event.is_set():  # Verificar el evento de interrupción en cada iteración
+            chat_events = self.mc.events.pollChatPosts()
+            for event in chat_events:
+                if stop_event.is_set():  # Stop if interrumped
+                    return
+                message = event.message
+                if message.endswith("?"):  # If its a question
+                    answer = self.get_response(message)
+                    self.mc.postToChat(f"{self.name}: {answer}")
+            time.sleep(0.1)  
 
     def show_available_questions(self):
         questions = [f"- {question}" for question in self.responses.keys()]
-        
-        # Send the available questions to the chat
         self.mc.postToChat(f"{self.name}: You can ask the following questions:")
-        
-        # Send each question
         for question in questions:
             self.mc.postToChat(question)
 
     def perform_task(self, stop_event):
         self.show_available_questions()
-        time.sleep(10)  # Wait for a while before responding (can be adjusted)
-        self.respond_to_chat()  # Respond to any questions in the chat
-        if stop_event.is_set():  # Check if the task was interrupted
-            self.send_message("OracleBot task interrupted.")
+        while not stop_event.is_set():  #
+            self.respond_to_chat(stop_event)  # Respond
+            time.sleep(1)  # Wait a second
+        self.send_message("OracleBot task interrupted.")
