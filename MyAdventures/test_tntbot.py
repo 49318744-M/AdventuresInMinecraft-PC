@@ -1,61 +1,69 @@
 import unittest
-from unittest.mock import MagicMock
+from unittest.mock import patch, MagicMock
 from mcpi.block import TNT, FIRE
-from TNTbot import TNTBot  # Assuming the TNTBot class is in TNTBot.py
+from TNTbot import TNTBot
 import time
+import os
+import sys
+
+# Añadir el directorio raíz del proyecto al path para que Python pueda encontrar los módulos
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestTNTBot(unittest.TestCase):
 
-    def setUp(self):
-        #Mock to avoid interacting with real Minecraft
+    @patch('mcpi.minecraft.Minecraft.create')  # Mockear la creación de Minecraft
+    @patch('mcpi.minecraft.Minecraft.postToChat')  # Mockear el método postToChat
+    def setUp(self, mock_post_to_chat, mock_minecraft_create):
+        # Mockear la instancia de Minecraft
         self.mock_mc = MagicMock()
+        mock_minecraft_create.return_value = self.mock_mc
 
-        # Instantiate the TNTBot
+        # Instanciar el TNTBot
         self.tnt_bot = TNTBot()
 
-        # Mock mc.player.getTilePos to return a fixed position
+        # Mockear el método getTilePos para devolver una posición fija
         self.tnt_bot.mc = self.mock_mc
         self.tnt_bot.mc.player.getTilePos.return_value = MagicMock(x=10, y=64, z=10)
 
-        # Mock the setBlock method to avoid actual block placement
+        # Mockear el método setBlock para evitar la colocación real de bloques
         self.tnt_bot.mc.setBlock = MagicMock()
 
-        # Mock the send_message method
+        # Mockear el método send_message
         self.tnt_bot.send_message = MagicMock()
 
-    def test_place_tnt(self): #simulate the placement of TNT and fire
-        # Ensure that doesnt stop
+    def test_place_tnt(self):  # Simular la colocación de TNT y fuego
+        # Asegurarse de que no se detenga
         stop_event = MagicMock()
         stop_event.is_set.return_value = False
 
-        # Execute the perform_task method
+        # Ejecutar el método perform_task
         self.tnt_bot.perform_task(stop_event)
 
-        # Verify that TNT was placed at the correct position (10, 64, 10)
+        # Verificar que el TNT se colocó en la posición correcta (10, 64, 10)
         self.tnt_bot.mc.setBlock.assert_any_call(10, 64, 10, TNT, 1)
 
-        # Verify that fire was placed at (10, 64, 11) using the correct FIRE block object
+        # Verificar que el fuego se colocó en (10, 64, 11) utilizando el objeto de bloque FIRE correcto
         self.tnt_bot.mc.setBlock.assert_any_call(10, 64, 11, FIRE)
 
-    def test_stop_task_sends_interrupt_message(self): #simulate the interruption of the bot
-        # Now we simulate the interruption
+    def test_stop_task_sends_interrupt_message(self):  # Simular la interrupción del bot
+        # Ahora simulamos la interrupción
         stop_event = MagicMock()
         stop_event.is_set.return_value = True
 
-        # Execute the perform_task method
+        # Ejecutar el método perform_task
         self.tnt_bot.perform_task(stop_event)
 
-        # Verify that the user interrupted the bot
+        # Verificar que el usuario interrumpió el bot
         self.tnt_bot.send_message.assert_any_call("TNT task interrupted.")
 
-    def test_send_message_boom(self): #simulate the Boom message
+    def test_send_message_boom(self):  # Simular el mensaje "Boom!"
         stop_event = MagicMock()
         stop_event.is_set.return_value = False
 
-        # Execute the perform_task method
+        # Ejecutar el método perform_task
         self.tnt_bot.perform_task(stop_event)
 
-        # Verify that "Boom!" message was sent
+        # Verificar que se envió el mensaje "Boom!"
         self.tnt_bot.send_message.assert_any_call("Boom!")
 
 

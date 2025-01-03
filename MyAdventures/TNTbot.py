@@ -3,8 +3,8 @@ from mcpi.block import TNT, FIRE
 from MinecraftAgent import MinecraftAgent
 
 class TNTBot(MinecraftAgent):
-    def __init__(self):
-        super().__init__("TNTBot")
+    def __init__(self, mc):
+        super().__init__("TNTBot", mc)
 
     def perform_task(self, stop_event):
         pos = self.mc.player.getTilePos()  # Get current position of the player

@@ -3,7 +3,7 @@ from MinecraftAgent import MinecraftAgent
 
 class OracleBot(MinecraftAgent):
     def __init__(self, mc):
-        super().__init__("OracleBot")
+        super().__init__("OracleBot", mc)
         self.mc = mc
         self.responses = {
             "How do I move in Minecraft?": "Use the W, A, S, and D keys to move, and the spacebar to jump.",

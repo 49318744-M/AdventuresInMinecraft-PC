@@ -1,14 +1,23 @@
 import unittest
-from unittest.mock import MagicMock
+from unittest.mock import patch, MagicMock
 from OracleBot import OracleBot
+import time
+import os
+import sys
+
+# Añadir el directorio raíz del proyecto al path para que Python pueda encontrar los módulos
+sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestOracleBot(unittest.TestCase):
 
-    def setUp(self):
-        # Mocking the Minecraft Agent (mc)
+    @patch('mcpi.minecraft.Minecraft.create')  # Mockear la creación de Minecraft
+    @patch('mcpi.minecraft.Minecraft.postToChat')  # Mockear el método postToChat
+    def setUp(self, mock_post_to_chat, mock_minecraft_create):
+        # Mockear la instancia de Minecraft
         self.mock_mc = MagicMock()
-        
-        # Instantiating the OracleBot with the mock_mc
+        mock_minecraft_create.return_value = self.mock_mc
+
+        # Instanciar el OracleBot con el mock_mc
         self.oracle_bot = OracleBot(self.mock_mc)
 
     def tearDown(self):
@@ -41,6 +50,7 @@ class TestOracleBot(unittest.TestCase):
         self.mock_mc.postToChat.assert_any_call("- How do I open my inventory?")
         self.mock_mc.postToChat.assert_any_call("- How do I break blocks?")
         self.mock_mc.postToChat.assert_any_call("- How do I place blocks?")
+
 
 if __name__ == "__main__":
     unittest.main()

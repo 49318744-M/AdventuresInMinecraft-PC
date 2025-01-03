@@ -3,8 +3,8 @@ import time
 from MinecraftAgent import MinecraftAgent
 
 class InsultBot(MinecraftAgent):
-    def __init__(self):
-        super().__init__("InsultBot")
+    def __init__(self, mc):
+        super().__init__("InsultBot", mc)
         self.insults = [
             "Do you even know how to play?",
             "You're slower than a turtle!",
@@ -17,10 +17,11 @@ class InsultBot(MinecraftAgent):
         random.shuffle(self.insults)
 
     def perform_task(self, stop_event):
-        """Send a set of insults one by one, checking for interruption."""
         for insult in self.insults:
             if stop_event.is_set():  # Check if the task should be stopped
+                self.send_message(f"{self.name} has been interrupted.")
                 break
             self.send_message(insult)
             time.sleep(5)  # Wait before sending the next insult
         random.shuffle(self.insults)
+
