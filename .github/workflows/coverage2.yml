@@ -38,7 +38,7 @@ jobs:
       # 5. Ejecutar tests con coverage, ignorando errores de hardware (|| true)
       - name: Run tests with coverage
         run: |
-          coverage run -m unittest discover -s MyAdventures || true
+          coverage run --source --omit="*anyio/*" -m unittests discover -s tests
           coverage xml -o coverage2.xml
 
       # 6. Subir el reporte a Codecov
@@ -55,7 +55,7 @@ jobs:
           flags: unittests
 
           # Nombre del reporte para identificarlo en Codecov
-          name: codecov-umbrella
+          name: codecov-coverage
 
     
 
