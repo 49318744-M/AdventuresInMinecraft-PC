@@ -2,7 +2,7 @@ name: CI - Codecov
 
 on:
   push:
-    branches: [ "main" ]  # Ajusta el nombre de la rama a la que hagas push
+    branches: [ "main", "master" ] 
   pull_request:
     branches: [ "main" ]
 
