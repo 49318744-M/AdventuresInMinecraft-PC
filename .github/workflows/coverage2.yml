@@ -9,44 +9,54 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-
+    
     steps:
-      # 1. Descarga el código
+      # 1. Descargar el código
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Configura Python
+      # 2. Configurar Python
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.9'  # Cambia a la versión de Python que necesites
+          python-version: '3.9'  # Ajusta la versión según necesites
 
-      # 3. (Opcional) Configura PYTHONPATH
+      # 3. (Opcional) Configurar PYTHONPATH, si usas imports locales no empaquetados
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=${GITHUB_WORKSPACE}/MyAdventures" >> $GITHUB_ENV
 
-      # 4. Instala dependencias
+      # 4. Instalar dependencias
       - name: Install dependencies
         run: |
           pip install --upgrade pip
           pip install coverage
+          # Dependencias específicas (mcpi, pyserial, etc.) si las necesitas realmente en CI
           pip install mcpi
           pip install pyserial
           pip install simpleserial
 
-      # 5. Ejecuta tests con coverage, ignorando errores de hardware (|| true)
+      # 5. Ejecutar tests con coverage, ignorando errores de hardware (|| true)
       - name: Run tests with coverage
         run: |
           coverage run -m unittest discover -s MyAdventures || true
           coverage xml -o coverage2.xml
 
-      # 6. Sube el reporte a Codecov
+      # 6. Subir el reporte a Codecov
       - name: Upload coverage to Codecov
         uses: codecov/codecov-action@v2
         with:
+          # TOKEN de Codecov (lo guardas en Settings > Secrets > Actions)
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage2.xml
+
+          # Archivo(s) de reporte a subir
+          files: coverage2.xml
+
+          # Flag(s) opcionales, por ejemplo para separar cobertura de "unittests"
           flags: unittests
+
+          # Nombre del reporte para identificarlo en Codecov
           name: codecov-umbrella
+
+    
 
 
