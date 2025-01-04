@@ -5,7 +5,6 @@ import time
 import os
 import sys
 
-# Añadir el directorio raíz del proyecto al path para que Python pueda encontrar los módulos
 sys.path.insert(0, os.path.abspath(os.path.join(os.path.dirname(__file__), '..')))
 
 class TestBuildHouse(unittest.TestCase):
@@ -13,18 +12,16 @@ class TestBuildHouse(unittest.TestCase):
     @patch('mcpi.minecraft.Minecraft.create')  # Mockear la creación de Minecraft
     @patch('mcpi.minecraft.Minecraft.postToChat')  # Mockear el método postToChat
     def setUp(self, mock_post_to_chat, mock_minecraft_create):
-        # Mockear la instancia de Minecraft
         self.mock_mc = MagicMock()
         mock_minecraft_create.return_value = self.mock_mc
 
-        # Instanciar el BuildHouse
+        # Instanciar BuildHouse pasándole el mock_mc
         self.build_house_bot = BuildHouse(self.mock_mc)
 
     def tearDown(self):
-        # Clean up objects after each test
         del self.build_house_bot
         del self.mock_mc
-
+        
     # Test: Build Wall
     def test_build_wall(self):
         self.build_house_bot.build_wall(10, 10, 10, 5, 3, 1, direction='x')

@@ -5,7 +5,7 @@ from MinecraftAgent import MinecraftAgent
 
 class BuildHouse(MinecraftAgent):
     def __init__(self, mc):
-        super().__init__("BuildHouseBot")
+        super().__init__("BuildHouseBot", mc)
         self.mc = mc
 
     def build_wall(self, x, y, z, length, height, block_id, direction='x'):
