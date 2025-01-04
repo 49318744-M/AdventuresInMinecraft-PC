@@ -21,7 +21,7 @@ jobs:
         with:
           python-version: '3.9'  # Cambia a la versión de Python que necesites
 
-      # 3. Configura el PYTHONPATH para módulos locales
+      # 3. (Opcional) Configura PYTHONPATH
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=${GITHUB_WORKSPACE}/MyAdventures" >> $GITHUB_ENV
 
@@ -34,11 +34,11 @@ jobs:
           pip install pyserial
           pip install simpleserial
 
-      # 5. Ejecuta tests con unittest y coverage, ignorando errores de hardware
+      # 5. Ejecuta tests con coverage, ignorando errores de hardware (|| true)
       - name: Run tests with coverage
         run: |
-          coverage run -m unittest discover || true
-          coverage xml
+          coverage run -m unittest discover -s MyAdventures || true
+          coverage xml -o coverage2.xml
 
       # 6. Sube el reporte a Codecov
       - name: Upload coverage to Codecov
@@ -48,4 +48,5 @@ jobs:
           files: ./coverage2.xml
           flags: unittests
           name: codecov-umbrella
+
 
