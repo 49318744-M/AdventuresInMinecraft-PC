@@ -1,10 +1,10 @@
 import time
-from mcpi import minecraft
+from mcpi.minecraft import Minecraft
 
 class MinecraftAgent:
-    def __init__(self, name):
+    def __init__(self, name, mc):
         self.name = name
-        self.mc = minecraft.Minecraft.create()
+        self.mc = mc  # Pasa la instancia de Minecraft desde el exterior
 
     def perform_task(self, stop_event):
         """Defines the task to be performed by the agent. Supports interruption."""
@@ -16,12 +16,15 @@ class MinecraftAgent:
 
     def send_message(self, message):
         """Sends a message in the Minecraft world."""
-        self.mc.postToChat(f"{self.name}: {message}")
+        if hasattr(self.mc, "postToChat"):
+            self.mc.postToChat(f"{self.name}: {message}")
+        else:
+            print(f"Error: Minecraft connection not initialized for {self.name}.")
+
 
     def get_position(self):
         """Returns the current position of the player."""
         return self.mc.player.getTilePos()
-    
     
     def set_block(self, x, y, z, block):
         """Sets the block at the specified position."""

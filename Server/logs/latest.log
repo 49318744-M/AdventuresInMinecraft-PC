@@ -1,0 +1,5 @@
+[03:51:36] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 24828433ms behind, skipping 496568 tick(s)
+[03:51:36] [Server Watchdog/FATAL]: A single server tick took 24828,60 seconds (should be max 0,05)
+[03:51:36] [Server Watchdog/FATAL]: Considering it to be crashed, server will forcibly shutdown.
+[03:51:36] [Server Watchdog/ERROR]: This crash report has been saved to: C:\Users\Aina\OneDrive\Escritorio\AdventuresInMinecraft-PC\Server\.\crash-reports\crash-2025-01-04_03.51.36-server.txt
+[03:51:36] [Thread-3/INFO]: Stopping server
