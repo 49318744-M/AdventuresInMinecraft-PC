@@ -26,6 +26,9 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install coverage
+          pip install mcpi
+          pip install pyserial
+          pip install simpleserial
 
       # 4. Ejecuta tests con unittest y coverage
       - name: Run tests with coverage
