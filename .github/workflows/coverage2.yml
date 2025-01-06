@@ -30,33 +30,31 @@ jobs:
         run: |
           pip install --upgrade pip
           pip install coverage
+          pip install pytest
           # Dependencias específicas (mcpi, pyserial, etc.) si las necesitas realmente en CI
           pip install mcpi
           pip install pyserial
           pip install simpleserial
 
-      # 5. Ejecutar tests con coverage, ignorando errores de hardware (|| true)
+      # 5. Ejecutar tests con coverage
       - name: Run tests with coverage
         run: |
-          coverage run --source --omit="*anyio/*" -m unittests discover -s tests
-          coverage xml -o coverage2.xml
+          coverage run --source=MyAdventures --omit="*anyio/*" -m pytest
+          coverage xml -o coverage.xml
 
       # 6. Subir el reporte a Codecov
       - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v2
+        uses: codecov/codecov-action@v5
         with:
           # TOKEN de Codecov (lo guardas en Settings > Secrets > Actions)
           token: ${{ secrets.CODECOV_TOKEN }}
 
           # Archivo(s) de reporte a subir
-          files: coverage2.xml
+          files: coverage.xml
 
           # Flag(s) opcionales, por ejemplo para separar cobertura de "unittests"
           flags: unittests
 
           # Nombre del reporte para identificarlo en Codecov
           name: codecov-coverage
-
-    
-
 
