@@ -1,78 +1,45 @@
-import threading
-import time
+import asyncio
 from mcpi import minecraft
 
 class BotManager:
     def __init__(self, mc):
-        self.agents = {}
         self.mc = mc
-        self.current_threads = {}  # Store current threads of bots
-        self.current_task = None  # Track the current task
-        self.thread_lock = threading.Lock()  # Lock for thread-safe operations
+        self.agents = {}
+        self.tasks = {}
 
     def add_agent(self, name, agent):
-        self.agents[name.lower()] = agent
+        self.agents[name] = agent
 
-    def execute_task(self, name):
-        agent = self.agents.get(name.lower())
-        if agent:
-            if self.current_task and self.current_task != name.lower():
-                # Detener la tarea actual
-                self.stop_current_task()
-            
-            # Ejecutar la nueva tarea
-            self.mc.postToChat(f"Executing task for bot: {name}")
-            task_event = threading.Event()
-            task_thread = threading.Thread(target=agent.perform_task, args=(task_event,))
-            self.current_threads[name.lower()] = (task_thread, task_event)
-
-            try:
-                task_thread.start()
-                self.mc.postToChat(f"Bot '{name}' started successfully.")
-            except Exception as e:
-                self.mc.postToChat(f"Error starting bot '{name}': {e}")
-
-            self.current_task = name.lower()
-        else:
-            self.mc.postToChat(f"Bot '{name}' not found.")
-
-    def stop_current_task(self):
-        if self.current_task:
-            with self.thread_lock:
-                thread, event = self.current_threads[self.current_task]
-                event.set()
-                thread.join(timeout=5)  # Esperar a que el thread termine
-                if thread.is_alive():
-                    self.mc.postToChat(f"Warning: Bot '{self.current_task}' did not stop gracefully.")
-                del self.current_threads[self.current_task]
-            self.mc.postToChat(f"Bot '{self.current_task}' has been stopped.")
-            self.current_task = None
-
-    def list_agents(self):
+    async def list_agents(self):
         return list(self.agents.keys())
 
-    def listen_for_commands(self):
-        self.mc.postToChat("BotManager is now listening for commands. Type 'list', or 'exit'.")
+    async def handle_command(self, message):
+        command_parts = message.split()
+        command = command_parts[0]
+        if command == "list":
+            agents = await self.list_agents()
+            self.mc.postToChat("Available agents: " + ", ".join(agents))
+        elif command in self.agents:
+            # Cancel all existing tasks
+            for task in self.tasks.values():
+                task['stop_event'].set()
+                task['task'].cancel()
+            self.tasks.clear()
+
+            stop_event = asyncio.Event()
+            agent = self.agents[command]
+            task = asyncio.create_task(agent.perform_task(stop_event))
+            self.tasks[command] = {'task': task, 'stop_event': stop_event}
+        else:
+            self.mc.postToChat(f"Unknown command: {message}")
+
+    async def listen_for_commands(self):
         while True:
-            try:
-                for event in self.mc.events.pollChatPosts():
-                    command = event.message.strip().lower()
-                    if command == "list":
-                        self.mc.postToChat(f"Bots: {', '.join(self.list_agents())}")
-                    elif command.startswith("reflective "):  # Comandos específicos para ReflectiveBot
-                        subcommand = command.split(" ", 1)[1] if " " in command else ""
-                        bot = self.agents.get("reflective")
-                        if bot:
-                            bot.respond(subcommand)
-                        else:
-                            self.mc.postToChat("ReflectiveBot is not available.")
-                    elif command == "exit":
-                        self.mc.postToChat("Exiting BotManager...")
-                        self.stop_current_task()
-                        return
-                    elif command in self.agents:
-                        self.execute_task(command)
-                    else:
-                        self.mc.postToChat(f"Command '{command}' not recognized.")
-            except Exception as e:
-                self.mc.postToChat(f"Error in listen_for_commands: {e}")
+            chat_events = self.mc.events.pollChatPosts()
+            for event in chat_events:
+                message = event.message.strip().lower()
+                await self.handle_command(message)
+            await asyncio.sleep(1)
+
+    def run(self):
+        asyncio.run(self.listen_for_commands())

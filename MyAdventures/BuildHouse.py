@@ -1,12 +1,12 @@
 import time
 import mcpi.minecraft as minecraft
 import mcpi.block as block
-from MinecraftAgent import MinecraftAgent
+from MyAdventures.MinecraftAgent import MinecraftAgent
+import asyncio
 
 class BuildHouse(MinecraftAgent):
     def __init__(self, mc):
-        super().__init__("BuildHouseBot", mc)
-        self.mc = mc
+        super().__init__("BuildHouse", mc)
 
     def build_wall(self, x, y, z, length, height, block_id, direction='x'):
         for i in range(length):
@@ -80,7 +80,7 @@ class BuildHouse(MinecraftAgent):
         self.mc.setBlock(x, y, z, 53, 2)  # Stairs (id 53)
         time.sleep(0.05)
 
-    def perform_task(self, stop_event):
+    async def perform_task(self, stop_event):
         try:
             pos = self.mc.player.getTilePos()
             print(f"Posición del jugador: x={pos.x}, y={pos.y}, z={pos.z}")
@@ -154,4 +154,5 @@ class BuildHouse(MinecraftAgent):
         if not stop_event.is_set():
             self.build_stairs(offset_x + 5, pos.y, offset_z - 1, direction='z')
             self.build_stairs(offset_x + 4, pos.y, offset_z - 1, direction='z')
-            self.build_stairs(offset_z + 6, pos.y, offset_z - 1, direction=' z')
+            self.build_stairs(offset_z + 6, pos.y, offset_z - 1, direction='z')
+        await asyncio.sleep(1)

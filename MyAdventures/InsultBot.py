@@ -1,5 +1,5 @@
 import random
-import time
+import asyncio
 from MinecraftAgent import MinecraftAgent
 
 class InsultBot(MinecraftAgent):
@@ -16,12 +16,14 @@ class InsultBot(MinecraftAgent):
         ]
         random.shuffle(self.insults)
 
-    def perform_task(self, stop_event):
-        for insult in self.insults:
-            if stop_event.is_set():  # Check if the task should be stopped
-                self.send_message(f"{self.name} has been interrupted.")
-                break
-            self.send_message(insult)
-            time.sleep(5)  # Wait before sending the next insult
-        random.shuffle(self.insults)
+    async def send_message(self, message):
+        await self.mc.postToChat(message)
 
+    async def perform_task(self, stop_event):
+        while not stop_event.is_set():
+            for insult in self.insults:
+                if stop_event.is_set():  
+                    break
+                await self.send_message(insult)  
+                await asyncio.sleep(5)  
+            random.shuffle(self.insults)
