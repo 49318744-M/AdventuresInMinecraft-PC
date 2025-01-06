@@ -1,0 +1,63 @@
+[18:54:42] [Server thread/INFO]: Starting minecraft server version 1.12
+[18:54:42] [Server thread/INFO]: Loading properties
+[18:54:42] [Server thread/INFO]: Default game type: CREATIVE
+[18:54:42] [Server thread/INFO]: Generating keypair
+[18:54:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:54:42] [Server thread/INFO]: Using default channel type
+[18:54:43] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[18:54:43] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[18:54:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:54:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:54:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:54:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:54:43] [Server thread/INFO]: Preparing level "world"
+[18:54:43] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3344744038352380145)
+[18:54:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3344744038352380145)
+[18:54:44] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3344744038352380145)
+[18:54:44] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[18:54:44] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[18:54:44] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[18:54:44] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[18:54:44] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[18:54:44] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:54:45] [Server thread/INFO]: Done (1,713s)! For help, type "help" or "?"
+[18:54:46] [Server thread/INFO]: aina_rovira[/127.0.0.1:57635] logged in with entity id 25 at ([world]3060.3570553078926, 65.0, 251.82252785128554)
+[18:55:09] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[18:55:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57730.
+[18:55:09] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[18:55:10] [Netty Server IO #1/INFO]: <aina_rovira> oracle[m
+[18:55:11] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[18:55:11] [Server thread/INFO]: - How do I move in Minecraft?[m
+[18:55:11] [Server thread/INFO]: - How do I open my inventory?[m
+[18:55:11] [Server thread/INFO]: - How do I break blocks?[m
+[18:55:11] [Server thread/INFO]: - How do I place blocks?[m
+[18:55:19] [Netty Server IO #1/INFO]: <aina_rovira> How do I place blocks?[m
+[18:55:19] [Server thread/INFO]: OracleBot: Right-click to place a block.[m
+[18:55:32] [Netty Server IO #1/INFO]: <aina_rovira> How do I break blocks?[m
+[18:55:32] [Server thread/INFO]: Unknown command: how do i break blocks?[m
+[18:55:48] [Netty Server IO #1/INFO]: <aina_rovira> How do I break blocks?[m
+[18:55:48] [Server thread/INFO]: Unknown command: how do i break blocks?[m
+[18:55:53] [Netty Server IO #1/INFO]: <aina_rovira> oracle[m
+[18:55:54] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[18:55:54] [Server thread/INFO]: - How do I move in Minecraft?[m
+[18:55:54] [Server thread/INFO]: - How do I open my inventory?[m
+[18:55:54] [Server thread/INFO]: - How do I break blocks?[m
+[18:55:54] [Server thread/INFO]: - How do I place blocks?[m
+[18:56:04] [Netty Server IO #1/INFO]: <aina_rovira> How do I break blocks?[m
+[18:56:04] [Server thread/INFO]: OracleBot: Left-click and hold on a block to break it.[m
+[18:56:09] [Netty Server IO #1/INFO]: <aina_rovira> insult[m
+[18:56:10] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:56:15] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:56:15] [Netty Server IO #1/INFO]: <aina_rovira> oracle[m
+[18:56:15] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[18:56:15] [Server thread/INFO]: - How do I move in Minecraft?[m
+[18:56:15] [Server thread/INFO]: - How do I open my inventory?[m
+[18:56:15] [Server thread/INFO]: - How do I break blocks?[m
+[18:56:15] [Server thread/INFO]: - How do I place blocks?[m
+[18:56:28] [Netty Server IO #1/INFO]: <aina_rovira> how do i place blocks?[m
+[18:56:28] [Server thread/INFO]: OracleBot: Right-click to place a block.[m
+[18:56:36] [Netty Server IO #1/INFO]: <aina_rovira> how do i place blocks?[m
+[18:56:37] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[21:03:12] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1664711ms behind, skipping 33294 tick(s)
+[21:03:12] [Server thread/INFO]: aina_rovira lost connection: Timed out
+[21:03:13] [Server thread/INFO]: aina_rovira left the game
