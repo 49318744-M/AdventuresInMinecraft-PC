@@ -7,14 +7,18 @@ class TNTBot(MinecraftAgent):
         super().__init__("TNTBot", mc)
 
     def perform_task(self, stop_event):
-        pos = self.mc.player.getTilePos()  # Get current position of the player
-        self.mc.setBlock(pos.x, pos.y, pos.z, TNT, 1)  # Place TNT
-        time.sleep(1)  # Wait a second
+        try:
+            pos = self.mc.player.getTilePos()  # Get current position of the player
+            self.mc.setBlock(pos.x, pos.y, pos.z, TNT, 1)  # Place TNT
+            time.sleep(1) # Wait a second
 
-        # Ignite the TNT by placing fire next to it
-        self.mc.setBlock(pos.x, pos.y, pos.z + 1, FIRE)  # Place fire next to the TNT
-        self.send_message("Boom!")
+            # Ignite the TNT by placing fire next to it
+            self.mc.setBlock(pos.x, pos.y, pos.z + 1, FIRE)
+            self.send_message("Boom!")
 
-        time.sleep(15)  # Wait for the explosion to happen
-        if stop_event.is_set():  # Check if the task was interrupted
-            self.send_message("TNT task interrupted.")
+            time.sleep(15)  # Wait for the explosion to happen
+            if stop_event.is_set():  # Check if the task was interrupted
+                self.send_message("TNT task interrupted.")
+        except Exception as e:
+            print(f"Caught exception: {e}")  # Línea de depuración
+            self.send_message(f"Error getting player position: {e}")
