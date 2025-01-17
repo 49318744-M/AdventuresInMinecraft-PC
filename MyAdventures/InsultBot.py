@@ -16,14 +16,16 @@ class InsultBot(MinecraftAgent):
         ]
         random.shuffle(self.insults)
 
-    async def send_message(self, message):
-        await self.mc.postToChat(message)
-
     async def perform_task(self, stop_event):
-        while not stop_event.is_set():
-            for insult in self.insults:
-                if stop_event.is_set():  
-                    break
-                await self.send_message(insult)  
-                await asyncio.sleep(5)  
-            random.shuffle(self.insults)
+        for insult in self.insults:
+            if stop_event.is_set():  # Check if the task should be stopped
+                await self.send_message(f"{self.name} has been interrupted.")
+                break
+            await self.send_message(insult)
+            await asyncio.sleep(5)  # Wait before sending the next insult
+        random.shuffle(self.insults)
+
+    def get_random_insult(self):
+        if not self.insults:
+            return "No insults available."
+        return random.choice(self.insults)

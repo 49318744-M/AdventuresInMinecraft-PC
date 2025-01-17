@@ -4,17 +4,11 @@ from MinecraftAgent import MinecraftAgent
 class OracleBot(MinecraftAgent):
     def __init__(self, mc):
         super().__init__("OracleBot", mc)
-        self.questions = [
-            "How do I move in Minecraft?",
-            "How do I open my inventory?",
-            "How do I break blocks?",
-            "How do I place blocks?"
-        ]
         self.responses = {
-            "how do i move in minecraft": "Use the W, A, S, and D keys to move around.",
+            "how do i move in minecraft": "Use the W, A, S, and D keys to move, and the spacebar to jump.",
             "how do i open my inventory": "Press the E key to open your inventory.",
             "how do i break blocks": "Left-click and hold on a block to break it.",
-            "how do i place blocks": "Right-click to place a block."
+            "how do i place blocks": "Right-click on a surface to place the block you're holding.",
         }
 
     def get_response(self, question):
@@ -41,9 +35,10 @@ class OracleBot(MinecraftAgent):
             await asyncio.sleep(0.1)  
 
     def show_available_questions(self):
-        self.mc.postToChat("OracleBot: You can ask the following questions:")
-        for question in self.questions:
-            self.mc.postToChat(f"- {question}")
+        questions = [f"- {question}" for question in self.responses.keys()]
+        self.mc.postToChat(f"{self.name}: You can ask the following questions:")
+        for question in questions:
+            self.mc.postToChat(question)
 
     async def perform_task(self, stop_event):
         self.show_available_questions()

@@ -1,7 +1,7 @@
 import time
 import mcpi.minecraft as minecraft
 import mcpi.block as block
-from MyAdventures.MinecraftAgent import MinecraftAgent
+from MinecraftAgent import MinecraftAgent
 import asyncio
 
 class BuildHouse(MinecraftAgent):

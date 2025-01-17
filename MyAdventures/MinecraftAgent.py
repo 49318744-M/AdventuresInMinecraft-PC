@@ -1,4 +1,5 @@
 import time
+from mcpi import minecraft
 
 class MinecraftAgent:
     def __init__(self, name, mc):

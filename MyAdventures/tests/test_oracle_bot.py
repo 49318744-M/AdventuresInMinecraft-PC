@@ -3,25 +3,23 @@ from unittest.mock import Mock, patch, MagicMock
 import sys
 import os
 
-# Agregar el directorio raíz del proyecto al sys.path para resolver importaciones
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from OracleBot import OracleBot
 
 class TestOracleBot(unittest.TestCase):
 
-    @patch('mcpi.minecraft.Minecraft.create')  # Mockear la creación de Minecraft
-    @patch('mcpi.minecraft.Minecraft.postToChat')  # Mockear el método postToChat
+    @patch('mcpi.minecraft.Minecraft.create')  # Mock minecraft
+    @patch('mcpi.minecraft.Minecraft.postToChat')  # Mock postToChat
     def setUp(self, mock_post_to_chat, mock_minecraft_create):
-        # Mockear la instancia de Minecraft
+        # Mocck minecraft instance
         self.mock_mc = MagicMock()
         mock_minecraft_create.return_value = self.mock_mc
 
-        # Instanciar el OracleBot con el mock_mc
+        # Instance of OracleBot
         self.oracle_bot = OracleBot(self.mock_mc)
 
     def tearDown(self):
-        # Ensure that all mock objects are properly cleaned up
         self.mock_mc.reset_mock()
         del self.oracle_bot
         del self.mock_mc
@@ -29,7 +27,7 @@ class TestOracleBot(unittest.TestCase):
     # Test 1: Verify that get_response returns the correct response
     def test_get_response_valid_question(self):
         question = "How do I move in Minecraft?"
-        expected_response = "Use the W, A, S, and D keys to move around."
+        expected_response = "Use the W, A, S, and D keys to move, and the spacebar to jump."
         actual_response = self.oracle_bot.get_response(question)
         self.assertEqual(expected_response, actual_response)
 
@@ -46,10 +44,10 @@ class TestOracleBot(unittest.TestCase):
 
         # Verify that the correct questions were posted to chat
         self.mock_mc.postToChat.assert_any_call("OracleBot: You can ask the following questions:")
-        self.mock_mc.postToChat.assert_any_call("- How do I move in Minecraft?")
-        self.mock_mc.postToChat.assert_any_call("- How do I open my inventory?")
-        self.mock_mc.postToChat.assert_any_call("- How do I break blocks?")
-        self.mock_mc.postToChat.assert_any_call("- How do I place blocks?")
+        self.mock_mc.postToChat.assert_any_call("- how do i move in minecraft")
+        self.mock_mc.postToChat.assert_any_call("- how do i open my inventory")
+        self.mock_mc.postToChat.assert_any_call("- how do i break blocks")
+        self.mock_mc.postToChat.assert_any_call("- how do i place blocks")
 
 if __name__ == "__main__":
     unittest.main()
