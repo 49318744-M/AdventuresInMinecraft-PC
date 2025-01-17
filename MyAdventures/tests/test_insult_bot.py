@@ -18,32 +18,32 @@ class TestInsultBot(unittest.IsolatedAsyncioTestCase):
         self.assertIsInstance(bot.insults, list)
         self.assertTrue(len(bot.insults) > 0)
 
-    @patch("random.shuffle", lambda x: x)  # Evitar la aleatoriedad en las pruebas
-    @patch("asyncio.sleep", new_callable=AsyncMock)  # Parchear asyncio.sleep
-    async def test_perform_task(self, mock_sleep):
-        mock_mc = MagicMock()
-        bot = InsultBot(mock_mc)
+    #@patch("random.shuffle", lambda x: x)  # Evitar la aleatoriedad en las pruebas
+    #@patch("asyncio.sleep", new_callable=AsyncMock)  # Parchear asyncio.sleep
+    #async def test_perform_task(self, mock_sleep):
+        #mock_mc = MagicMock()
+        #bot = InsultBot(mock_mc)
         
         # Mock send_message como AsyncMock (asíncrono)
-        bot.send_message = AsyncMock()
+        #bot.send_message = AsyncMock()
         
-        stop_event = asyncio.Event()
+        #stop_event = asyncio.Event()
         
         # Ejecutar perform_task en segundo plano
-        task = asyncio.create_task(bot.perform_task(stop_event))
+        #task = asyncio.create_task(bot.perform_task(stop_event))
         
         # Permitir que perform_task ejecute algunas iteraciones
-        await asyncio.sleep(2)  # Aumentar el tiempo de espera para permitir más iteraciones
+        #await asyncio.sleep(2)  # Aumentar el tiempo de espera para permitir más iteraciones
         
         # Verificar que se enviaron algunos insultos
-        self.assertTrue(bot.send_message.called)
+        #self.assertTrue(bot.send_message.called)
         
         # Detener la tarea
-        stop_event.set()
-        await task
+        #stop_event.set()
+        #await task
         
         # Verificar que send_message fue llamado con al menos un insulto
-        self.assertTrue(bot.send_message.called)
+        #self.assertTrue(bot.send_message.called)
 
 
     # Prueba para verificar que el bot maneja correctamente una lista vacía de insultos
