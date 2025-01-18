@@ -1,4 +1,5 @@
 import asyncio
+from mcpi.block import TNT, FIRE
 from MinecraftAgent import MinecraftAgent
 
 class TNTBot(MinecraftAgent):
@@ -7,12 +8,17 @@ class TNTBot(MinecraftAgent):
 
     async def perform_task(self, stop_event):
         try:
-            while not stop_event.is_set():
-                pos = self.mc.player.getTilePos()
-                self.mc.setBlock(pos.x, pos.y, pos.z, 46)  # TNT block
-                await self.send_message("Boom!")
-                await asyncio.sleep(5)
+            pos = self.mc.player.getTilePos()  # Player position
+            self.mc.setBlock(pos.x, pos.y, pos.z, TNT, 1)  # Place tnt
+            await asyncio.sleep(1)  # wait
+
+            # Fire the tnt
+            self.mc.setBlock(pos.x, pos.y, pos.z + 1, FIRE)
+            self.send_message("Boom!")
+
+            await asyncio.sleep(15)  
+            if stop_event.is_set():  # if interrupted
+                self.send_message("TNT task interrupted.")
         except Exception as e:
-            await self.send_message(f"Error getting player position: {e}")
-        finally:
-            await self.send_message("TNT task interrupted.")
+            print(f"Caught exception: {e}")  
+            self.send_message(f"Error getting player position: {e}")

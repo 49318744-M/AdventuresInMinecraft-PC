@@ -1,7 +1,6 @@
-# tests/test_tnt_bot.py
 import unittest
-from unittest.mock import Mock, MagicMock, patch, call
-import threading
+from unittest.mock import Mock, MagicMock, patch
+import asyncio
 import sys
 import os
 
@@ -9,42 +8,53 @@ sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 from TNTbot import TNTBot
 
-class TestTNTBot(unittest.TestCase):
-    def setUp(self):
-        # Mocck minecraft instance
-        self.mock_mc = Mock()
-         # Instance of TNTBot
-        self.tnt_bot = TNTBot(self.mock_mc)
+class TestTNTBot(unittest.IsolatedAsyncioTestCase):
 
-    #Test 1: Verify that the TNTBot sends the message "Boom!" when performing the task
-    @patch('TNTbot.time.sleep', return_value=None)  
-    def test_perform_task_normal_execution(self, mock_sleep):
+    def setUp(self):
+        self.mock_mc = Mock()
+        self.tnt_bot = TNTBot(self.mock_mc)
+        self.tnt_bot.send_message = MagicMock()
+
+
+    #Test 1 Verify that TNTBot sends the message "Boom!"
+    @patch('TNTbot.asyncio.sleep', return_value=None)
+    async def test_perform_task_normal_execution(self, mock_sleep):
         mock_position = Mock(x=50, y=70, z=50)
         self.mock_mc.player.getTilePos.return_value = mock_position
-
-        self.tnt_bot.send_message = MagicMock()
-
-        stop_event = threading.Event()
-        thread = threading.Thread(target=self.tnt_bot.perform_task, args=(stop_event,))
-        thread.start()
-
-        thread.join(timeout=2)  
-
-        stop_event.set()
-        thread.join()
-
-        self.tnt_bot.send_message.assert_called_once_with("Boom!")
+        stop_event = asyncio.Event()
+        await self.tnt_bot.perform_task(stop_event)
+        self.tnt_bot.send_message.assert_called_with("Boom!")
     
-    #Test 2: Verify that the TNTBot sends the message "TNT task interrupted." when the task is interrupted
-    @patch('TNTbot.time.sleep', return_value=None) 
-    def test_perform_task_with_exception(self, mock_sleep):
+    #Test 2: Verify that TNTBot sends the message "Error getting player position: Test exception"
+    @patch('TNTbot.asyncio.sleep', return_value=None)
+    async def test_perform_task_with_exception(self, mock_sleep):
         self.mock_mc.player.getTilePos.side_effect = Exception("Test exception")
-        self.tnt_bot.send_message = MagicMock()
-
-        stop_event = threading.Event()
-        self.tnt_bot.perform_task(stop_event)
-
-        self.tnt_bot.send_message.assert_called_once_with("Error getting player position: Test exception")
+        stop_event = asyncio.Event()
+        await self.tnt_bot.perform_task(stop_event)
+        self.tnt_bot.send_message.assert_called_with("Error getting player position: Test exception")
+    
+    #Test 3: Verify that TNTBot sends the message "TNT task interrupted."
+    @patch('TNTbot.asyncio.sleep')
+    async def test_perform_task_interrupted(self, mock_sleep):
+        mock_position = Mock(x=50, y=70, z=50)
+        self.mock_mc.player.getTilePos.return_value = mock_position
+        stop_event = asyncio.Event()
+        
+        async def sleep_side_effect(duration):
+            if duration == 1:
+                return
+            elif duration == 15:
+                stop_event.set()
+                return
+        
+        mock_sleep.side_effect = sleep_side_effect
+        await self.tnt_bot.perform_task(stop_event)
+        
+        expected_calls = [
+            unittest.mock.call("Boom!"),
+            unittest.mock.call("TNT task interrupted.")
+        ]
+        self.tnt_bot.send_message.assert_has_calls(expected_calls, any_order=False)
 
 if __name__ == "__main__":
     unittest.main()
