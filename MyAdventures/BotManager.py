@@ -20,6 +20,11 @@ class BotManager:
             agents = await self.list_agents()
             self.mc.postToChat("Available agents: " + ", ".join(agents))
         elif command in self.agents:
+            # Check if the agent is already active
+            if command in self.tasks:
+                self.mc.postToChat(f"{command} is already active.")
+                return
+
             # Cancel all existing tasks
             for task in self.tasks.values():
                 task['stop_event'].set()

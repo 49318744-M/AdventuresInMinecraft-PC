@@ -1,0 +1,320 @@
+[11:58:16] [Server thread/INFO]: Loading properties
+[11:58:16] [Server thread/INFO]: Default game type: CREATIVE
+[11:58:16] [Server thread/INFO]: Generating keypair
+[11:58:16] [Server thread/INFO]: Starting Minecraft server on *:25565
+[11:58:16] [Server thread/INFO]: Using default channel type
+[11:58:17] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[11:58:18] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[11:58:18] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[11:58:18] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[11:58:18] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[11:58:18] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[11:58:18] [Server thread/INFO]: Preparing level "world"
+[11:58:18] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3344744038352380145)
+[11:58:19] [Server thread/INFO]: Preparing spawn area: 76%
+[11:58:19] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3344744038352380145)
+[11:58:20] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3344744038352380145)
+[11:58:20] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[11:58:20] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[11:58:20] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[11:58:20] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[11:58:20] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[11:58:20] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[11:58:20] [Server thread/INFO]: Done (2,259s)! For help, type "help" or "?"
+[12:02:24] [Server thread/INFO]: aina_rovira[/127.0.0.1:53097] logged in with entity id 25 at ([world]3060.3570553078926, 65.0, 251.82252785128554)
+[12:04:18] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[12:04:18] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53573.
+[12:04:18] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[12:04:27] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[12:04:27] [Server thread/INFO]: You're a total m***[m
+[12:05:19] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[12:05:19] [Server thread/INFO]: TNTBot: Boom![m
+[12:05:19] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[12:05:19] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[12:10:28] [Thread-7/INFO]: [RaspberryJuice] Connection reset
+[12:10:28] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53573.
+[12:10:33] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55236.
+[12:10:33] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[12:10:33] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[12:11:45] [Thread-9/INFO]: [RaspberryJuice] Connection reset
+[12:11:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55236.
+[12:11:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55562.
+[12:11:46] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[12:11:46] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[12:12:22] [Thread-11/INFO]: [RaspberryJuice] Connection reset
+[12:12:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55562.
+[12:12:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55727.
+[12:12:22] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[12:12:22] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[12:14:42] [Thread-13/INFO]: [RaspberryJuice] Connection reset
+[12:14:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55727.
+[12:14:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56372.
+[12:14:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56373.
+[12:14:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56374.
+[12:14:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56375.
+[12:14:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56376.
+[12:14:43] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[12:14:43] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[12:14:43] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[12:14:43] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[12:14:43] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[12:14:43] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[12:14:43] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[12:14:43] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[12:14:43] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[12:14:43] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[12:14:43] [Server thread/INFO]: BotManager is now listening for commands. Type 'list', 'tasks <bot_name>', 'invoke <bot_name> <method_name>', or 'exit'.[m
+[12:14:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56375.
+[12:15:04] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[12:15:04] [Server thread/INFO]: Bots: insult, tnt, oracle, reflective[m
+[12:15:12] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[12:15:12] [Server thread/INFO]: Executing task for bot: tnt[m
+[12:15:12] [Server thread/INFO]: Bot 'tnt' started successfully.[m
+[12:15:13] [Server thread/INFO]: TNTBot: Boom![m
+[12:15:33] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[12:15:33] [Server thread/INFO]: Interrupting 'tnt' bot.[m
+[12:15:33] [Server thread/INFO]: Bot 'tnt' has been stopped.[m
+[12:15:33] [Server thread/INFO]: Executing task for bot: insult[m
+[12:15:33] [Server thread/INFO]: Bot 'insult' started successfully.[m
+[12:15:33] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[12:15:38] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[12:15:43] [Server thread/INFO]: InsultBot: You're acting s***[m
+[12:15:47] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[12:15:47] [Server thread/INFO]: Interrupting 'insult' bot.[m
+[12:15:48] [Server thread/INFO]: Bot 'insult' has been stopped.[m
+[12:15:48] [Server thread/INFO]: Executing task for bot: oracle[m
+[12:15:48] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[12:15:48] [Server thread/INFO]: Bot 'oracle' started successfully.[m
+[12:15:48] [Server thread/INFO]: - How do I move in Minecraft?[m
+[12:15:48] [Server thread/INFO]: - How do I open my inventory?[m
+[12:15:48] [Server thread/INFO]: - How do I break blocks?[m
+[12:15:48] [Server thread/INFO]: - How do I place blocks?[m
+[12:15:48] [Server thread/INFO]: InsultBot: InsultBot has been interrupted.[m
+[12:16:02] [Netty Server IO #2/INFO]: <aina_rovira> How do I place blocks?[m
+[12:16:02] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[12:17:14] [Thread-15/INFO]: [RaspberryJuice] Connection reset
+[12:17:14] [Thread-17/INFO]: [RaspberryJuice] Connection reset
+[12:17:14] [Thread-19/INFO]: [RaspberryJuice] Connection reset
+[12:17:14] [Thread-23/INFO]: [RaspberryJuice] Connection reset
+[12:17:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56372.
+[12:17:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56373.
+[12:17:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56374.
+[12:17:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56376.
+[12:17:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57018.
+[12:17:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57019.
+[12:17:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57020.
+[12:17:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57021.
+[12:17:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57022.
+[12:17:15] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[12:17:15] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[12:17:15] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[12:17:15] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
+[12:17:15] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[12:17:15] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
+[12:17:15] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
+[12:17:15] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
+[12:17:15] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
+[12:17:15] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
+[12:17:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57021.
+[12:18:07] [Thread-27/INFO]: [RaspberryJuice] Connection reset
+[12:18:07] [Thread-25/INFO]: [RaspberryJuice] Connection reset
+[12:18:07] [Thread-33/INFO]: [RaspberryJuice] Connection reset
+[12:18:07] [Thread-29/INFO]: [RaspberryJuice] Connection reset
+[12:18:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57018.
+[12:18:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57019.
+[12:18:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57020.
+[12:18:07] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57022.
+[12:18:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57255.
+[12:18:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57256.
+[12:18:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57257.
+[12:18:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57258.
+[12:18:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57259.
+[12:18:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57260.
+[12:18:07] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
+[12:18:07] [Thread-46/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:07] [Thread-43/INFO]: [RaspberryJuice] Starting input thread
+[12:18:07] [Thread-44/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:07] [Thread-42/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:07] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:07] [Thread-45/INFO]: [RaspberryJuice] Starting input thread
+[12:18:07] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:07] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
+[12:18:07] [Thread-41/INFO]: [RaspberryJuice] Starting input thread
+[12:18:07] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
+[12:18:07] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:07] [Server thread/INFO]: BotManager is now listening for commands. Type 'list', 'tasks <bot_name>', 'invoke <bot_name> <method_name>', or 'exit'.[m
+[12:18:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57258.
+[12:18:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57260.
+[12:18:12] [Netty Server IO #2/INFO]: <aina_rovira> house[m
+[12:18:12] [Server thread/INFO]: Executing task for bot: house[m
+[12:18:12] [Server thread/INFO]: Bot 'house' started successfully.[m
+[12:18:12] [Server thread/INFO]: Unknown command or bot: 63,284[m
+[12:18:12] [Server thread/INFO]: BuildHouseBot: Error al obtener la posici¢n del jugador: invalid literal for int() with base 10: ''[m
+[12:18:45] [Thread-35/INFO]: [RaspberryJuice] Connection reset
+[12:18:45] [Thread-37/INFO]: [RaspberryJuice] Connection reset
+[12:18:45] [Thread-39/INFO]: [RaspberryJuice] Connection reset
+[12:18:45] [Thread-43/INFO]: [RaspberryJuice] Connection reset
+[12:18:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57255.
+[12:18:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57256.
+[12:18:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57257.
+[12:18:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57259.
+[12:18:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57609.
+[12:18:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57610.
+[12:18:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57611.
+[12:18:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57612.
+[12:18:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57613.
+[12:18:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57614.
+[12:18:45] [Thread-47/INFO]: [RaspberryJuice] Starting input thread
+[12:18:45] [Thread-58/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:45] [Thread-56/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:45] [Thread-53/INFO]: [RaspberryJuice] Starting input thread
+[12:18:45] [Thread-51/INFO]: [RaspberryJuice] Starting input thread
+[12:18:45] [Thread-50/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:45] [Thread-55/INFO]: [RaspberryJuice] Starting input thread
+[12:18:45] [Thread-57/INFO]: [RaspberryJuice] Starting input thread
+[12:18:45] [Thread-54/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:46] [Thread-49/INFO]: [RaspberryJuice] Starting input thread
+[12:18:45] [Thread-52/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:46] [Thread-48/INFO]: [RaspberryJuice] Starting output thread!
+[12:18:46] [Server thread/INFO]: BotManager is now listening for commands. Type 'list', 'tasks <bot_name>', 'invoke <bot_name> <method_name>', or 'exit'.[m
+[12:18:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57612.
+[12:18:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57614.
+[12:18:49] [Netty Server IO #2/INFO]: <aina_rovira> house[m
+[12:18:49] [Server thread/INFO]: Executing task for bot: house[m
+[12:18:49] [Server thread/INFO]: Bot 'house' started successfully.[m
+[12:18:49] [Server thread/INFO]: Unknown command or bot: 64,313[m
+[12:18:49] [Server thread/INFO]: BuildHouseBot: Error al obtener la posici¢n del jugador: invalid literal for int() with base 10: ''[m
+[12:19:50] [Thread-47/INFO]: [RaspberryJuice] Connection reset
+[12:19:50] [Thread-49/INFO]: [RaspberryJuice] Connection reset
+[12:19:50] [Thread-51/INFO]: [RaspberryJuice] Connection reset
+[12:19:50] [Thread-55/INFO]: [RaspberryJuice] Connection reset
+[12:19:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57609.
+[12:19:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57610.
+[12:19:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57611.
+[12:19:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57613.
+[12:19:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58011.
+[12:19:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58012.
+[12:19:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58013.
+[12:19:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58014.
+[12:19:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58015.
+[12:19:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58016.
+[12:19:51] [Thread-60/INFO]: [RaspberryJuice] Starting output thread!
+[12:19:51] [Thread-59/INFO]: [RaspberryJuice] Starting input thread
+[12:19:51] [Thread-63/INFO]: [RaspberryJuice] Starting input thread
+[12:19:51] [Thread-70/INFO]: [RaspberryJuice] Starting output thread!
+[12:19:51] [Thread-69/INFO]: [RaspberryJuice] Starting input thread
+[12:19:51] [Thread-64/INFO]: [RaspberryJuice] Starting output thread!
+[12:19:51] [Thread-67/INFO]: [RaspberryJuice] Starting input thread
+[12:19:51] [Thread-66/INFO]: [RaspberryJuice] Starting output thread!
+[12:19:51] [Thread-65/INFO]: [RaspberryJuice] Starting input thread
+[12:19:51] [Thread-68/INFO]: [RaspberryJuice] Starting output thread!
+[12:19:51] [Thread-62/INFO]: [RaspberryJuice] Starting output thread!
+[12:19:51] [Server thread/INFO]: BotManager is now listening for commands. Type 'list', 'tasks <bot_name>', 'invoke <bot_name> <method_name>', or 'exit'.[m
+[12:19:51] [Thread-61/INFO]: [RaspberryJuice] Starting input thread
+[12:19:51] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58014.
+[12:19:54] [Netty Server IO #2/INFO]: <aina_rovira> house[m
+[12:19:54] [Server thread/INFO]: Executing task for bot: house[m
+[12:19:54] [Server thread/INFO]: Bot 'house' started successfully.[m
+[12:22:37] [Thread-67/INFO]: [RaspberryJuice] Connection reset
+[12:22:37] [Thread-59/INFO]: [RaspberryJuice] Connection reset
+[12:22:37] [Thread-61/INFO]: [RaspberryJuice] Connection reset
+[12:22:37] [Thread-63/INFO]: [RaspberryJuice] Connection reset
+[12:22:37] [Thread-69/INFO]: [RaspberryJuice] Connection reset
+[12:22:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58011.
+[12:22:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58012.
+[12:22:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58013.
+[12:22:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58015.
+[12:22:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58016.
+[12:22:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58727.
+[12:22:38] [Thread-71/INFO]: [RaspberryJuice] Starting input thread
+[12:22:38] [Thread-72/INFO]: [RaspberryJuice] Starting output thread!
+[12:22:41] [Netty Server IO #2/INFO]: <aina_rovira> house[m
+[12:22:42] [Server thread/INFO]: Unknown command: house[m
+[12:22:46] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[12:22:47] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[12:22:51] [Netty Server IO #2/INFO]: <aina_rovira> build_house[m
+[12:23:41] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[12:23:42] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[12:23:47] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[12:23:52] [Server thread/INFO]: InsultBot: You really are a c***[m
+[12:23:57] [Server thread/INFO]: InsultBot: You're a total m***[m
+[12:23:59] [Netty Server IO #2/INFO]: <aina_rovira> reflective[m
+[12:24:00] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[12:24:00] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[12:24:06] [Netty Server IO #2/INFO]: <aina_rovira> joke[m
+[12:24:14] [Netty Server IO #2/INFO]: <aina_rovira> invoke joke[m
+[12:24:14] [Server thread/INFO]: Unknown command: invoke joke[m
+[12:24:19] [Netty Server IO #2/INFO]: <aina_rovira> joke[m
+[12:24:20] [Server thread/INFO]: Unknown command: joke[m
+[12:24:22] [Netty Server IO #2/INFO]: <aina_rovira> greet[m
+[12:24:23] [Server thread/INFO]: Unknown command: greet[m
+[12:24:27] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[12:24:27] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[12:24:27] [Server thread/INFO]: - how do i move in minecraft[m
+[12:24:27] [Server thread/INFO]: - how do i open my inventory[m
+[12:24:27] [Server thread/INFO]: - how do i break blocks[m
+[12:24:27] [Server thread/INFO]: - how do i place blocks[m
+[12:24:30] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[12:24:45] [Netty Server IO #2/INFO]: <aina_rovira> how do i place blocks?[m
+[12:24:46] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[12:24:49] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[12:24:50] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[12:24:55] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[12:24:57] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[12:24:58] [Server thread/INFO]: TNTBot: Boom![m
+[12:25:14] [Netty Server IO #2/INFO]: <aina_rovira> reflective[m
+[12:25:30] [Thread-71/INFO]: [RaspberryJuice] Connection reset
+[12:25:30] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58727.
+[12:25:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59424.
+[12:25:31] [Thread-73/INFO]: [RaspberryJuice] Starting input thread
+[12:25:31] [Thread-74/INFO]: [RaspberryJuice] Starting output thread!
+[12:25:34] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[12:25:34] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[12:25:39] [Netty Server IO #2/INFO]: <aina_rovira> reflective[m
+[12:25:39] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[12:25:39] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[12:25:44] [Netty Server IO #2/INFO]: <aina_rovira> help[m
+[12:25:45] [Server thread/INFO]: Unknown command: help[m
+[12:26:05] [Netty Server IO #2/INFO]: <aina_rovira> reflective greet[m
+[12:26:05] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
+[12:26:12] [Netty Server IO #2/INFO]: <aina_rovira> reflective joke[m
+[12:26:12] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
+[15:04:40] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 5728904ms behind, skipping 114578 tick(s)
+[15:04:40] [Server thread/INFO]: aina_rovira lost connection: Timed out
+[15:04:40] [Server thread/INFO]: aina_rovira left the game
+[15:05:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 50554ms behind, skipping 1011 tick(s)
+[17:25:11] [Thread-73/INFO]: [RaspberryJuice] Connection reset
+[17:25:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59424.
+[18:00:46] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 717467ms behind, skipping 14349 tick(s)
+[18:49:33] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 389467ms behind, skipping 7789 tick(s)
+[18:49:33] [Thread-4/ERROR]: null
+java.io.IOException: Could not get the screen info: L a   o p e r a c i ó n   s e   c o m p l e t ó   c o r r e c t a m e n t e .  
+                                                                               
+	at org.fusesource.jansi.WindowsAnsiOutputStream.getConsoleInfo(WindowsAnsiOutputStream.java:104) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.fusesource.jansi.WindowsAnsiOutputStream.processEraseLine(WindowsAnsiOutputStream.java:167) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.fusesource.jansi.AnsiOutputStream.processEscapeCommand(AnsiOutputStream.java:253) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:125) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.io.FilterOutputStream.write(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamEncoder.writeBytes(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamEncoder.implFlushBuffer(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamEncoder.implFlush(Unknown Source) ~[?:1.8.0_431]
+	at sun.nio.cs.StreamEncoder.flush(Unknown Source) ~[?:1.8.0_431]
+	at java.io.OutputStreamWriter.flush(Unknown Source) ~[?:1.8.0_431]
+	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.flush(ConsoleReader.java:976) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:35) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[18:49:33] [Thread-4/WARN]: Exception in thread "Thread-4" 
+[18:49:33] [Thread-4/WARN]: java.lang.NumberFormatException: For input string: "2K"
+[18:49:33] [Thread-4/WARN]: 	at java.lang.NumberFormatException.forInputString(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at java.lang.Integer.parseInt(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at java.lang.Integer.<init>(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at org.fusesource.jansi.AnsiOutputStream.write(AnsiOutputStream.java:120)
+[18:49:33] [Thread-4/WARN]: 	at java.io.FilterOutputStream.write(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at sun.nio.cs.StreamEncoder.writeBytes(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at sun.nio.cs.StreamEncoder.implFlushBuffer(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at sun.nio.cs.StreamEncoder.implFlush(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at sun.nio.cs.StreamEncoder.flush(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at java.io.OutputStreamWriter.flush(Unknown Source)
+[18:49:33] [Thread-4/WARN]: 	at org.bukkit.craftbukkit.libs.jline.console.ConsoleReader.flush(ConsoleReader.java:976)
+[18:49:33] [Thread-4/WARN]: 	at org.bukkit.craftbukkit.v1_12_R1.util.TerminalConsoleWriterThread.run(TerminalConsoleWriterThread.java:35)
+[18:49:33] [Thread-4/WARN]: 	at java.lang.Thread.run(Unknown Source)
