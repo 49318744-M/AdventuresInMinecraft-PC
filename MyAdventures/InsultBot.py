@@ -17,7 +17,6 @@ class InsultBot(MinecraftAgent):
         random.shuffle(self.insults)
 
     async def perform_task(self, stop_event):
-        """Send a set of insults one by one, checking for interruption."""
         while not stop_event.is_set():
             for insult in self.insults:
                 if stop_event.is_set():  # Check if the task should be stopped

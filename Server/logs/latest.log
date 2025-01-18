@@ -1,0 +1,783 @@
+[13:29:09] [Server thread/INFO]: Starting minecraft server version 1.12
+[13:29:09] [Server thread/INFO]: Loading properties
+[13:29:09] [Server thread/INFO]: Default game type: CREATIVE
+[13:29:09] [Server thread/INFO]: Generating keypair
+[13:29:09] [Server thread/INFO]: Starting Minecraft server on *:25565
+[13:29:09] [Server thread/INFO]: Using default channel type
+[13:29:10] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[13:29:10] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[13:29:10] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[13:29:10] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[13:29:10] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[13:29:10] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[13:29:10] [Server thread/INFO]: Preparing level "world"
+[13:29:10] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3344744038352380145)
+[13:29:11] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3344744038352380145)
+[13:29:11] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3344744038352380145)
+[13:29:11] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[13:29:11] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[13:29:11] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[13:29:11] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[13:29:11] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[13:29:11] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[13:29:11] [Server thread/INFO]: Done (1,607s)! For help, type "help" or "?"
+[13:31:21] [Server thread/INFO]: aina_rovira[/127.0.0.1:55109] logged in with entity id 25 at ([world]3036.8638841984293, 64.0, 289.99444292000953)
+[13:31:37] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[13:31:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55171.
+[13:31:37] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[13:31:56] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[13:31:57] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[13:31:59] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[13:32:00] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[13:32:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55399.
+[13:32:31] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[13:32:31] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[13:35:20] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[13:35:22] [Server thread/INFO]: TNTBot: Boom![m
+[13:35:22] [Server thread/INFO]: TNTBot: Boom![m
+[13:35:30] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[13:35:35] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[13:35:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55399.
+[13:41:06] [Thread-7/INFO]: [RaspberryJuice] Connection reset
+[13:41:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55171.
+[13:41:07] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57863.
+[13:41:07] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[13:41:07] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[13:41:23] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[13:41:24] [Server thread/INFO]: You're a disaster![m
+[13:42:34] [Thread-11/INFO]: [RaspberryJuice] Connection reset
+[13:42:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57863.
+[13:42:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58242.
+[13:42:35] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[13:42:35] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[13:42:40] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[13:42:41] [Server thread/INFO]: You really are a c***[m
+[13:42:51] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[13:42:53] [Server thread/INFO]: TNTBot: Boom![m
+[13:43:04] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[13:47:52] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59575.
+[13:47:52] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[13:47:52] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[13:48:22] [Thread-13/INFO]: [RaspberryJuice] Connection reset
+[13:48:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58242.
+[13:48:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59712.
+[13:48:22] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[13:48:22] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[13:48:28] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[13:48:29] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[13:48:29] [Server thread/INFO]: - how do i move in minecraft[m
+[13:48:29] [Server thread/INFO]: - how do i open my inventory[m
+[13:48:29] [Server thread/INFO]: - how do i break blocks[m
+[13:48:29] [Server thread/INFO]: - how do i place blocks[m
+[13:48:29] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[13:48:29] [Server thread/INFO]: - how do i move in minecraft[m
+[13:48:29] [Server thread/INFO]: - how do i open my inventory[m
+[13:48:29] [Server thread/INFO]: - how do i break blocks[m
+[13:48:29] [Server thread/INFO]: - how do i place blocks[m
+[13:48:38] [Netty Server IO #2/INFO]: <aina_rovira> how do i place blocks?[m
+[13:48:38] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[13:48:38] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[13:48:40] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[13:48:42] [Server thread/INFO]: TNTBot: Boom![m
+[13:48:42] [Server thread/INFO]: TNTBot: Boom![m
+[13:48:50] [Netty Server IO #2/INFO]: <aina_rovira> inault[m
+[13:48:51] [Server thread/INFO]: Unknown command: inault[m
+[13:48:51] [Server thread/INFO]: Unknown command: inault[m
+[13:48:56] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[13:48:56] [Server thread/INFO]: Do you even know how to play?[m
+[13:48:56] [Server thread/INFO]: You really are a c***[m
+[13:53:21] [Thread-17/INFO]: [RaspberryJuice] Connection reset
+[13:53:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59712.
+[13:53:41] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61076.
+[13:53:41] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[13:53:41] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[13:53:47] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[13:53:48] [Server thread/INFO]: You're a total m***[m
+[13:53:48] [Server thread/INFO]: Do you even know how to play?[m
+[13:54:07] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[13:54:08] [Server thread/INFO]: TNTBot: Boom![m
+[13:54:08] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[13:54:08] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[13:54:08] [Server thread/INFO]: TNTBot: Boom![m
+[13:54:20] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[13:54:21] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[13:54:21] [Server thread/INFO]: - how do i move in minecraft[m
+[13:54:21] [Server thread/INFO]: - how do i open my inventory[m
+[13:54:21] [Server thread/INFO]: - how do i break blocks[m
+[13:54:21] [Server thread/INFO]: - how do i place blocks[m
+[13:54:21] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[13:54:21] [Server thread/INFO]: - How do I move in Minecraft?[m
+[13:54:21] [Server thread/INFO]: - How do I open my inventory?[m
+[13:54:21] [Server thread/INFO]: - How do I break blocks?[m
+[13:54:21] [Server thread/INFO]: - How do I place blocks?[m
+[13:54:27] [Netty Server IO #2/INFO]: <aina_rovira> how do i place blocks?[m
+[13:54:27] [Server thread/INFO]: OracleBot: Right-click to place a block.[m
+[13:54:27] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[13:54:37] [Netty Server IO #2/INFO]: <aina_rovira> reflective[m
+[13:54:38] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[13:54:38] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[13:54:45] [Netty Server IO #2/INFO]: <aina_rovira> reflective joke[m
+[13:54:45] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
+[13:54:46] [Server thread/INFO]: Hello Im your reflective bot[m
+[13:57:04] [Thread-19/INFO]: [RaspberryJuice] Connection reset
+[13:57:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61076.
+[13:57:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61961.
+[13:57:05] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[13:57:05] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[13:57:11] [Netty Server IO #2/INFO]: <aina_rovira> insult[m
+[13:57:11] [Server thread/INFO]: Do you even know how to play?[m
+[13:57:11] [Server thread/INFO]: You're a disaster![m
+[14:01:09] [Thread-21/INFO]: [RaspberryJuice] Connection reset
+[14:01:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61961.
+[14:01:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63384.
+[14:01:09] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[14:01:09] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[14:01:14] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[14:01:15] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[14:01:15] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[14:24:34] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 1305003ms behind, skipping 26100 tick(s)
+[14:24:34] [Server thread/INFO]: aina_rovira lost connection: Timed out
+[14:24:34] [Server thread/INFO]: aina_rovira left the game
+[16:09:39] [Server thread/INFO]: aina_rovira[/127.0.0.1:58823] logged in with entity id 137 at ([world]3016.9852383513544, 63.0, 300.51407534356997)
+[16:09:47] [Thread-23/INFO]: [RaspberryJuice] Connection reset
+[16:09:47] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63384.
+[16:09:47] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58862.
+[16:09:47] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[16:09:47] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[16:09:52] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:09:53] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[16:09:53] [Server thread/INFO]: Do you even know how to play?[m
+[16:09:58] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[16:10:03] [Server thread/INFO]: InsultBot: You're a total m***[m
+[16:10:08] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[16:10:10] [Netty Server IO #3/INFO]: <aina_rovira> tnt[m
+[16:10:11] [Server thread/INFO]: TNTBot: Boom![m
+[16:10:11] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[16:10:11] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[16:10:12] [Server thread/INFO]: TNTBot: Boom![m
+[16:10:23] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:10:23] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:10:23] [Server thread/INFO]: - how do i move in minecraft[m
+[16:10:23] [Server thread/INFO]: - how do i open my inventory[m
+[16:10:23] [Server thread/INFO]: - how do i break blocks[m
+[16:10:23] [Server thread/INFO]: - how do i place blocks[m
+[16:10:24] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:10:24] [Server thread/INFO]: - how do i move in minecraft[m
+[16:10:24] [Server thread/INFO]: - how do i open my inventory[m
+[16:10:24] [Server thread/INFO]: - how do i break blocks[m
+[16:10:24] [Server thread/INFO]: - how do i place blocks[m
+[16:10:32] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:10:32] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[16:10:32] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[16:10:43] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:10:44] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:10:44] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:12:21] [Netty Server IO #3/INFO]: <aina_rovira> reflective[m
+[16:12:21] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[16:12:21] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[16:12:21] [Server thread/INFO]: Hello Im your reflective bot[m
+[16:12:30] [Netty Server IO #3/INFO]: <aina_rovira> reflective joke[m
+[16:12:30] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
+[16:12:31] [Server thread/INFO]: Hello Im your reflective bot[m
+[16:12:38] [Netty Server IO #3/INFO]: <aina_rovira> reflective greet[m
+[16:12:38] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
+[16:12:38] [Server thread/INFO]: Hello Im your reflective bot[m
+[16:15:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60232.
+[16:15:26] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[16:15:26] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[16:15:45] [Thread-25/INFO]: [RaspberryJuice] Connection reset
+[16:15:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58862.
+[16:15:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60313.
+[16:15:46] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
+[16:15:46] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
+[16:15:49] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:15:49] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:15:49] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:15:50] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:15:55] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:15:55] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:15:55] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:15:55] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:17:24] [Thread-29/INFO]: [RaspberryJuice] Connection reset
+[16:17:24] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60313.
+[16:17:25] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60713.
+[16:17:25] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
+[16:17:25] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
+[16:17:28] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:17:28] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:17:29] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:17:29] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:17:52] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:17:52] [Server thread/INFO]: InsultBot: You really are a c***[m
+[16:17:52] [Server thread/INFO]: Do you even know how to play?[m
+[16:17:53] [Server thread/INFO]: InsultBot: You really are a c***[m
+[16:17:57] [Server thread/INFO]: InsultBot: You're a total m***[m
+[16:17:58] [Server thread/INFO]: InsultBot: You're a disaster![m
+[16:17:59] [Netty Server IO #3/INFO]: <aina_rovira> tnt[m
+[16:17:59] [Server thread/INFO]: TNTBot: Boom![m
+[16:17:59] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[16:17:59] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[16:18:00] [Server thread/INFO]: TNTBot: Boom![m
+[16:18:00] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[16:18:00] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[16:18:00] [Server thread/INFO]: TNTBot: Boom![m
+[16:18:10] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:18:11] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:18:11] [Server thread/INFO]: - how do i move in minecraft[m
+[16:18:11] [Server thread/INFO]: - how do i open my inventory[m
+[16:18:11] [Server thread/INFO]: - how do i break blocks[m
+[16:18:11] [Server thread/INFO]: - how do i place blocks[m
+[16:18:11] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:18:11] [Server thread/INFO]: - how do i move in minecraft[m
+[16:18:11] [Server thread/INFO]: - how do i open my inventory[m
+[16:18:11] [Server thread/INFO]: - how do i break blocks[m
+[16:18:11] [Server thread/INFO]: - how do i place blocks[m
+[16:18:11] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:18:11] [Server thread/INFO]: - how do i move in minecraft[m
+[16:18:11] [Server thread/INFO]: - how do i open my inventory[m
+[16:18:11] [Server thread/INFO]: - how do i break blocks[m
+[16:18:11] [Server thread/INFO]: - how do i place blocks[m
+[16:19:22] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61188.
+[16:19:22] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
+[16:19:22] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
+[16:19:36] [Thread-31/INFO]: [RaspberryJuice] Connection reset
+[16:19:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60713.
+[16:19:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61252.
+[16:19:36] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
+[16:19:36] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
+[16:19:41] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:19:41] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:19:42] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:19:46] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:19:46] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:19:46] [Server thread/INFO]: - how do i move in minecraft[m
+[16:19:46] [Server thread/INFO]: - how do i open my inventory[m
+[16:19:46] [Server thread/INFO]: - how do i break blocks[m
+[16:19:46] [Server thread/INFO]: - how do i place blocks[m
+[16:19:47] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:19:47] [Server thread/INFO]: - how do i move in minecraft[m
+[16:19:47] [Server thread/INFO]: - how do i open my inventory[m
+[16:19:47] [Server thread/INFO]: - how do i break blocks[m
+[16:19:47] [Server thread/INFO]: - how do i place blocks[m
+[16:19:47] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:19:47] [Server thread/INFO]: - how do i move in minecraft[m
+[16:19:47] [Server thread/INFO]: - how do i open my inventory[m
+[16:19:47] [Server thread/INFO]: - how do i break blocks[m
+[16:19:47] [Server thread/INFO]: - how do i place blocks[m
+[16:19:47] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:19:47] [Server thread/INFO]: - how do i move in minecraft[m
+[16:19:47] [Server thread/INFO]: - how do i open my inventory[m
+[16:19:47] [Server thread/INFO]: - how do i break blocks[m
+[16:19:47] [Server thread/INFO]: - how do i place blocks[m
+[16:20:40] [Thread-15/INFO]: [RaspberryJuice] Connection reset
+[16:20:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59575.
+[16:20:40] [Thread-27/INFO]: [RaspberryJuice] Connection reset
+[16:20:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60232.
+[16:20:41] [Thread-33/INFO]: [RaspberryJuice] Connection reset
+[16:20:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61188.
+[16:22:11] [Thread-35/INFO]: [RaspberryJuice] Connection reset
+[16:22:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61252.
+[16:22:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61900.
+[16:22:12] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
+[16:22:12] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
+[16:22:15] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:22:15] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:22:20] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:22:20] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:22:20] [Server thread/INFO]: - how do i move in minecraft[m
+[16:22:20] [Server thread/INFO]: - how do i open my inventory[m
+[16:22:20] [Server thread/INFO]: - how do i break blocks[m
+[16:22:20] [Server thread/INFO]: - how do i place blocks[m
+[16:22:30] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:22:30] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[16:22:32] [Netty Server IO #3/INFO]: <aina_rovira> tnt[m
+[16:22:33] [Server thread/INFO]: TNTBot: Boom![m
+[16:22:33] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[16:22:33] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[16:22:40] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:22:41] [Server thread/INFO]: InsultBot: You really are a c***[m
+[16:22:46] [Server thread/INFO]: InsultBot: You're a disaster![m
+[16:22:51] [Server thread/INFO]: InsultBot: You're acting s***[m
+[16:22:56] [Server thread/INFO]: InsultBot: You're a total m***[m
+[16:23:00] [Netty Server IO #3/INFO]: <aina_rovira> tnt[m
+[16:23:01] [Server thread/INFO]: TNTBot: Boom![m
+[16:23:01] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[16:23:01] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[16:23:11] [Netty Server IO #3/INFO]: <aina_rovira> reflective[m
+[16:23:12] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[16:23:12] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[16:23:22] [Netty Server IO #3/INFO]: <aina_rovira> reflctive greet[m
+[16:23:32] [Netty Server IO #3/INFO]: <aina_rovira> reflective help[m
+[16:23:32] [Server thread/INFO]: reflective is already active.[m
+[16:23:36] [Netty Server IO #3/INFO]: <aina_rovira> help[m
+[16:23:36] [Server thread/INFO]: Unknown command: help[m
+[16:23:42] [Netty Server IO #3/INFO]: <aina_rovira> relfective[m
+[16:23:43] [Server thread/INFO]: Unknown command: relfective[m
+[16:23:46] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:23:47] [Server thread/INFO]: InsultBot: You really are a c***[m
+[16:23:52] [Server thread/INFO]: InsultBot: You're a disaster![m
+[16:23:55] [Netty Server IO #3/INFO]: <aina_rovira> reflective[m
+[16:23:55] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[16:23:55] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[16:24:01] [Netty Server IO #3/INFO]: <aina_rovira> reflective joke[m
+[16:24:01] [Server thread/INFO]: reflective is already active.[m
+[16:24:06] [Netty Server IO #3/INFO]: <aina_rovira> joke[m
+[16:24:11] [Netty Server IO #3/INFO]: <aina_rovira> joke[m
+[16:24:11] [Server thread/INFO]: Unknown command: joke[m
+[16:24:17] [Netty Server IO #3/INFO]: <aina_rovira> reflective joke[m
+[16:24:17] [Server thread/INFO]: reflective is already active.[m
+[16:24:26] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:24:27] [Server thread/INFO]: InsultBot: You really are a c***[m
+[16:24:32] [Server thread/INFO]: InsultBot: You're a disaster![m
+[16:24:37] [Server thread/INFO]: InsultBot: You're acting s***[m
+[16:24:42] [Server thread/INFO]: InsultBot: You're a total m***[m
+[16:24:47] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[16:24:52] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[16:24:52] [Netty Server IO #3/INFO]: <aina_rovira> build_house[m
+[16:25:24] [Netty Server IO #3/INFO]: <aina_rovira> tnt[m
+[16:25:25] [Server thread/INFO]: TNTBot: Boom![m
+[16:25:25] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[16:25:25] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[16:25:34] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:25:35] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:25:35] [Server thread/INFO]: - how do i move in minecraft[m
+[16:25:35] [Server thread/INFO]: - how do i open my inventory[m
+[16:25:35] [Server thread/INFO]: - how do i break blocks[m
+[16:25:35] [Server thread/INFO]: - how do i place blocks[m
+[16:25:48] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:25:58] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:25:59] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[16:26:04] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:26:05] [Server thread/INFO]: oracle is already active.[m
+[16:26:12] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:26:12] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[16:26:18] [Thread-37/INFO]: [RaspberryJuice] Connection reset
+[16:26:19] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61900.
+[16:26:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63203.
+[16:26:19] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
+[16:26:19] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
+[16:26:24] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:26:25] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:26:29] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:26:30] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[16:26:35] [Server thread/INFO]: InsultBot: You're acting s***[m
+[16:26:37] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:26:37] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:26:40] [Server thread/INFO]: InsultBot: You're a total m***[m
+[16:26:45] [Server thread/INFO]: InsultBot: You're a disaster![m
+[16:26:50] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[16:26:53] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:26:54] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:26:54] [Server thread/INFO]: - how do i move in minecraft[m
+[16:26:54] [Server thread/INFO]: - how do i open my inventory[m
+[16:26:54] [Server thread/INFO]: - how do i break blocks[m
+[16:26:54] [Server thread/INFO]: - how do i place blocks[m
+[16:27:02] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:27:02] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[16:27:12] [Netty Server IO #3/INFO]: <aina_rovira> how do i move in minecraft?[m
+[16:27:12] [Server thread/INFO]: Unknown command: how do i move in minecraft?[m
+[16:27:17] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:27:17] [Server thread/INFO]: oracle is already active.[m
+[16:27:26] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks´?[m
+[16:31:05] [Thread-39/INFO]: [RaspberryJuice] Connection reset
+[16:31:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63203.
+[16:31:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64369.
+[16:31:06] [Thread-42/INFO]: [RaspberryJuice] Starting output thread!
+[16:31:06] [Thread-41/INFO]: [RaspberryJuice] Starting input thread
+[16:31:09] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:31:10] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:31:12] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:31:13] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[16:31:18] [Server thread/INFO]: InsultBot: You're acting s***[m
+[16:31:23] [Server thread/INFO]: InsultBot: You're a total m***[m
+[16:31:24] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:31:24] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:31:27] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:31:27] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:31:27] [Server thread/INFO]: - how do i move in minecraft[m
+[16:31:27] [Server thread/INFO]: - how do i open my inventory[m
+[16:31:27] [Server thread/INFO]: - how do i break blocks[m
+[16:31:27] [Server thread/INFO]: - how do i place blocks[m
+[16:31:35] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:31:35] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[16:31:42] [Netty Server IO #3/INFO]: <aina_rovira> how do i move in minecraft?[m
+[16:31:43] [Server thread/INFO]: Unknown command: how do i move in minecraft?[m
+[16:31:47] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:31:47] [Server thread/INFO]: oracle is already active.[m
+[16:31:53] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:31:54] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:31:58] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:31:59] [Server thread/INFO]: oracle is already active.[m
+[16:40:52] [Thread-41/INFO]: [RaspberryJuice] Connection reset
+[16:40:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64369.
+[16:40:53] [Thread-43/INFO]: [RaspberryJuice] Starting input thread
+[16:40:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51190.
+[16:40:53] [Thread-44/INFO]: [RaspberryJuice] Starting output thread!
+[16:40:55] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:40:55] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:40:57] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:40:58] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:40:58] [Server thread/INFO]: - how do i move in minecraft[m
+[16:40:58] [Server thread/INFO]: - how do i open my inventory[m
+[16:40:58] [Server thread/INFO]: - how do i break blocks[m
+[16:40:58] [Server thread/INFO]: - how do i place blocks[m
+[16:41:04] [Netty Server IO #3/INFO]: <aina_rovira> hiw do i place blocks?[m
+[16:41:05] [Server thread/INFO]: OracleBot: Sorry, I don't know the answer to that question.[m
+[16:41:16] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:41:17] [Server thread/INFO]: oracle is already active.[m
+[16:41:28] [Netty Server IO #3/INFO]: <aina_rovira> how do i break blocks?[m
+[16:41:29] [Server thread/INFO]: Unknown command: how do i break blocks?[m
+[16:42:43] [Thread-43/INFO]: [RaspberryJuice] Connection reset
+[16:42:43] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51190.
+[16:42:44] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51636.
+[16:42:44] [Thread-45/INFO]: [RaspberryJuice] Starting input thread
+[16:42:44] [Thread-46/INFO]: [RaspberryJuice] Starting output thread!
+[16:42:47] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:42:47] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:42:52] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:42:53] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:42:53] [Server thread/INFO]: - how do i move in minecraft[m
+[16:42:53] [Server thread/INFO]: - how do i open my inventory[m
+[16:42:53] [Server thread/INFO]: - how do i break blocks[m
+[16:42:53] [Server thread/INFO]: - how do i place blocks[m
+[16:42:59] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks[m
+[16:43:07] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:43:07] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[16:43:10] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:43:10] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:44:01] [Thread-45/INFO]: [RaspberryJuice] Connection reset
+[16:44:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51636.
+[16:44:01] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51952.
+[16:44:01] [Thread-47/INFO]: [RaspberryJuice] Starting input thread
+[16:44:01] [Thread-48/INFO]: [RaspberryJuice] Starting output thread!
+[16:44:04] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:44:05] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:44:07] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:44:08] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:44:08] [Server thread/INFO]: - How do I move in Minecraft?[m
+[16:44:08] [Server thread/INFO]: - How do I open my inventory?[m
+[16:44:08] [Server thread/INFO]: - How do I break blocks?[m
+[16:44:08] [Server thread/INFO]: - How do I place blocks?[m
+[16:44:14] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:44:14] [Server thread/INFO]: OracleBot: Right-click to place a block.[m
+[16:44:25] [Netty Server IO #3/INFO]: <aina_rovira> how do i break blocks?[m
+[16:44:26] [Server thread/INFO]: Unknown command: how do i break blocks?[m
+[16:44:35] [Netty Server IO #3/INFO]: <aina_rovira> how do i place blocks?[m
+[16:44:36] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[16:44:41] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:44:42] [Server thread/INFO]: oracle is already active.[m
+[16:47:41] [Thread-47/INFO]: [RaspberryJuice] Connection reset
+[16:47:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51952.
+[16:47:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52888.
+[16:47:42] [Thread-50/INFO]: [RaspberryJuice] Starting output thread!
+[16:47:42] [Thread-49/INFO]: [RaspberryJuice] Starting input thread
+[16:47:47] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:47:47] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:47:49] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:47:50] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:47:50] [Server thread/INFO]: - How do I move in Minecraft?[m
+[16:47:50] [Server thread/INFO]: - How do I open my inventory?[m
+[16:47:50] [Server thread/INFO]: - How do I break blocks?[m
+[16:47:50] [Server thread/INFO]: - How do I place blocks?[m
+[16:47:56] [Netty Server IO #3/INFO]: <aina_rovira> How do i place blocks?[m
+[16:47:56] [Server thread/INFO]: OracleBot: Right-click to place a block.[m
+[16:48:03] [Netty Server IO #3/INFO]: <aina_rovira> How do i place blocks?[m
+[16:48:04] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[16:48:09] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:48:09] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:48:12] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:48:13] [Server thread/INFO]: oracle is already active.[m
+[16:55:45] [Thread-49/INFO]: [RaspberryJuice] Connection reset
+[16:55:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52888.
+[16:55:45] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54969.
+[16:55:45] [Thread-52/INFO]: [RaspberryJuice] Starting output thread!
+[16:55:45] [Thread-51/INFO]: [RaspberryJuice] Starting input thread
+[16:55:45] [Server thread/INFO]: BotManager is active. Available commands: list, !insult, !tnt, !oracle, !reflective, !build_house.[m
+[16:55:57] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:55:58] [Server thread/INFO]: Unknown command: list[m
+[16:56:06] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:56:06] [Server thread/INFO]: Unknown command: oracle[m
+[16:56:12] [Netty Server IO #3/INFO]: <aina_rovira> !oracle[m
+[16:56:13] [Server thread/INFO]: OracleBot: OracleBot: You can ask the following questions:[m
+[16:56:13] [Server thread/INFO]: OracleBot: - How do I move in Minecraft?[m
+[16:56:13] [Server thread/INFO]: OracleBot: - How do I open my inventory?[m
+[16:56:13] [Server thread/INFO]: OracleBot: - How do I break blocks?[m
+[16:56:13] [Server thread/INFO]: OracleBot: - How do I place blocks?[m
+[16:56:19] [Netty Server IO #3/INFO]: <aina_rovira> How do i place blocks?[m
+[16:56:20] [Server thread/INFO]: OracleBot: OracleBot: Right-click to place a block.[m
+[16:56:27] [Netty Server IO #3/INFO]: <aina_rovira> How do i place blocks?[m
+[16:56:27] [Server thread/INFO]: OracleBot: OracleBot: Right-click to place a block.[m
+[16:56:38] [Netty Server IO #3/INFO]: <aina_rovira> How do i open my inventory?[m
+[16:56:38] [Server thread/INFO]: OracleBot: OracleBot: Press the E key to open your inventory.[m
+[16:56:40] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:57:02] [Thread-51/INFO]: [RaspberryJuice] Connection reset
+[16:57:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54969.
+[16:57:02] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55337.
+[16:57:02] [Thread-53/INFO]: [RaspberryJuice] Starting input thread
+[16:57:02] [Thread-54/INFO]: [RaspberryJuice] Starting output thread!
+[16:57:06] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:57:06] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:57:09] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:57:10] [Server thread/INFO]: OracleBot: OracleBot: You can ask the following questions:[m
+[16:57:20] [Netty Server IO #3/INFO]: <aina_rovira> How do i place blocks?[m
+[16:57:20] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[16:57:45] [Thread-53/INFO]: [RaspberryJuice] Connection reset
+[16:57:46] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55337.
+[16:57:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55516.
+[16:57:46] [Thread-55/INFO]: [RaspberryJuice] Starting input thread
+[16:57:46] [Thread-56/INFO]: [RaspberryJuice] Starting output thread!
+[16:57:49] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[16:57:49] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[16:57:52] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[16:57:52] [Server thread/INFO]: InsultBot: You're a total m***[m
+[16:57:57] [Server thread/INFO]: InsultBot: You're acting s***[m
+[16:58:02] [Server thread/INFO]: InsultBot: You're a disaster![m
+[16:58:05] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:58:05] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[16:58:05] [Server thread/INFO]: - How do I move in Minecraft?[m
+[16:58:05] [Server thread/INFO]: - How do I open my inventory?[m
+[16:58:05] [Server thread/INFO]: - How do I break blocks?[m
+[16:58:05] [Server thread/INFO]: - How do I place blocks?[m
+[16:58:14] [Netty Server IO #3/INFO]: <aina_rovira> How do i break blocks?[m
+[16:58:15] [Server thread/INFO]: OracleBot: Left-click and hold on a block to break it.[m
+[16:58:27] [Netty Server IO #3/INFO]: <aina_rovira> How do i place blocks?[m
+[16:58:27] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[16:58:31] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[16:58:32] [Server thread/INFO]: oracle is already active.[m
+[16:59:31] [Netty Server IO #3/INFO]: <aina_rovira> reflective[m
+[16:59:31] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[16:59:31] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[16:59:38] [Netty Server IO #3/INFO]: <aina_rovira> reflective joke[m
+[16:59:38] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
+[16:59:42] [Netty Server IO #3/INFO]: <aina_rovira> reflective greet[m
+[16:59:42] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
+[16:59:47] [Netty Server IO #3/INFO]: <aina_rovira> reflective bye[m
+[16:59:47] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
+[16:59:50] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[17:00:01] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[17:00:01] [Server thread/INFO]: InsultBot: You're a total m***[m
+[17:00:06] [Server thread/INFO]: InsultBot: You're acting s***[m
+[17:00:10] [Netty Server IO #3/INFO]: <aina_rovira> reflective[m
+[17:00:10] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
+[17:00:10] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[17:00:20] [Netty Server IO #3/INFO]: <aina_rovira> reflective help[m
+[17:00:20] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[17:00:32] [Netty Server IO #3/INFO]: <aina_rovira> reflective place_block[m
+[17:00:32] [Server thread/INFO]: ReflectiveBot: Placed a diamond block under your feet![m
+[17:00:53] [Netty Server IO #3/INFO]: <aina_rovira> build_house[m
+[17:01:03] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[17:01:03] [Server thread/INFO]: InsultBot: You're a total m***[m
+[17:01:08] [Server thread/INFO]: InsultBot: You're acting s***[m
+[17:01:13] [Server thread/INFO]: InsultBot: You're a disaster![m
+[17:01:17] [Netty Server IO #3/INFO]: <aina_rovira> build_house[m
+[17:02:52] [Netty Server IO #3/INFO]: <aina_rovira> build_house[m
+[17:02:52] [Server thread/INFO]: build_house is already active.[m
+[17:02:57] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[17:02:58] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[17:03:03] [Netty Server IO #3/INFO]: <aina_rovira> build_house[m
+[17:03:04] [Server thread/INFO]: build_house is already active.[m
+[17:03:09] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[17:03:09] [Server thread/INFO]: InsultBot: You're a total m***[m
+[17:03:14] [Server thread/INFO]: InsultBot: You're acting s***[m
+[17:03:19] [Netty Server IO #3/INFO]: <aina_rovira> build_house[m
+[17:03:19] [Server thread/INFO]: InsultBot: You're a disaster![m
+[17:03:52] [Netty Server IO #3/INFO]: <aina_rovira> tnt[m
+[17:03:52] [Server thread/INFO]: TNTBot: Boom![m
+[17:03:52] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[17:03:52] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
+[17:03:59] [Netty Server IO #3/INFO]: <aina_rovira> oracle[m
+[17:03:59] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[17:03:59] [Server thread/INFO]: - How do I move in Minecraft?[m
+[17:03:59] [Server thread/INFO]: - How do I open my inventory?[m
+[17:03:59] [Server thread/INFO]: - How do I break blocks?[m
+[17:03:59] [Server thread/INFO]: - How do I place blocks?[m
+[17:04:05] [Netty Server IO #3/INFO]: <aina_rovira> How do i place blocks?[m
+[17:04:06] [Server thread/INFO]: Unknown command: how do i place blocks?[m
+[17:09:02] [Thread-55/INFO]: [RaspberryJuice] Connection reset
+[17:09:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55516.
+[17:09:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58372.
+[17:09:03] [Thread-57/INFO]: [RaspberryJuice] Starting input thread
+[17:09:03] [Thread-58/INFO]: [RaspberryJuice] Starting output thread!
+[17:09:07] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[17:09:08] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:06:54] [Thread-57/INFO]: [RaspberryJuice] Connection reset
+[18:06:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58372.
+[18:06:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57927.
+[18:06:55] [Thread-60/INFO]: [RaspberryJuice] Starting output thread!
+[18:06:55] [Thread-59/INFO]: [RaspberryJuice] Starting input thread
+[18:06:59] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[18:07:00] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[18:07:03] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[18:07:04] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:07:31] [Thread-59/INFO]: [RaspberryJuice] Connection reset
+[18:07:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57927.
+[18:07:31] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58078.
+[18:07:31] [Thread-61/INFO]: [RaspberryJuice] Starting input thread
+[18:07:31] [Thread-62/INFO]: [RaspberryJuice] Starting output thread!
+[18:07:35] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[18:07:35] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[18:07:38] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[18:07:39] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:08:35] [Thread-61/INFO]: [RaspberryJuice] Connection reset
+[18:08:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58078.
+[18:08:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58375.
+[18:08:35] [Thread-63/INFO]: [RaspberryJuice] Starting input thread
+[18:08:35] [Thread-64/INFO]: [RaspberryJuice] Starting output thread!
+[18:08:39] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[18:08:40] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[18:08:42] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[18:08:43] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:08:48] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:08:53] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:08:58] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:09:03] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:09:08] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:09:13] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:09:18] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:09:23] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:09:28] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:09:33] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:09:38] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:09:43] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:09:48] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:09:53] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:09:58] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:10:03] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:10:08] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:10:13] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:10:18] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:10:23] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:10:28] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:10:33] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:10:38] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:10:43] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:10:48] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:10:53] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:10:58] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:11:03] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:11:08] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:11:13] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:11:18] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:11:23] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:11:28] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:11:33] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:11:38] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:11:43] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:11:48] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:11:53] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:11:58] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:12:03] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:12:08] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:12:13] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:12:18] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:12:23] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:12:28] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:12:33] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:12:38] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:12:43] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:12:48] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:12:53] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:12:58] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:13:03] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:13:08] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:13:13] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:13:18] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:13:23] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:13:28] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:13:33] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:13:38] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:13:43] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:13:48] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:13:53] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:13:58] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:14:03] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:14:08] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:14:13] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:14:18] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:14:23] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:14:28] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:14:33] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:14:38] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:14:43] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:14:48] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:14:53] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:14:58] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:15:03] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:15:08] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:15:13] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:15:18] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:15:23] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:15:28] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:15:34] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:15:39] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:15:44] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:15:49] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:15:54] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:15:59] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:16:04] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:16:09] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:16:12] [Thread-63/INFO]: [RaspberryJuice] Connection reset
+[18:16:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58375.
+[18:16:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60393.
+[18:16:13] [Thread-65/INFO]: [RaspberryJuice] Starting input thread
+[18:16:13] [Thread-66/INFO]: [RaspberryJuice] Starting output thread!
+[18:16:18] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[18:16:19] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[18:16:22] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[18:16:22] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:16:27] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:16:32] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:16:37] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:16:42] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:16:47] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:16:52] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:16:57] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:17:02] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:17:07] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:17:12] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:17:17] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:17:22] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:17:27] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:17:32] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:17:37] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:17:42] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:17:47] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:17:52] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:17:57] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:18:02] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:18:07] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:18:12] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:18:17] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:18:22] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:18:27] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:18:32] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:18:37] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:18:42] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:18:47] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:18:53] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:18:58] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:19:03] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:19:08] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:19:13] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:19:18] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:19:23] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:19:28] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:19:33] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:19:38] [Server thread/INFO]: InsultBot: You're acting s***[m
+[18:19:43] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:19:48] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:19:52] [Thread-65/INFO]: [RaspberryJuice] Connection reset
+[18:19:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60393.
+[18:19:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61361.
+[18:19:53] [Thread-67/INFO]: [RaspberryJuice] Starting input thread
+[18:19:53] [Thread-68/INFO]: [RaspberryJuice] Starting output thread!
+[18:19:55] [Netty Server IO #3/INFO]: <aina_rovira> list[m
+[18:19:56] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[18:19:58] [Netty Server IO #3/INFO]: <aina_rovira> insult[m
+[18:19:58] [Server thread/INFO]: InsultBot: You're a disaster![m
+[18:20:03] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:20:08] [Server thread/INFO]: InsultBot: You can't even build a house![m
+[18:20:09] [Netty Server IO #3/INFO]: <aina_rovira> tnt[m
+[18:20:10] [Server thread/INFO]: TNTBot: Boom![m
+[18:20:10] [Server thread/INFO]: TNTBot: Error getting player position: object NoneType can't be used in 'await' expression[m
+[18:20:10] [Server thread/INFO]: TNTBot: TNT task interrupted.[m
