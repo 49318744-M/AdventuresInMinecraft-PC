@@ -53,6 +53,24 @@ class TestOracleBot(unittest.TestCase):
         self.mock_mc.postToChat.assert_any_call("- how do i break blocks")
         self.mock_mc.postToChat.assert_any_call("- how do i place blocks")
 
+    # Test 3: capitals and punctuation are handled correctly
+    def test_get_response_case_insensitivity_and_punctuation(self):
+        variations = [
+            "HOW DO I MOVE IN MINECRAFT???",
+            "How do I move in Minecraft!!!",
+            "how do i move in minecraft...",
+            "HoW dO i MoVe In MiNeCrAfT?"
+        ]
+        for question in variations:
+            with self.subTest(question=question):
+                response = self.oracle_bot.get_response(question)
+                self.assertEqual(
+                    response,
+                    "Use the W, A, S, and D keys to move, and the spacebar to jump.",
+                    f"Fallo con la pregunta '{question}'"
+                )
+
+
 
 if __name__ == "__main__":
     unittest.main()

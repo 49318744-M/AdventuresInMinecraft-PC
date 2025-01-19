@@ -950,3 +950,36 @@
 [19:23:58] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
 [19:23:59] [Server thread/INFO]: Switched to tnt bot.[m
 [19:24:00] [Server thread/INFO]: TNTBot: Boom![m
+[19:42:36] [Thread-197/INFO]: [RaspberryJuice] Connection reset
+[19:42:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57524.
+[19:42:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63323.
+[19:42:37] [Thread-200/INFO]: [RaspberryJuice] Starting output thread!
+[19:42:37] [Thread-199/INFO]: [RaspberryJuice] Starting input thread
+[19:42:40] [Netty Server IO #5/INFO]: <aina_rovira> list[m
+[19:42:40] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
+[19:42:42] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
+[19:42:42] [Server thread/INFO]: Switched to insult bot.[m
+[19:42:42] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[19:42:47] [Server thread/INFO]: InsultBot: You're a total m***[m
+[19:42:48] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
+[19:42:48] [Server thread/INFO]: Switched to tnt bot.[m
+[19:42:49] [Server thread/INFO]: TNTBot: Boom![m
+[19:43:02] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
+[19:43:02] [Server thread/INFO]: Switched to oracle bot.[m
+[19:43:02] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[19:43:02] [Server thread/INFO]: - how do i move in minecraft[m
+[19:43:02] [Server thread/INFO]: - how do i open my inventory[m
+[19:43:02] [Server thread/INFO]: - how do i break blocks[m
+[19:43:02] [Server thread/INFO]: - how do i place blocks[m
+[19:43:08] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
+[19:43:08] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[19:43:13] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
+[19:43:13] [Server thread/INFO]: Switched to reflective bot.[m
+[19:43:13] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Type 'reflective <command>' to interact.[m
+[19:43:13] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[19:43:16] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
+[19:43:16] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
+[19:43:20] [Netty Server IO #5/INFO]: <aina_rovira> reflective bye[m
+[19:43:20] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
+[19:43:24] [Netty Server IO #5/INFO]: <aina_rovira> build_house[m
+[19:43:24] [Server thread/INFO]: Switched to build_house bot.[m
