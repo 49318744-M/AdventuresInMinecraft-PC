@@ -30,7 +30,7 @@ class TestOracleBot(unittest.TestCase):
         del self.insult_bot
         del self.mock_mc
 
-    # Test 1: Verify that get_response returns the correct response
+    # Test 1: get_response returns the correct response
     def test_get_response_valid_question(self):
         question = "How do I move in Minecraft?"
         expected_response = "Use the W, A, S, and D keys to move, and the spacebar to jump."
@@ -43,7 +43,7 @@ class TestOracleBot(unittest.TestCase):
         actual_response = self.oracle_bot.get_response(question)
         self.assertEqual(expected_response, actual_response)
 
-    # Test 2: Verify that show_available_questions displays the correct questions
+    # Test 2: show_available_questions displays the correct questions
     def test_show_available_questions(self):
         self.oracle_bot.show_available_questions()
 
