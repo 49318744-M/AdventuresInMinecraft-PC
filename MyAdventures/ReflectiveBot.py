@@ -5,63 +5,39 @@ from mcpi import block
 class ReflectiveBot(MinecraftAgent):
     def __init__(self, mc):
         super().__init__("ReflectiveBot", mc)
-        self.agents = ["insultbot", "anotherbot"]
 
-    async def send_message_async(self, message):
-        loop = asyncio.get_event_loop()
-        await loop.run_in_executor(None, self.send_message, message)
+    def greet(self):
+        self.send_message("Hello, I'm your reflective bot")
 
-    async def greet(self):
-        await self.send_message_async("Hello, I'm your reflective bot")
+    def bye(self):
+        self.send_message("Bye, see you next time!")
 
-    async def bye(self):
-        await self.send_message_async("Bye, see you next time!")
+    def help(self):
+        self.send_message("Available commands: greet, help, joke, bye, place_block")
 
-    async def help(self):
-        await self.send_message_async(
-            "Available commands: greet, help, joke, bye, place_block"
-        )
+    def joke(self):
+        self.send_message("joke joke joke.")
 
-    async def joke(self):
-        await self.send_message_async("joke joke joke.")
-
-    async def place_block(self):
+    def place_block(self):
         pos = self.mc.player.getTilePos()
         self.mc.setBlock(pos.x, pos.y - 1, pos.z, block.DIAMOND_BLOCK.id)
-        await self.send_message_async("Placed a diamond block under your feet!")
+        self.send_message("Placed a diamond block under your feet!")
 
     def __getattr__(self, attr):
-        async def unknown_command(*args, **kwargs):
-            await self.send_message_async(f"Unknown method or command '{attr}'")
-        return unknown_command
+        return lambda *args, **kwargs: self.send_message(f"Unknown method or command '{attr}'")
 
     async def perform_task(self, stop_event):
-        await self.send_message_async("ReflectiveBot is active. You can interrupt me using 'stop' command.")
-        await self.help()
+        self.send_message("ReflectiveBot is active. Type 'reflective <command>' to interact.")
+        self.help()
 
-        try:
-            while not stop_event.is_set():
-                chat_events = self.mc.events.pollChatPosts()
-                for event in chat_events:
-                    if message == "stop":
-                        stop_event.set()
-                        return
-                    message = event.message.strip().lower()
-                    if message.startswith("reflective "):
-                        command = message.split("reflective ")[1]
-                        await self.respond(command)
-                    elif message in self.agents:
-                        stop_event.set()
-                        await self.send_message_async(f"Stopping ReflectiveBot and switching to {message}.")
-                        return
-                await asyncio.sleep(0.1)
-        except asyncio.CancelledError:
-            await self.send_message_async("ReflectiveBot has been forcefully stopped.")
-        finally:
-            await self.send_message_async("ReflectiveBot has been interrupted.")
+        while not stop_event.is_set():
+            await asyncio.sleep(1)
 
-    async def respond(self, command):
+        self.send_message("ReflectiveBot has been interrupted.")
+
+    def respond(self, command):
+        
         if hasattr(self, command):
-            method = getattr(self, command)
+            getattr(self, command)()  # Llama a greet, joke, etc.
         else:
-            await self.send_message_async(f"Unknown command: {command}")
+            self.mc.postToChat(f"Unknown command: {command}")

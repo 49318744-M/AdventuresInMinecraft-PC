@@ -15,26 +15,38 @@ class BotManager:
         return list(self.agents.keys())
 
     async def handle_command(self, message):
-        command_parts = message.split()
-        command = command_parts[0]
+        message = message.strip().lower()
 
-        if command == "list":
+        # bot list
+        if message == "list":
             agents = await self.list_agents()
             self.mc.postToChat("Available agents: " + ", ".join(agents))
-        elif command in self.agents:
-            for task in self.tasks.values():
-                task['stop_event'].set()
-                task['task'].cancel()
+            return
+
+        if message in self.agents:
+            for t_info in self.tasks.values():
+                t_info['stop_event'].set()
+                t_info['task'].cancel()
             self.tasks.clear()
 
             stop_event = asyncio.Event()
-            agent = self.agents[command]
+            agent = self.agents[message]
             task = asyncio.create_task(agent.perform_task(stop_event))
-            self.tasks[command] = {'task': task, 'stop_event': stop_event}
-            self.current_agent_name = command
-            self.mc.postToChat(f"Switched to {command} bot.")
-        else:
-            self.mc.postToChat(f"Unknown command: {message}")
+            self.tasks[message] = {'task': task, 'stop_event': stop_event}
+            self.current_agent_name = message
+
+            self.mc.postToChat(f"Switched to {message} bot.")
+            return
+
+        # reflective 
+        if self.current_agent_name == "reflective" and message.startswith("reflective "):
+            command = message.split("reflective ", 1)[1]
+            reflective_bot = self.agents["reflective"]
+            reflective_bot.respond(command)
+            return
+
+        # none
+        self.mc.postToChat(f"Unknown command: {message}")
 
     async def listen_for_commands(self):
         while True:
@@ -42,14 +54,20 @@ class BotManager:
             for event in chat_events:
                 message = event.message.strip().lower()
 
+              #questions
                 if message.endswith("?"):
                     if self.current_agent_name and self.current_agent_name in self.agents:
                         active_bot = self.agents[self.current_agent_name]
-                        answer = active_bot.get_response(message)
-                        self.mc.postToChat(f"{active_bot.name}: {answer}")
+        
+                        if hasattr(active_bot, "get_response"):
+                            answer = active_bot.get_response(message)
+                            self.mc.postToChat(f"{active_bot.name}: {answer}")
+                        else:
+                            self.mc.postToChat(f"{active_bot.name} doesn't support questions.")
                     else:
                         self.mc.postToChat("No active bot to answer questions.")
                 else:
+                    # Not a question
                     await self.handle_command(message)
 
             await asyncio.sleep(0.1)
