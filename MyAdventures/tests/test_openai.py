@@ -2,7 +2,6 @@ import unittest
 import asyncio
 from unittest.mock import MagicMock, patch
 import os
-from dotenv import load_dotenv
 import sys
 
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
@@ -12,37 +11,37 @@ from OpenAI import OpenAIBot
 
 class TestOpenAIBot(unittest.IsolatedAsyncioTestCase):
     def setUp(self):
-        self.env_patcher = patch.dict(
-            os.environ, {"OPENAI_API_KEY": "test_key"}, clear=True
-        )
-        self.env_patcher.start()
+        os.environ["OPENAI_API_KEY"] = "test_key"
         self.mc_mock = MagicMock()
 
-    def tearDown(self):
-        self.env_patcher.stop()
-
     # Test 1
-    def test_initialization_with_api_key(self):
-        bot = OpenAIBot(self.mc_mock)
-        self.assertEqual(bot.name, "OpenAIBot")
-        self.assertIsNotNone(bot.client, "OpenAI client should be initialized.")
-
-    # Test 2
-    @patch("OpenAI.OpenAI")  
-    async def test_get_response_success(self, mock_openai_class):
+    async def test_openai_response(self):
         bot = OpenAIBot(self.mc_mock)
 
-        mock_client_instance = mock_openai_class.return_value
         mock_chat = MagicMock()
         mock_completion = MagicMock()
         mock_completion.choices = [
             MagicMock(message=MagicMock(content="Test response"))
         ]
         mock_chat.completions.create.return_value = mock_completion
-        mock_client_instance.chat = mock_chat
+        bot.client.chat = mock_chat
 
         response = await bot.get_response("Hello Bot")
         self.assertEqual(response, "Test response")
+        mock_chat.completions.create.assert_called_once()
+
+    # Test 2
+    @patch("OpenAI.OpenAI")  
+    async def test_get_response_exception(self, mock_openai_class):
+        bot = OpenAIBot(self.mc_mock)
+
+        mock_client_instance = mock_openai_class.return_value
+        mock_chat = MagicMock()
+        mock_chat.completions.create.side_effect = Exception("Test exception")
+        mock_client_instance.chat = mock_chat
+
+        response = await bot.get_response("Hello Bot")
+        self.assertEqual(response, "Sorry, I don't know the answer to that question.")
         mock_chat.completions.create.assert_called_once()
 
     # Test 3

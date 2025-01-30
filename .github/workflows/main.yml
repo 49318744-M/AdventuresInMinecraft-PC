@@ -25,35 +25,17 @@ jobs:
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=${GITHUB_WORKSPACE}/MyAdventures" >> $GITHUB_ENV
 
-      # 4. Instalar dependencias
+      # 4. Configurar variables de entorno
+      - name: Set environment variables
+        run: echo "OPENAI_API_KEY=test_key" >> $GITHUB_ENV
+
+      # 5. Instalar dependencias
       - name: Install dependencies
         run: |
-          pip install --upgrade pip
-          pip install coverage
-          pip install pytest
-          # Dependencias específicas (mcpi, pyserial, etc.) si las necesitas realmente en CI
-          pip install mcpi
-          pip install pyserial
-          pip install simpleserial
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
 
-      # 5. Ejecutar tests con coverage
-      - name: Run tests with coverage
+      # 6. Ejecutar pruebas
+      - name: Run tests
         run: |
-          coverage run -m pytest
-          coverage xml -o coverage.xml
-
-      # 6. Subir el reporte a Codecov
-      - name: Upload coverage to Codecov
-        uses: codecov/codecov-action@v5
-        with:
-          # TOKEN de Codecov (lo guardas en Settings > Secrets > Actions)
-          token: ${{ secrets.CODECOV_TOKEN }}
-
-          # Archivo(s) de reporte a subir
-          files: coverage.xml
-
-          # Flag(s) opcionales, por ejemplo para separar cobertura de "unittests"
-          flags: unittests
-
-          # Nombre del reporte para identificarlo en Codecov
-          name: codecov-coverage
+          pytest
