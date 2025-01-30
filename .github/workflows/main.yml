@@ -33,7 +33,7 @@ jobs:
       - name: Install dependencies
         run: |
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -r MyAdventures/requirements.txt
 
       # 6. Ejecutar pruebas
       - name: Run tests
