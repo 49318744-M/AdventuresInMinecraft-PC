@@ -75,5 +75,12 @@ class BotManager:
 
             await asyncio.sleep(0.1)
 
+    def send_welcome_message(self):
+        self.mc.postToChat("Welcome to the Minecraft Bot platform!")
+        self.mc.postToChat("To activate a bot, use the command: <bot_name>")
+        self.mc.postToChat("Use 'list' to see available bots.")
+        self.mc.postToChat("Enjoy!")
+
     def run(self):
+        self.send_welcome_message()
         asyncio.run(self.listen_for_commands())
