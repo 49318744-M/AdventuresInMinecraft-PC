@@ -9,7 +9,7 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-    
+
     steps:
       # 1. Descargar el código
       - name: Checkout repository
@@ -19,7 +19,7 @@ jobs:
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
-          python-version: '3.9'  
+          python-version: '3.9'
 
       # 3. (Opcional) Configurar PYTHONPATH, si usas imports locales no empaquetados
       - name: Set PYTHONPATH
