@@ -118,8 +118,6 @@ class TestBotManager(unittest.IsolatedAsyncioTestCase):
 
         await self.bot_manager.handle_command("reflective")
         self.assertEqual(self.bot_manager.current_agent_name, "reflective")
-
-       
         self.mock_mc.postToChat.reset_mock()
         message = "reflective greet"
         await self.bot_manager.handle_command(message)

@@ -10,6 +10,7 @@ from ReflectiveBot import ReflectiveBot
 
 class TestReflectiveBot(unittest.IsolatedAsyncioTestCase):
 
+    # Test 1
     @patch.object(ReflectiveBot, 'send_message')
     def test_greet(self, mock_send_message):
         mc_mock = MagicMock()
@@ -18,6 +19,7 @@ class TestReflectiveBot(unittest.IsolatedAsyncioTestCase):
 
         mock_send_message.assert_called_once_with("Hello, I'm your reflective bot")
 
+    # Test 2
     @patch.object(ReflectiveBot, 'send_message')
     def test_bye(self, mock_send_message):
        
@@ -28,6 +30,7 @@ class TestReflectiveBot(unittest.IsolatedAsyncioTestCase):
 
         mock_send_message.assert_called_once_with("Bye, see you next time!")
 
+    # Test 3
     @patch.object(ReflectiveBot, 'send_message')
     def test_help(self, mock_send_message):
         
@@ -38,6 +41,7 @@ class TestReflectiveBot(unittest.IsolatedAsyncioTestCase):
 
         mock_send_message.assert_called_once_with("Available commands: greet, help, joke, bye, place_block")
 
+    # Test 4
     @patch.object(ReflectiveBot, 'send_message')
     def test_joke(self, mock_send_message):
     
@@ -48,6 +52,7 @@ class TestReflectiveBot(unittest.IsolatedAsyncioTestCase):
 
         mock_send_message.assert_called_once_with("joke joke joke.")
 
+    # Test 5
     @patch.object(ReflectiveBot, 'send_message')
     def test_place_block(self, mock_send_message):
         
@@ -65,6 +70,7 @@ class TestReflectiveBot(unittest.IsolatedAsyncioTestCase):
             mc_mock.setBlock.assert_called_with(10, 63, 10, 57)
             mock_send_message.assert_called_once_with("Placed a diamond block under your feet!")
 
+    # Test 6
     @patch.object(ReflectiveBot, 'send_message')
     async def test_interrupt_functionality(self, mock_send_message):
         

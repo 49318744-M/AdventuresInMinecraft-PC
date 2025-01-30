@@ -60,14 +60,11 @@ class TestOpenAIBot(unittest.IsolatedAsyncioTestCase):
     # Test 4
     async def test_perform_task_normal_execution(self):
         bot = OpenAIBot(self.mc_mock)
-
         bot.send_message = MagicMock()
 
         stop_event = asyncio.Event()
         task = asyncio.create_task(bot.perform_task(stop_event))
-
         await asyncio.sleep(0.1)
-
         stop_event.set()
         await task
 
@@ -81,10 +78,8 @@ class TestOpenAIBot(unittest.IsolatedAsyncioTestCase):
     async def test_perform_task_interrupted_early(self):
         bot = OpenAIBot(self.mc_mock)
         bot.send_message = MagicMock()
-
         stop_event = asyncio.Event()
         task = asyncio.create_task(bot.perform_task(stop_event))
-
         stop_event.set()
         await task
 
