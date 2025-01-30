@@ -1,985 +1,592 @@
-[02:37:27] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 11575967ms behind, skipping 231519 tick(s)
-[11:14:14] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 30996682ms behind, skipping 619933 tick(s)
-[11:17:10] [Thread-107/INFO]: [RaspberryJuice] Connection reset
-[11:17:10] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63796.
-[11:17:11] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62502.
-[11:17:11] [Thread-109/INFO]: [RaspberryJuice] Starting input thread
-[11:17:11] [Thread-110/INFO]: [RaspberryJuice] Starting output thread!
-[11:17:15] [Server thread/INFO]: aina_rovira[/127.0.0.1:62522] logged in with entity id 396 at ([world]2925.174245627749, 67.0, 327.44019328965965)
-[11:17:33] [Thread-109/INFO]: [RaspberryJuice] Connection reset
-[11:17:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62502.
-[11:17:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62601.
-[11:17:34] [Thread-111/INFO]: [RaspberryJuice] Starting input thread
-[11:17:34] [Thread-112/INFO]: [RaspberryJuice] Starting output thread!
-[11:17:39] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[11:17:40] [Server thread/INFO]: InsultBot: You're acting s***[m
-[11:17:45] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[11:17:47] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[11:17:48] [Server thread/INFO]: TNTBot: Boom![m
-[11:18:03] [Netty Server IO #4/INFO]: <aina_rovira> builc_house[m
-[11:18:03] [Server thread/INFO]: Unknown command: builc_house[m
-[11:18:07] [Netty Server IO #4/INFO]: <aina_rovira> build_house[m
-[11:18:38] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[11:18:38] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[11:18:38] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[11:18:45] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[11:18:45] [Server thread/INFO]: reflective is already active.[m
-[11:18:49] [Netty Server IO #4/INFO]: <aina_rovira> joke[m
-[11:19:03] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[11:19:03] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[11:19:10] [Netty Server IO #4/INFO]: <aina_rovira> reflective greet[m
-[11:19:10] [Server thread/INFO]: reflective is already active.[m
-[11:19:28] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[11:19:28] [Server thread/INFO]: reflective is already active.[m
-[11:23:59] [Thread-111/INFO]: [RaspberryJuice] Connection reset
-[11:23:59] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62601.
-[11:23:59] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64172.
-[11:23:59] [Thread-113/INFO]: [RaspberryJuice] Starting input thread
-[11:23:59] [Thread-114/INFO]: [RaspberryJuice] Starting output thread!
-[11:24:03] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[11:24:04] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[11:24:06] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[11:24:07] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[11:24:07] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[11:24:12] [Netty Server IO #4/INFO]: <aina_rovira> reflective greet[m
-[11:24:12] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
-[11:24:18] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[11:24:18] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[11:24:23] [Netty Server IO #4/INFO]: <aina_rovira> reflective help[m
-[11:24:23] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[11:24:30] [Netty Server IO #4/INFO]: <aina_rovira> reflective bye[m
-[11:24:30] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[11:44:15] [Thread-113/INFO]: [RaspberryJuice] Connection reset
-[11:44:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64172.
-[11:44:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53389.
-[11:44:16] [Thread-115/INFO]: [RaspberryJuice] Starting input thread
-[11:44:16] [Thread-116/INFO]: [RaspberryJuice] Starting output thread!
-[11:44:21] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[11:44:22] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[11:44:22] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[11:44:27] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[11:44:27] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[11:44:31] [Netty Server IO #4/INFO]: <aina_rovira> reflective help[m
-[11:44:31] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[11:44:35] [Netty Server IO #4/INFO]: <aina_rovira> reflective greet[m
-[11:44:35] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
-[11:44:39] [Netty Server IO #4/INFO]: <aina_rovira> reflective bye[m
-[11:44:39] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[11:44:43] [Netty Server IO #4/INFO]: <aina_rovira> reflective byyye[m
-[11:44:43] [Server thread/INFO]: ReflectiveBot: Unknown method or command 'byyye'[m
-[11:44:54] [Netty Server IO #4/INFO]: <aina_rovira> reflective place_block[m
-[11:44:54] [Server thread/INFO]: ReflectiveBot: Placed a diamond block under your feet![m
-[11:45:02] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[11:45:16] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[11:45:20] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[11:45:26] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[11:45:26] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[11:45:31] [Thread-115/INFO]: [RaspberryJuice] Connection reset
-[11:45:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53389.
-[11:45:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53688.
-[11:45:32] [Thread-117/INFO]: [RaspberryJuice] Starting input thread
-[11:45:32] [Thread-118/INFO]: [RaspberryJuice] Starting output thread!
-[11:45:35] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[11:45:35] [Server thread/INFO]: InsultBot: You really are a c***[m
-[11:45:40] [Server thread/INFO]: InsultBot: You're a total m***[m
-[11:45:42] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[11:45:43] [Server thread/INFO]: TNTBot: Boom![m
-[11:45:53] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[11:45:54] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[11:45:54] [Server thread/INFO]: - how do i move in minecraft[m
-[11:45:54] [Server thread/INFO]: - how do i open my inventory[m
-[11:45:54] [Server thread/INFO]: - how do i break blocks[m
-[11:45:54] [Server thread/INFO]: - how do i place blocks[m
-[11:46:00] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[11:46:00] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[11:46:12] [Netty Server IO #4/INFO]: <aina_rovira> How do I place blocks?[m
-[11:46:13] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[11:46:18] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[11:46:19] [Server thread/INFO]: oracle is already active.[m
-[11:46:25] [Netty Server IO #4/INFO]: <aina_rovira> build_house[m
-[11:47:18] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[11:47:19] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[11:47:19] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[11:47:24] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[11:47:24] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[11:47:28] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:08:27] [Thread-117/INFO]: [RaspberryJuice] Connection reset
-[12:08:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53688.
-[12:08:28] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59267.
-[12:08:28] [Thread-119/INFO]: [RaspberryJuice] Starting input thread
-[12:08:28] [Thread-120/INFO]: [RaspberryJuice] Starting output thread!
-[12:08:32] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:08:33] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:08:36] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:08:36] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[12:08:36] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[12:08:40] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:08:40] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[12:08:48] [Netty Server IO #4/INFO]: <aina_rovira> reflective greet[m
-[12:08:49] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
-[12:08:52] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:09:10] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:09:17] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:09:28] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:09:28] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[12:11:18] [Thread-119/INFO]: [RaspberryJuice] Connection reset
-[12:11:18] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59267.
-[12:11:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59966.
-[12:11:19] [Thread-121/INFO]: [RaspberryJuice] Starting input thread
-[12:11:19] [Thread-122/INFO]: [RaspberryJuice] Starting output thread!
-[12:11:23] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:11:23] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:11:26] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:11:26] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[12:11:26] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[12:11:30] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:11:30] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[12:11:33] [Netty Server IO #4/INFO]: <aina_rovira> reflective bye[m
-[12:11:33] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[12:11:38] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:11:54] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:16:03] [Thread-121/INFO]: [RaspberryJuice] Connection reset
-[12:16:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59966.
-[12:16:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61743.
-[12:16:03] [Thread-123/INFO]: [RaspberryJuice] Starting input thread
-[12:16:03] [Thread-124/INFO]: [RaspberryJuice] Starting output thread!
-[12:16:07] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:16:08] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:16:10] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:16:10] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:16:15] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:16:16] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:16:16] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[12:16:16] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[12:16:21] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:16:21] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[12:16:25] [Netty Server IO #4/INFO]: <aina_rovira> reflective bye[m
-[12:16:26] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[12:16:28] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:17:43] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:17:43] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[12:17:47] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:17:47] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:17:47] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been forcefully stopped.[m
-[12:17:47] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been interrupted.[m
-[12:17:52] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:17:57] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:18:01] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:18:02] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:18:02] [Server thread/INFO]: InsultBot: You're a disaster![m
-[12:18:07] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:18:10] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:18:10] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[12:18:10] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[12:18:18] [Netty Server IO #4/INFO]: <aina_rovira> reflective place_block[m
-[12:18:18] [Server thread/INFO]: ReflectiveBot: Placed a diamond block under your feet![m
-[12:18:26] [Netty Server IO #4/INFO]: <aina_rovira> build_house[m
-[12:18:41] [Netty Server IO #4/INFO]: <aina_rovira> nt[m
-[12:18:44] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[12:18:54] [Thread-123/INFO]: [RaspberryJuice] Connection reset
-[12:18:54] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61743.
-[12:18:55] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62520.
-[12:18:55] [Thread-126/INFO]: [RaspberryJuice] Starting output thread!
-[12:18:55] [Thread-125/INFO]: [RaspberryJuice] Starting input thread
-[12:18:57] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:18:57] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:18:59] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[12:19:01] [Server thread/INFO]: TNTBot: Boom![m
-[12:19:11] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:19:11] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:19:16] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:19:21] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
-[12:19:23] [Netty Server IO #4/INFO]: <aina_rovira> build_house[m
-[12:19:57] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:19:58] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:20:02] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:20:06] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:20:06] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[12:20:06] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[12:20:13] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:20:14] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[12:20:17] [Netty Server IO #4/INFO]: <aina_rovira> reflective bye[m
-[12:20:17] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[12:20:21] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[12:20:39] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:20:39] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[12:20:41] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:26:45] [Thread-125/INFO]: [RaspberryJuice] Connection reset
-[12:26:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62520.
-[12:26:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64451.
-[12:26:46] [Thread-127/INFO]: [RaspberryJuice] Starting input thread
-[12:26:46] [Thread-128/INFO]: [RaspberryJuice] Starting output thread!
-[12:26:52] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:26:52] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:26:57] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:26:57] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[12:26:57] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[12:27:04] [Netty Server IO #4/INFO]: <aina_rovira> reflective greet[m
-[12:27:04] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
-[12:27:08] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:33:14] [Thread-127/INFO]: [RaspberryJuice] Connection reset
-[12:33:14] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64451.
-[12:33:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49938.
-[12:33:14] [Thread-129/INFO]: [RaspberryJuice] Starting input thread
-[12:33:14] [Thread-130/INFO]: [RaspberryJuice] Starting output thread!
-[12:33:18] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:33:18] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:33:24] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:33:24] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. You can interrupt me using 'stop' command.[m
-[12:33:24] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[12:33:29] [Netty Server IO #4/INFO]: <aina_rovira> reflective joke[m
-[12:33:29] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been interrupted.[m
-[12:33:43] [Netty Server IO #4/INFO]: <aina_rovira> reflective[m
-[12:33:43] [Server thread/INFO]: reflective is already active.[m
-[12:34:26] [Thread-129/INFO]: [RaspberryJuice] Connection reset
-[12:34:27] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49938.
-[12:34:27] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50626.
-[12:34:27] [Thread-132/INFO]: [RaspberryJuice] Starting output thread!
-[12:34:27] [Thread-131/INFO]: [RaspberryJuice] Starting input thread
-[12:34:31] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:35:42] [Thread-131/INFO]: [RaspberryJuice] Connection reset
-[12:35:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50626.
-[12:35:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:50943.
-[12:35:43] [Thread-133/INFO]: [RaspberryJuice] Starting input thread
-[12:35:43] [Thread-134/INFO]: [RaspberryJuice] Starting output thread!
-[12:35:55] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:35:55] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:35:58] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:35:59] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:36:04] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:36:09] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:36:13] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[12:36:14] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:36:15] [Server thread/INFO]: TNTBot: Boom![m
-[12:36:31] [Netty Server IO #4/INFO]: <aina_rovira> build_house[m
-[12:37:51] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[12:37:53] [Server thread/INFO]: TNTBot: Boom![m
-[12:38:03] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:38:04] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:38:09] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:38:14] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:38:19] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:38:24] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:38:29] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:38:29] [Server thread/INFO]: InsultBot: You're a disaster![m
-[12:38:30] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:38:30] [Server thread/INFO]: - how do i move in minecraft[m
-[12:38:30] [Server thread/INFO]: - how do i open my inventory[m
-[12:38:30] [Server thread/INFO]: - how do i break blocks[m
-[12:38:30] [Server thread/INFO]: - how do i place blocks[m
-[12:38:36] [Netty Server IO #4/INFO]: <aina_rovira> How do i place blocks?[m
-[12:38:37] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[12:39:08] [Thread-133/INFO]: [RaspberryJuice] Connection reset
-[12:39:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:50943.
-[12:39:08] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51794.
-[12:39:08] [Thread-135/INFO]: [RaspberryJuice] Starting input thread
-[12:39:08] [Thread-136/INFO]: [RaspberryJuice] Starting output thread!
-[12:39:11] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:39:12] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:39:15] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:39:15] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:39:15] [Server thread/INFO]: - how do i move in minecraft[m
-[12:39:15] [Server thread/INFO]: - how do i open my inventory[m
-[12:39:15] [Server thread/INFO]: - how do i break blocks[m
-[12:39:15] [Server thread/INFO]: - how do i place blocks[m
-[12:39:45] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[12:39:46] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[12:39:54] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:39:54] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:39:59] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:40:04] [Server thread/INFO]: InsultBot: You're a disaster![m
-[12:40:09] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:40:14] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:40:19] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
-[12:40:24] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:40:29] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:40:34] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:40:39] [Server thread/INFO]: InsultBot: You're a disaster![m
-[12:40:44] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:40:49] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:40:54] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:40:59] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
-[12:41:04] [Server thread/INFO]: InsultBot: You're a disaster![m
-[12:41:09] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:41:14] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:41:19] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:41:24] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:41:29] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:41:34] [Thread-135/INFO]: [RaspberryJuice] Connection reset
-[12:41:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51794.
-[12:41:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52388.
-[12:41:34] [Thread-138/INFO]: [RaspberryJuice] Starting output thread!
-[12:41:34] [Thread-137/INFO]: [RaspberryJuice] Starting input thread
-[12:41:38] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:41:38] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:41:48] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:41:49] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:41:49] [Server thread/INFO]: - how do i move in minecraft[m
-[12:41:49] [Server thread/INFO]: - how do i open my inventory[m
-[12:41:49] [Server thread/INFO]: - how do i break blocks[m
-[12:41:49] [Server thread/INFO]: - how do i place blocks[m
-[12:41:54] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[12:41:55] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[12:45:26] [Thread-137/INFO]: [RaspberryJuice] Connection reset
-[12:45:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52388.
-[12:45:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53356.
-[12:45:26] [Thread-139/INFO]: [RaspberryJuice] Starting input thread
-[12:45:26] [Thread-140/INFO]: [RaspberryJuice] Starting output thread!
-[12:45:31] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:45:31] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:45:34] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:45:35] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:45:35] [Server thread/INFO]: - how do i move in minecraft[m
-[12:45:35] [Server thread/INFO]: - how do i open my inventory[m
-[12:45:35] [Server thread/INFO]: - how do i break blocks[m
-[12:45:35] [Server thread/INFO]: - how do i place blocks[m
-[12:45:41] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[12:45:41] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[12:45:45] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:45:46] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:45:51] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:45:54] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:45:55] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:45:55] [Server thread/INFO]: - how do i move in minecraft[m
-[12:45:55] [Server thread/INFO]: - how do i open my inventory[m
-[12:45:55] [Server thread/INFO]: - how do i break blocks[m
-[12:45:55] [Server thread/INFO]: - how do i place blocks[m
-[12:46:10] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[12:46:10] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[12:49:48] [Thread-139/INFO]: [RaspberryJuice] Connection reset
-[12:49:48] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53356.
-[12:49:48] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54428.
-[12:49:48] [Thread-142/INFO]: [RaspberryJuice] Starting output thread!
-[12:49:48] [Thread-141/INFO]: [RaspberryJuice] Starting input thread
-[12:50:00] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:50:01] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:50:04] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:50:04] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:50:09] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
-[12:50:10] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:50:10] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:50:10] [Server thread/INFO]: - how do i move in minecraft[m
-[12:50:10] [Server thread/INFO]: - how do i open my inventory[m
-[12:50:10] [Server thread/INFO]: - how do i break blocks[m
-[12:50:10] [Server thread/INFO]: - how do i place blocks[m
-[12:50:17] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[12:50:17] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[12:50:22] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:50:22] [Server thread/INFO]: Stopping OracleBot and switching to insult.[m
-[12:50:38] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:50:39] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:50:44] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
-[12:50:49] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:50:54] [Server thread/INFO]: InsultBot: You're a disaster![m
-[12:50:59] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[12:51:04] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:51:09] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:51:14] [Server thread/INFO]: InsultBot: You're acting s***[m
-[12:51:19] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
-[12:51:24] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[12:51:29] [Server thread/INFO]: InsultBot: You're a disaster![m
-[12:51:31] [Thread-141/INFO]: [RaspberryJuice] Connection reset
-[12:51:31] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54428.
-[12:51:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54902.
-[12:51:32] [Thread-143/INFO]: [RaspberryJuice] Starting input thread
-[12:51:32] [Thread-144/INFO]: [RaspberryJuice] Starting output thread!
-[12:51:36] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:51:36] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:51:40] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:51:40] [Server thread/INFO]: InsultBot: You're a total m***[m
-[12:51:45] [Server thread/INFO]: InsultBot: You really are a c***[m
-[12:51:46] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:51:47] [Server thread/INFO]: insult has been stopped.[m
-[12:51:47] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:51:47] [Server thread/INFO]: - how do i move in minecraft[m
-[12:51:47] [Server thread/INFO]: - how do i open my inventory[m
-[12:51:47] [Server thread/INFO]: - how do i break blocks[m
-[12:51:47] [Server thread/INFO]: - how do i place blocks[m
-[12:51:54] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[12:51:54] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[12:51:57] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:51:57] [Server thread/INFO]: Stopping OracleBot and switching to insult.[m
-[12:52:10] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:54:35] [Thread-143/INFO]: [RaspberryJuice] Connection reset
-[12:54:35] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54902.
-[12:54:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55702.
-[12:54:35] [Thread-145/INFO]: [RaspberryJuice] Starting input thread
-[12:54:35] [Thread-146/INFO]: [RaspberryJuice] Starting output thread!
-[12:54:42] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[12:54:43] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[12:54:45] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[12:54:46] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[12:54:46] [Server thread/INFO]: - how do i move in minecraft[m
-[12:54:46] [Server thread/INFO]: - how do i open my inventory[m
-[12:54:46] [Server thread/INFO]: - how do i break blocks[m
-[12:54:46] [Server thread/INFO]: - how do i place blocks[m
-[12:54:52] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[12:54:53] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[12:55:01] [Netty Server IO #4/INFO]: <aina_rovira> how do i break blocks?[m
-[12:55:01] [Server thread/INFO]: OracleBot: Left-click and hold on a block to break it.[m
-[12:55:05] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:55:05] [Server thread/INFO]: Stopping OracleBot and switching to insult.[m
-[12:55:05] [Server thread/INFO]: oracle has been stopped.[m
-[12:55:31] [Netty Server IO #4/INFO]: <aina_rovira> insult[m
-[12:56:02] [Netty Server IO #4/INFO]: <aina_rovira> tnt[m
-[13:15:42] [Thread-145/INFO]: [RaspberryJuice] Connection reset
-[13:15:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55702.
-[13:15:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61336.
-[13:15:43] [Thread-147/INFO]: [RaspberryJuice] Starting input thread
-[13:15:43] [Thread-148/INFO]: [RaspberryJuice] Starting output thread!
-[13:15:47] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[13:15:47] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[13:15:49] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[13:15:50] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[13:15:50] [Server thread/INFO]: - how do i move in minecraft[m
-[13:15:50] [Server thread/INFO]: - how do i open my inventory[m
-[13:15:50] [Server thread/INFO]: - how do i break blocks[m
-[13:15:50] [Server thread/INFO]: - how do i place blocks[m
-[13:15:58] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[13:15:58] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[13:29:40] [Thread-147/INFO]: [RaspberryJuice] Connection reset
-[13:29:40] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61336.
-[13:29:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65158.
-[13:29:40] [Thread-149/INFO]: [RaspberryJuice] Starting input thread
-[13:29:40] [Thread-150/INFO]: [RaspberryJuice] Starting output thread!
-[13:29:43] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[13:29:43] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[13:29:46] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[13:29:47] [Server thread/INFO]: Switched to oracle.[m
-[13:29:47] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[13:29:47] [Server thread/INFO]: - how do i move in minecraft[m
-[13:29:47] [Server thread/INFO]: - how do i open my inventory[m
-[13:29:47] [Server thread/INFO]: - how do i break blocks[m
-[13:29:47] [Server thread/INFO]: - how do i place blocks[m
-[13:29:53] [Netty Server IO #4/INFO]: <aina_rovira> how to place blocks?[m
-[13:29:54] [Server thread/INFO]: Unknown command: how to place blocks?[m
-[13:30:02] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[13:30:02] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[13:32:15] [Thread-149/INFO]: [RaspberryJuice] Connection reset
-[13:32:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65158.
-[13:32:15] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49689.
-[13:32:15] [Thread-151/INFO]: [RaspberryJuice] Starting input thread
-[13:32:15] [Thread-152/INFO]: [RaspberryJuice] Starting output thread!
-[13:32:19] [Netty Server IO #4/INFO]: <aina_rovira> list[m
-[13:32:19] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[13:32:22] [Netty Server IO #4/INFO]: <aina_rovira> oracle[m
-[13:32:23] [Server thread/INFO]: Switched to oracle.[m
-[13:32:23] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[13:32:23] [Server thread/INFO]: - how do i move in minecraft[m
-[13:32:23] [Server thread/INFO]: - how do i open my inventory[m
-[13:32:23] [Server thread/INFO]: - how do i break blocks[m
-[13:32:23] [Server thread/INFO]: - how do i place blocks[m
-[13:32:29] [Netty Server IO #4/INFO]: <aina_rovira> how do i place blocks?[m
-[13:32:29] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[17:17:25] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 12613007ms behind, skipping 252260 tick(s)
-[17:17:25] [Server thread/INFO]: aina_rovira lost connection: Timed out
-[17:17:25] [Server thread/INFO]: aina_rovira left the game
-[17:21:08] [Server thread/INFO]: aina_rovira[/127.0.0.1:56858] logged in with entity id 528 at ([world]2956.1558287192515, 72.0, 307.0059532581808)
-[17:21:15] [Thread-151/INFO]: [RaspberryJuice] Connection reset
-[17:21:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49689.
-[17:21:19] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56905.
-[17:21:19] [Thread-153/INFO]: [RaspberryJuice] Starting input thread
-[17:21:19] [Thread-154/INFO]: [RaspberryJuice] Starting output thread!
-[17:21:19] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[17:21:20] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. You can interrupt me using 'stop' command.[m
-[17:21:20] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[17:21:23] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[17:21:23] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been interrupted.[m
-[17:24:13] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[17:24:14] [Server thread/INFO]: reflective is already active.[m
-[17:24:21] [Thread-153/INFO]: [RaspberryJuice] Connection reset
-[17:24:21] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56905.
-[17:24:21] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57746.
-[17:24:21] [Thread-155/INFO]: [RaspberryJuice] Starting input thread
-[17:24:21] [Thread-156/INFO]: [RaspberryJuice] Starting output thread!
-[17:24:24] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[17:24:24] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[17:24:28] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[17:24:29] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. You can interrupt me using 'stop' command.[m
-[17:24:29] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[17:24:35] [Netty Server IO #5/INFO]: <aina_rovira> reflevtive joke[m
-[17:24:35] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been interrupted.[m
-[17:38:34] [Thread-155/INFO]: [RaspberryJuice] Connection reset
-[17:38:34] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57746.
-[17:38:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61723.
-[17:38:35] [Thread-158/INFO]: [RaspberryJuice] Starting output thread!
-[17:38:35] [Thread-157/INFO]: [RaspberryJuice] Starting input thread
-[17:38:38] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[17:38:39] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[17:38:41] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[17:38:41] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
-[17:38:46] [Server thread/INFO]: InsultBot: You're acting s***[m
-[17:38:46] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[17:38:48] [Server thread/INFO]: TNTBot: Boom![m
-[17:38:56] [Netty Server IO #5/INFO]: <aina_rovira> build_house[m
-[17:39:08] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[17:39:26] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[17:39:26] [Server thread/INFO]: - how do i move in minecraft[m
-[17:39:26] [Server thread/INFO]: - how do i open my inventory[m
-[17:39:26] [Server thread/INFO]: - how do i break blocks[m
-[17:39:26] [Server thread/INFO]: - how do i place blocks[m
-[17:39:39] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[17:39:39] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[17:39:44] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[17:39:45] [Server thread/INFO]: oracle is already active.[m
-[17:41:13] [Thread-157/INFO]: [RaspberryJuice] Connection reset
-[17:41:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61723.
-[17:41:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62495.
-[17:41:13] [Thread-159/INFO]: [RaspberryJuice] Starting input thread
-[17:41:13] [Thread-160/INFO]: [RaspberryJuice] Starting output thread!
-[17:41:17] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[17:41:17] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[17:41:20] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[17:43:02] [Thread-159/INFO]: [RaspberryJuice] Connection reset
-[17:43:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62495.
-[17:43:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62995.
-[17:43:03] [Thread-161/INFO]: [RaspberryJuice] Starting input thread
-[17:43:03] [Thread-162/INFO]: [RaspberryJuice] Starting output thread!
-[17:43:06] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[17:49:42] [Thread-161/INFO]: [RaspberryJuice] Connection reset
-[17:49:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62995.
-[17:49:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64719.
-[17:49:42] [Thread-163/INFO]: [RaspberryJuice] Starting input thread
-[17:49:42] [Thread-164/INFO]: [RaspberryJuice] Starting output thread!
-[17:49:47] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[17:49:47] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[17:49:49] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[17:49:50] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[17:49:50] [Server thread/INFO]: - how do i move in minecraft[m
-[17:49:50] [Server thread/INFO]: - how do i open my inventory[m
-[17:49:50] [Server thread/INFO]: - how do i break blocks[m
-[17:49:50] [Server thread/INFO]: - how do i place blocks[m
-[17:49:58] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[17:49:58] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[17:50:09] [Netty Server IO #5/INFO]: <aina_rovira> how do i move in minecraft?[m
-[17:50:09] [Server thread/INFO]: OracleBot: Use the W, A, S, and D keys to move, and the spacebar to jump.[m
-[17:50:12] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[17:50:13] [Server thread/INFO]: OracleBot: Stopping OracleBot and switching to insult.[m
-[17:50:28] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[17:51:26] [Thread-163/INFO]: [RaspberryJuice] Connection reset
-[17:51:26] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64719.
-[17:51:26] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65142.
-[17:51:26] [Thread-166/INFO]: [RaspberryJuice] Starting output thread!
-[17:51:26] [Thread-165/INFO]: [RaspberryJuice] Starting input thread
-[17:51:28] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[17:51:29] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[17:51:31] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[17:51:32] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[17:51:32] [Server thread/INFO]: - how do i move in minecraft[m
-[17:51:32] [Server thread/INFO]: - how do i open my inventory[m
-[17:51:32] [Server thread/INFO]: - how do i break blocks[m
-[17:51:32] [Server thread/INFO]: - how do i place blocks[m
-[17:51:39] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[17:51:39] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[17:51:42] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[17:51:50] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[17:51:57] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[17:51:57] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[18:05:09] [Thread-165/INFO]: [RaspberryJuice] Connection reset
-[18:05:09] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65142.
-[18:05:10] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52826.
-[18:05:10] [Thread-167/INFO]: [RaspberryJuice] Starting input thread
-[18:05:10] [Thread-168/INFO]: [RaspberryJuice] Starting output thread!
-[18:05:13] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:05:14] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:05:16] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[18:05:37] [Thread-167/INFO]: [RaspberryJuice] Connection reset
-[18:05:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52826.
-[18:05:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52944.
-[18:05:38] [Thread-169/INFO]: [RaspberryJuice] Starting input thread
-[18:05:38] [Thread-170/INFO]: [RaspberryJuice] Starting output thread!
-[18:05:44] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:05:44] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:05:46] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[18:05:46] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[18:05:51] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[18:05:52] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:05:54] [Server thread/INFO]: TNTBot: Boom![m
-[18:06:02] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:06:45] [Thread-169/INFO]: [RaspberryJuice] Connection reset
-[18:06:45] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52944.
-[18:06:46] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53277.
-[18:06:46] [Thread-171/INFO]: [RaspberryJuice] Starting input thread
-[18:06:46] [Thread-172/INFO]: [RaspberryJuice] Starting output thread!
-[18:06:49] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:06:50] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:06:51] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:06:53] [Server thread/INFO]: TNTBot: Boom![m
-[18:07:00] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:07:32] [Thread-171/INFO]: [RaspberryJuice] Connection reset
-[18:07:32] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53277.
-[18:07:32] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53514.
-[18:07:32] [Thread-173/INFO]: [RaspberryJuice] Starting input thread
-[18:07:32] [Thread-174/INFO]: [RaspberryJuice] Starting output thread!
-[18:07:37] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:07:37] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:07:39] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:08:13] [Thread-173/INFO]: [RaspberryJuice] Connection reset
-[18:08:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53514.
-[18:08:13] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:53742.
-[18:08:13] [Thread-175/INFO]: [RaspberryJuice] Starting input thread
-[18:08:13] [Thread-176/INFO]: [RaspberryJuice] Starting output thread!
-[18:08:16] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:08:17] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:08:19] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:08:21] [Server thread/INFO]: TNTBot: Boom![m
-[18:08:27] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:09:06] [Thread-175/INFO]: [RaspberryJuice] Connection reset
-[18:09:06] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:53742.
-[18:09:06] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54017.
-[18:09:06] [Thread-177/INFO]: [RaspberryJuice] Starting input thread
-[18:09:06] [Thread-178/INFO]: [RaspberryJuice] Starting output thread!
-[18:09:09] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:09:10] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:09:12] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[18:09:13] [Server thread/INFO]: InsultBot: You really are a c***[m
-[18:09:18] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[18:09:18] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:09:19] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:09:19] [Server thread/INFO]: - how do i move in minecraft[m
-[18:09:19] [Server thread/INFO]: - how do i open my inventory[m
-[18:09:19] [Server thread/INFO]: - how do i break blocks[m
-[18:09:19] [Server thread/INFO]: - how do i place blocks[m
-[18:09:24] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[18:09:25] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[18:12:39] [Thread-177/INFO]: [RaspberryJuice] Connection reset
-[18:12:39] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54017.
-[18:12:40] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54935.
-[18:12:40] [Thread-179/INFO]: [RaspberryJuice] Starting input thread
-[18:12:40] [Thread-180/INFO]: [RaspberryJuice] Starting output thread!
-[18:12:52] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:12:52] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:12:55] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:12:56] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:12:56] [Server thread/INFO]: - how do i move in minecraft[m
-[18:12:56] [Server thread/INFO]: - how do i open my inventory[m
-[18:12:56] [Server thread/INFO]: - how do i break blocks[m
-[18:12:56] [Server thread/INFO]: - how do i place blocks[m
-[18:13:01] [Netty Server IO #5/INFO]: <aina_rovira> How do i place blocks?[m
-[18:13:02] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[18:13:07] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:13:08] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:13:11] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[18:13:11] [Server thread/INFO]: InsultBot: You can't even build a house![m
-[18:13:16] [Server thread/INFO]: InsultBot: You're a disaster![m
-[18:13:21] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:13:21] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:13:21] [Server thread/INFO]: - how do i move in minecraft[m
-[18:13:21] [Server thread/INFO]: - how do i open my inventory[m
-[18:13:21] [Server thread/INFO]: - how do i break blocks[m
-[18:13:21] [Server thread/INFO]: - how do i place blocks[m
-[18:13:24] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:13:25] [Server thread/INFO]: oracle is already active.[m
-[18:13:35] [Netty Server IO #5/INFO]: <aina_rovira> How do i place blocks?[m
-[18:13:35] [Server thread/INFO]: Unknown command: how do i place blocks?[m
-[18:13:39] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:13:40] [Server thread/INFO]: oracle is already active.[m
-[18:16:16] [Thread-179/INFO]: [RaspberryJuice] Connection reset
-[18:16:16] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54935.
-[18:16:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55930.
-[18:16:16] [Thread-181/INFO]: [RaspberryJuice] Starting input thread
-[18:16:16] [Thread-182/INFO]: [RaspberryJuice] Starting output thread!
-[18:16:21] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:16:22] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:16:24] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:16:25] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:16:25] [Server thread/INFO]: - how do i move in minecraft[m
-[18:16:25] [Server thread/INFO]: - how do i open my inventory[m
-[18:16:25] [Server thread/INFO]: - how do i break blocks[m
-[18:16:25] [Server thread/INFO]: - how do i place blocks[m
-[18:16:30] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[18:19:08] [Thread-181/INFO]: [RaspberryJuice] Connection reset
-[18:19:08] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55930.
-[18:19:09] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:56846.
-[18:19:09] [Thread-183/INFO]: [RaspberryJuice] Starting input thread
-[18:19:09] [Thread-184/INFO]: [RaspberryJuice] Starting output thread!
-[18:19:12] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:19:12] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:19:15] [Netty Server IO #5/INFO]: <aina_rovira> oracl[m
-[18:19:15] [Server thread/INFO]: Unknown command: oracl[m
-[18:19:19] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:19:19] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:19:19] [Server thread/INFO]: - how do i move in minecraft[m
-[18:19:19] [Server thread/INFO]: - how do i open my inventory[m
-[18:19:19] [Server thread/INFO]: - how do i break blocks[m
-[18:19:19] [Server thread/INFO]: - how do i place blocks[m
-[18:19:25] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[18:22:52] [Thread-183/INFO]: [RaspberryJuice] Connection reset
-[18:22:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:56846.
-[18:22:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57772.
-[18:22:53] [Thread-185/INFO]: [RaspberryJuice] Starting input thread
-[18:22:53] [Thread-186/INFO]: [RaspberryJuice] Starting output thread!
-[18:22:56] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:22:57] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:22:59] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:23:00] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:23:00] [Server thread/INFO]: - how do i move in minecraft[m
-[18:23:00] [Server thread/INFO]: - how do i open my inventory[m
-[18:23:00] [Server thread/INFO]: - how do i break blocks[m
-[18:23:00] [Server thread/INFO]: - how do i place blocks[m
-[18:23:06] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[18:29:50] [Thread-185/INFO]: [RaspberryJuice] Connection reset
-[18:29:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57772.
-[18:29:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:59489.
-[18:29:51] [Thread-188/INFO]: [RaspberryJuice] Starting output thread!
-[18:29:51] [Thread-187/INFO]: [RaspberryJuice] Starting input thread
-[18:29:54] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:29:54] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:29:56] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:29:56] [Server thread/INFO]: Switched to oracle bot.[m
-[18:29:56] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:29:56] [Server thread/INFO]: - how do i move in minecraft[m
-[18:29:56] [Server thread/INFO]: - how do i open my inventory[m
-[18:29:56] [Server thread/INFO]: - how do i break blocks[m
-[18:29:56] [Server thread/INFO]: - how do i place blocks[m
-[18:30:03] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[18:30:04] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[18:30:12] [Netty Server IO #5/INFO]: <aina_rovira> how do i open my inventory?[m
-[18:30:13] [Server thread/INFO]: OracleBot: Press the E key to open your inventory.[m
-[18:30:16] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:30:16] [Server thread/INFO]: Switched to tnt bot.[m
-[18:30:17] [Server thread/INFO]: TNTBot: Boom![m
-[18:30:42] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[18:30:42] [Server thread/INFO]: Switched to insult bot.[m
-[18:30:42] [Server thread/INFO]: InsultBot: You're a total m***[m
-[18:30:47] [Server thread/INFO]: InsultBot: You really are a c***[m
-[18:30:47] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:30:47] [Server thread/INFO]: Switched to tnt bot.[m
-[18:30:48] [Server thread/INFO]: TNTBot: Boom![m
-[18:31:00] [Netty Server IO #5/INFO]: <aina_rovira> build_house[m
-[18:31:00] [Server thread/INFO]: Switched to build_house bot.[m
-[18:31:31] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[18:31:31] [Server thread/INFO]: Switched to reflective bot.[m
-[18:31:31] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. You can interrupt me using 'stop' command.[m
-[18:31:31] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[18:31:35] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[18:31:35] [Server thread/INFO]: Switched to reflective bot.[m
-[18:31:35] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been forcefully stopped.[m
-[18:31:35] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. You can interrupt me using 'stop' command.[m
-[18:31:35] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been interrupted.[m
-[18:31:35] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[18:31:41] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[18:31:41] [Server thread/INFO]: ReflectiveBot: ReflectiveBot has been interrupted.[m
-[18:31:46] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:31:46] [Server thread/INFO]: Switched to oracle bot.[m
-[18:31:46] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:31:46] [Server thread/INFO]: - how do i move in minecraft[m
-[18:31:46] [Server thread/INFO]: - how do i open my inventory[m
-[18:31:46] [Server thread/INFO]: - how do i break blocks[m
-[18:31:46] [Server thread/INFO]: - how do i place blocks[m
-[18:31:55] [Netty Server IO #5/INFO]: <aina_rovira> how do i open my inventory?[m
-[18:31:55] [Server thread/INFO]: OracleBot: Press the E key to open your inventory.[m
-[18:31:59] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:32:00] [Server thread/INFO]: Switched to tnt bot.[m
-[18:32:01] [Server thread/INFO]: TNTBot: Boom![m
-[18:43:12] [Thread-187/INFO]: [RaspberryJuice] Connection reset
-[18:43:12] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:59489.
-[18:43:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63294.
-[18:43:12] [Thread-190/INFO]: [RaspberryJuice] Starting output thread!
-[18:43:12] [Thread-189/INFO]: [RaspberryJuice] Starting input thread
-[18:43:16] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:43:16] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:43:19] [Netty Server IO #5/INFO]: <aina_rovira> instlt[m
-[18:43:19] [Server thread/INFO]: Unknown command: instlt[m
-[18:43:22] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:43:23] [Server thread/INFO]: Switched to tnt bot.[m
-[18:43:24] [Server thread/INFO]: TNTBot: Boom![m
-[18:43:31] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[18:43:31] [Server thread/INFO]: Switched to insult bot.[m
-[18:43:31] [Server thread/INFO]: InsultBot: You're a total m***[m
-[18:43:36] [Server thread/INFO]: InsultBot: You really are a c***[m
-[18:43:40] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[18:43:40] [Server thread/INFO]: Switched to oracle bot.[m
-[18:43:40] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[18:43:40] [Server thread/INFO]: - how do i move in minecraft[m
-[18:43:40] [Server thread/INFO]: - how do i open my inventory[m
-[18:43:40] [Server thread/INFO]: - how do i break blocks[m
-[18:43:40] [Server thread/INFO]: - how do i place blocks[m
-[18:43:48] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[18:43:48] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[18:43:55] [Netty Server IO #5/INFO]: <aina_rovira> how do i move in minecraft?[m
-[18:43:55] [Server thread/INFO]: OracleBot: Use the W, A, S, and D keys to move, and the spacebar to jump.[m
-[18:43:58] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[18:43:58] [Server thread/INFO]: Switched to tnt bot.[m
-[18:43:59] [Server thread/INFO]: TNTBot: Boom![m
-[18:50:42] [Thread-189/INFO]: [RaspberryJuice] Connection reset
-[18:50:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63294.
-[18:50:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65260.
-[18:50:42] [Thread-191/INFO]: [RaspberryJuice] Starting input thread
-[18:50:42] [Thread-192/INFO]: [RaspberryJuice] Starting output thread!
-[18:50:47] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[18:50:47] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[18:50:50] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[18:50:50] [Server thread/INFO]: Switched to reflective bot.[m
-[18:50:50] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[18:50:50] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[18:50:55] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[18:50:55] [Server thread/INFO]: Switched to reflective bot.[m
-[18:50:55] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[18:50:55] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[18:51:16] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[18:51:16] [Server thread/INFO]: Switched to reflective bot.[m
-[18:51:16] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[18:51:16] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[18:51:20] [Netty Server IO #5/INFO]: <aina_rovira> joke[m
-[18:51:21] [Server thread/INFO]: Unknown command: joke[m
-[18:51:24] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[18:51:31] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[18:51:31] [Server thread/INFO]: Switched to reflective bot.[m
-[18:51:31] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[18:51:31] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:11:49] [Thread-191/INFO]: [RaspberryJuice] Connection reset
-[19:11:49] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65260.
-[19:11:49] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:54714.
-[19:11:49] [Thread-193/INFO]: [RaspberryJuice] Starting input thread
-[19:11:49] [Thread-194/INFO]: [RaspberryJuice] Starting output thread!
-[19:11:52] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[19:11:52] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[19:11:54] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[19:11:54] [Server thread/INFO]: Switched to oracle bot.[m
-[19:11:54] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[19:11:54] [Server thread/INFO]: - how do i move in minecraft[m
-[19:11:54] [Server thread/INFO]: - how do i open my inventory[m
-[19:11:54] [Server thread/INFO]: - how do i break blocks[m
-[19:11:54] [Server thread/INFO]: - how do i place blocks[m
-[19:11:59] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[19:12:00] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[19:12:01] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[19:12:02] [Server thread/INFO]: Switched to tnt bot.[m
-[19:12:03] [Server thread/INFO]: TNTBot: Boom![m
-[19:12:09] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:12:09] [Server thread/INFO]: Switched to reflective bot.[m
-[19:12:09] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[19:12:09] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:12:14] [Netty Server IO #5/INFO]: <aina_rovira> reflective greet[m
-[19:12:14] [Server thread/INFO]: Unknown command: reflective greet[m
-[19:12:18] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:12:22] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[19:12:22] [Server thread/INFO]: Switched to tnt bot.[m
-[19:12:23] [Server thread/INFO]: TNTBot: Boom![m
-[19:12:31] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:12:31] [Server thread/INFO]: Switched to reflective bot.[m
-[19:12:31] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[19:12:31] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:12:37] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[19:12:37] [Server thread/INFO]: Unknown command: reflective joke[m
-[19:12:44] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:12:44] [Server thread/INFO]: Switched to reflective bot.[m
-[19:12:44] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Use 'reflective <command>' to interact.[m
-[19:12:44] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:12:51] [Netty Server IO #5/INFO]: <aina_rovira> reflective greet[m
-[19:12:51] [Server thread/INFO]: Unknown command: reflective greet[m
-[19:16:23] [Thread-193/INFO]: [RaspberryJuice] Connection reset
-[19:16:23] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:54714.
-[19:16:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:55919.
-[19:16:23] [Thread-195/INFO]: [RaspberryJuice] Starting input thread
-[19:16:23] [Thread-196/INFO]: [RaspberryJuice] Starting output thread!
-[19:16:28] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[19:16:28] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[19:16:32] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:16:32] [Server thread/INFO]: Switched to reflective bot.[m
-[19:16:32] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Type 'reflective <command>' to interact.[m
-[19:16:32] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:16:36] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[19:16:36] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[19:16:41] [Netty Server IO #5/INFO]: <aina_rovira> reflective greet[m
-[19:16:41] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
-[19:16:44] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[19:16:44] [Server thread/INFO]: Switched to tnt bot.[m
-[19:16:45] [Server thread/INFO]: TNTBot: Boom![m
-[19:16:52] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[19:16:52] [Server thread/INFO]: Switched to oracle bot.[m
-[19:16:52] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[19:16:52] [Server thread/INFO]: - how do i move in minecraft[m
-[19:16:52] [Server thread/INFO]: - how do i open my inventory[m
-[19:16:52] [Server thread/INFO]: - how do i break blocks[m
-[19:16:52] [Server thread/INFO]: - how do i place blocks[m
-[19:16:57] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[19:16:57] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[19:17:03] [Netty Server IO #5/INFO]: <aina_rovira> build_house[m
-[19:17:03] [Server thread/INFO]: Switched to build_house bot.[m
-[19:17:45] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:17:45] [Server thread/INFO]: Switched to reflective bot.[m
-[19:17:45] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Type 'reflective <command>' to interact.[m
-[19:17:45] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:17:50] [Netty Server IO #5/INFO]: <aina_rovira> reflective bye[m
-[19:17:50] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[19:17:53] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[19:17:53] [Server thread/INFO]: Switched to insult bot.[m
-[19:17:53] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[19:17:58] [Server thread/INFO]: InsultBot: You're a total m***[m
-[19:18:04] [Server thread/INFO]: InsultBot: You're a disaster![m
-[19:18:05] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[19:18:05] [Server thread/INFO]: Switched to tnt bot.[m
-[19:18:06] [Server thread/INFO]: TNTBot: Boom![m
-[19:22:36] [Thread-195/INFO]: [RaspberryJuice] Connection reset
-[19:22:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:55919.
-[19:22:36] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57524.
-[19:22:36] [Thread-198/INFO]: [RaspberryJuice] Starting output thread!
-[19:22:36] [Thread-197/INFO]: [RaspberryJuice] Starting input thread
-[19:22:40] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[19:22:40] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[19:22:43] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[19:22:43] [Server thread/INFO]: Switched to insult bot.[m
-[19:22:43] [Server thread/INFO]: InsultBot: You're a disaster![m
-[19:22:48] [Server thread/INFO]: InsultBot: You're acting s***[m
-[19:22:50] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[19:22:50] [Server thread/INFO]: Switched to tnt bot.[m
-[19:22:51] [Server thread/INFO]: TNTBot: Boom![m
-[19:22:57] [Netty Server IO #5/INFO]: <aina_rovira> build_house[m
-[19:22:57] [Server thread/INFO]: Switched to build_house bot.[m
-[19:23:30] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[19:23:30] [Server thread/INFO]: Switched to oracle bot.[m
-[19:23:30] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[19:23:30] [Server thread/INFO]: - how do i move in minecraft[m
-[19:23:30] [Server thread/INFO]: - how do i open my inventory[m
-[19:23:30] [Server thread/INFO]: - how do i break blocks[m
-[19:23:30] [Server thread/INFO]: - how do i place blocks[m
-[19:23:37] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[19:23:37] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[19:23:44] [Netty Server IO #5/INFO]: <aina_rovira> how do i move in minecraft?[m
-[19:23:44] [Server thread/INFO]: OracleBot: Use the W, A, S, and D keys to move, and the spacebar to jump.[m
-[19:23:48] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:23:48] [Server thread/INFO]: Switched to reflective bot.[m
-[19:23:48] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Type 'reflective <command>' to interact.[m
-[19:23:48] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:23:52] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[19:23:52] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[19:23:55] [Netty Server IO #5/INFO]: <aina_rovira> reflective bye[m
-[19:23:55] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[19:23:58] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[19:23:59] [Server thread/INFO]: Switched to tnt bot.[m
-[19:24:00] [Server thread/INFO]: TNTBot: Boom![m
-[19:42:36] [Thread-197/INFO]: [RaspberryJuice] Connection reset
-[19:42:36] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57524.
-[19:42:37] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63323.
-[19:42:37] [Thread-200/INFO]: [RaspberryJuice] Starting output thread!
-[19:42:37] [Thread-199/INFO]: [RaspberryJuice] Starting input thread
-[19:42:40] [Netty Server IO #5/INFO]: <aina_rovira> list[m
-[19:42:40] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house[m
-[19:42:42] [Netty Server IO #5/INFO]: <aina_rovira> insult[m
-[19:42:42] [Server thread/INFO]: Switched to insult bot.[m
-[19:42:42] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
-[19:42:47] [Server thread/INFO]: InsultBot: You're a total m***[m
-[19:42:48] [Netty Server IO #5/INFO]: <aina_rovira> tnt[m
-[19:42:48] [Server thread/INFO]: Switched to tnt bot.[m
-[19:42:49] [Server thread/INFO]: TNTBot: Boom![m
-[19:43:02] [Netty Server IO #5/INFO]: <aina_rovira> oracle[m
-[19:43:02] [Server thread/INFO]: Switched to oracle bot.[m
-[19:43:02] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[19:43:02] [Server thread/INFO]: - how do i move in minecraft[m
-[19:43:02] [Server thread/INFO]: - how do i open my inventory[m
-[19:43:02] [Server thread/INFO]: - how do i break blocks[m
-[19:43:02] [Server thread/INFO]: - how do i place blocks[m
-[19:43:08] [Netty Server IO #5/INFO]: <aina_rovira> how do i place blocks?[m
-[19:43:08] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[19:43:13] [Netty Server IO #5/INFO]: <aina_rovira> reflective[m
-[19:43:13] [Server thread/INFO]: Switched to reflective bot.[m
-[19:43:13] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Type 'reflective <command>' to interact.[m
-[19:43:13] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
-[19:43:16] [Netty Server IO #5/INFO]: <aina_rovira> reflective joke[m
-[19:43:16] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
-[19:43:20] [Netty Server IO #5/INFO]: <aina_rovira> reflective bye[m
-[19:43:20] [Server thread/INFO]: ReflectiveBot: Bye, see you next time![m
-[19:43:24] [Netty Server IO #5/INFO]: <aina_rovira> build_house[m
-[19:43:24] [Server thread/INFO]: Switched to build_house bot.[m
+[19:28:42] [Server thread/INFO]: Starting minecraft server version 1.12
+[19:28:42] [Server thread/INFO]: Loading properties
+[19:28:42] [Server thread/INFO]: Default game type: CREATIVE
+[19:28:42] [Server thread/INFO]: Generating keypair
+[19:28:42] [Server thread/INFO]: Starting Minecraft server on *:25565
+[19:28:42] [Server thread/INFO]: Using default channel type
+[19:28:43] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[19:28:43] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[19:28:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[19:28:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[19:28:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[19:28:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[19:28:43] [Server thread/INFO]: Preparing level "world"
+[19:28:43] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3344744038352380145)
+[19:28:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3344744038352380145)
+[19:28:45] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3344744038352380145)
+[19:28:45] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[19:28:45] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[19:28:45] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[19:28:45] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[19:28:45] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[19:28:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[19:28:45] [Server thread/INFO]: Done (1,784s)! For help, type "help" or "?"
+[19:28:50] [Server thread/INFO]: aina_rovira[/127.0.0.1:57631] logged in with entity id 25 at ([world]2898.1830717669054, 72.0, 260.5712634026059)
+[19:29:18] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:29:34] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:29:34] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[19:29:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57826.
+[19:29:34] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[19:31:50] [Thread-7/INFO]: [RaspberryJuice] Connection reset
+[19:31:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57826.
+[19:31:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58420.
+[19:31:51] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[19:31:51] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[19:31:55] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:31:55] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:31:57] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:31:57] [Server thread/INFO]: Switched to openai bot.[m
+[19:31:57] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:32:03] [Netty Server IO #2/INFO]: <aina_rovira> how do i eat?[m
+[19:32:04] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:33:33] [Thread-9/INFO]: [RaspberryJuice] Connection reset
+[19:33:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58420.
+[19:33:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58853.
+[19:33:34] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
+[19:33:34] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
+[19:33:40] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:33:40] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:33:43] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[19:33:43] [Server thread/INFO]: Switched to oracle bot.[m
+[19:33:43] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[19:33:43] [Server thread/INFO]: - how do i move in minecraft[m
+[19:33:43] [Server thread/INFO]: - how do i open my inventory[m
+[19:33:43] [Server thread/INFO]: - how do i break blocks[m
+[19:33:43] [Server thread/INFO]: - how do i place blocks[m
+[19:33:49] [Netty Server IO #2/INFO]: <aina_rovira> how do i place blocks?[m
+[19:33:49] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[19:33:52] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[19:33:52] [Server thread/INFO]: Switched to tnt bot.[m
+[19:33:53] [Server thread/INFO]: TNTBot: Boom![m
+[19:34:04] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:34:04] [Server thread/INFO]: Switched to openai bot.[m
+[19:34:04] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:34:10] [Netty Server IO #2/INFO]: <aina_rovira> how do i sleep?[m
+[19:34:11] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:38:41] [Thread-11/INFO]: [RaspberryJuice] Connection reset
+[19:38:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58853.
+[19:38:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60163.
+[19:38:42] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
+[19:38:42] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
+[19:39:42] [Thread-13/INFO]: [RaspberryJuice] Connection reset
+[19:39:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60163.
+[19:39:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60425.
+[19:39:43] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
+[19:39:43] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
+[19:40:38] [Thread-15/INFO]: [RaspberryJuice] Connection reset
+[19:40:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60425.
+[19:40:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60686.
+[19:40:39] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
+[19:40:39] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
+[19:40:43] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:40:44] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:40:46] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:40:46] [Server thread/INFO]: Switched to openai bot.[m
+[19:40:46] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:40:52] [Netty Server IO #2/INFO]: <aina_rovira> how do i sleep?[m
+[19:40:52] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:43:22] [Thread-17/INFO]: [RaspberryJuice] Connection reset
+[19:43:22] [Thread-18/WARN]: java.net.SocketException: Connection reset by peer: socket write error
+[19:43:22] [Thread-18/WARN]: 	at java.net.SocketOutputStream.socketWrite0(Native Method)
+[19:43:22] [Thread-18/WARN]: 	at java.net.SocketOutputStream.socketWrite(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at java.net.SocketOutputStream.write(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.writeBytes(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.implFlushBuffer(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.implFlush(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.flush(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at java.io.OutputStreamWriter.flush(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at java.io.BufferedWriter.flush(Unknown Source)
+[19:43:22] [Thread-18/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession$OutputThread.run(RemoteSession.java:665)
+[19:43:22] [Thread-18/WARN]: 	at java.lang.Thread.run(Unknown Source)
+[19:43:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60686.
+[19:43:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61365.
+[19:43:23] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
+[19:43:23] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
+[19:43:28] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:43:28] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:43:31] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:43:31] [Server thread/INFO]: Switched to openai bot.[m
+[19:43:31] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:43:39] [Netty Server IO #2/INFO]: <aina_rovira> hello in spanish?[m
+[19:43:40] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:46:15] [Thread-19/INFO]: [RaspberryJuice] Connection reset
+[19:46:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61365.
+[19:46:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62125.
+[19:46:16] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
+[19:46:16] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
+[19:46:20] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:46:20] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:46:23] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:46:23] [Server thread/INFO]: Switched to openai bot.[m
+[19:46:23] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:46:28] [Netty Server IO #2/INFO]: <aina_rovira> how do i sleep?[m
+[19:46:30] [Server thread/INFO]: OpenAIBot: Here are some tips that can help you improve your sleep[m
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:47:04] [Netty Server IO #2/INFO]: <aina_rovira> how do i say hello in japanese?[m
+[19:47:09] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:47:13] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:48:01] [Thread-21/INFO]: [RaspberryJuice] Connection reset
+[19:48:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62125.
+[19:48:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62587.
+[19:48:03] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
+[19:48:03] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
+[19:48:05] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:48:05] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:48:09] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:48:10] [Server thread/INFO]: Switched to openai bot.[m
+[19:48:10] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:48:20] [Netty Server IO #2/INFO]: <aina_rovira> how is gat in english?[m
+[19:48:21] [Server thread/INFO]: OpenAIBot: In English, "gat" can be translated as "street" or "alley." It is a term commonly used in India and South Asia to refer to narrow lanes or backstreets.[m
+[19:48:33] [Netty Server IO #2/INFO]: <aina_rovira> how do i run faster?[m
+[19:48:35] [Server thread/INFO]: OpenAIBot: Here are some tips to help you run faster[m
+[19:48:35] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
+java.lang.StringIndexOutOfBoundsException: String index out of range: -1
+	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
+	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
+	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
+	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
+[19:48:50] [Netty Server IO #2/INFO]: <aina_rovira> can i fly ?[m
+[19:48:51] [Server thread/INFO]: OpenAIBot: I'm just a virtual assistant, so I'm not entirely sure what you mean by "fly." If you are referring to flying on an airplane or another form of air travel, then yes, you can certainly do that if you book a flight. If you were referring to flying on your own like a bird, unfortunately, humans cannot fly without the assistance of technology such as airplanes or helicopters.[m
+[19:48:55] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
+[19:48:55] [Server thread/INFO]: Switched to oracle bot.[m
+[19:48:55] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[19:48:55] [Server thread/INFO]: - how do i move in minecraft[m
+[19:48:55] [Server thread/INFO]: - how do i open my inventory[m
+[19:48:55] [Server thread/INFO]: - how do i break blocks[m
+[19:48:55] [Server thread/INFO]: - how do i place blocks[m
+[19:49:01] [Netty Server IO #2/INFO]: <aina_rovira> how do i place blocks?[m
+[19:49:01] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[19:49:05] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
+[19:49:05] [Server thread/INFO]: Switched to tnt bot.[m
+[19:49:06] [Server thread/INFO]: TNTBot: Boom![m
+[19:51:03] [Thread-23/INFO]: [RaspberryJuice] Connection reset
+[19:51:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62587.
+[19:51:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63375.
+[19:51:04] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
+[19:51:04] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
+[19:51:07] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:51:07] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:51:09] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:51:09] [Server thread/INFO]: Switched to openai bot.[m
+[19:51:09] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:51:16] [Netty Server IO #2/INFO]: <aina_rovira> how do i say dog in japanese?[m
+[19:51:17] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:52:52] [Thread-25/INFO]: [RaspberryJuice] Connection reset
+[19:52:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63375.
+[19:52:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63843.
+[19:52:53] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
+[19:52:53] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
+[19:52:56] [Netty Server IO #2/INFO]: <aina_rovira> LIST[m
+[19:52:57] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:52:59] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:52:59] [Server thread/INFO]: Switched to openai bot.[m
+[19:52:59] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:53:02] [Netty Server IO #2/INFO]: <aina_rovira> hello[m
+[19:53:02] [Server thread/INFO]: Unknown command: hello[m
+[19:53:08] [Netty Server IO #2/INFO]: <aina_rovira> hello in spanish?[m
+[19:53:09] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:55:41] [Thread-27/INFO]: [RaspberryJuice] Connection reset
+[19:55:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63843.
+[19:55:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64579.
+[19:55:42] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
+[19:55:42] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
+[19:55:46] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:55:46] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:55:49] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:55:49] [Server thread/INFO]: Switched to openai bot.[m
+[19:55:49] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:55:54] [Netty Server IO #2/INFO]: <aina_rovira> hello in shanish?[m
+[19:55:55] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:58:04] [Thread-29/INFO]: [RaspberryJuice] Connection reset
+[19:58:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64579.
+[19:58:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65195.
+[19:58:05] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
+[19:58:05] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
+[19:58:11] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:58:11] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:58:13] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:58:13] [Server thread/INFO]: Switched to openai bot.[m
+[19:58:13] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:58:20] [Netty Server IO #2/INFO]: <aina_rovira> say hello in japanese?[m
+[19:58:20] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[19:59:37] [Thread-31/INFO]: [RaspberryJuice] Connection reset
+[19:59:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65195.
+[19:59:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49253.
+[19:59:38] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
+[19:59:38] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
+[19:59:41] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[19:59:41] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[19:59:43] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[19:59:44] [Server thread/INFO]: Switched to openai bot.[m
+[19:59:44] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[19:59:46] [Netty Server IO #2/INFO]: <aina_rovira> hello?[m
+[19:59:47] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[20:03:02] [Thread-33/INFO]: [RaspberryJuice] Connection reset
+[20:03:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49253.
+[20:03:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51191.
+[20:03:03] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
+[20:03:03] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
+[20:03:06] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[20:03:06] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[20:03:08] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[20:03:08] [Server thread/INFO]: Switched to openai bot.[m
+[20:03:08] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[20:03:11] [Netty Server IO #2/INFO]: <aina_rovira> hello?[m
+[20:03:12] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[20:04:12] [Thread-35/INFO]: [RaspberryJuice] Connection reset
+[20:04:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51191.
+[20:04:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51481.
+[20:04:14] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
+[20:04:14] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
+[20:04:18] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[20:04:18] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[20:04:20] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[20:04:21] [Server thread/INFO]: Switched to openai bot.[m
+[20:04:21] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[20:04:26] [Netty Server IO #2/INFO]: <aina_rovira> hello in spanish?[m
+[20:04:26] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[20:06:10] [Thread-37/INFO]: [RaspberryJuice] Connection reset
+[20:06:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51481.
+[20:06:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51998.
+[20:06:12] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
+[20:06:12] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
+[20:06:18] [Netty Server IO #2/INFO]: <aina_rovira> list[m
+[20:06:18] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[20:06:20] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
+[20:06:20] [Server thread/INFO]: Switched to openai bot.[m
+[20:06:20] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[20:06:28] [Netty Server IO #2/INFO]: <aina_rovira> how do i say hello in japanese?[m
+[20:06:28] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
+[20:08:05] [Thread-39/INFO]: [RaspberryJuice] Connection reset
+[20:08:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51998.

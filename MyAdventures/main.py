@@ -1,4 +1,7 @@
+from OpenAI import OpenAIBot
 from mcpi.minecraft import Minecraft
+import os
+from dotenv import load_dotenv
 from BotManager import BotManager
 from InsultBot import InsultBot
 from TNTbot import TNTBot
@@ -7,6 +10,7 @@ from ReflectiveBot import ReflectiveBot
 from BuildHouse import BuildHouse
 
 if __name__ == "__main__":
+    
     # Creates a connection to Minecraft
     mc = Minecraft.create()
 
@@ -19,6 +23,7 @@ if __name__ == "__main__":
     oracle_bot = OracleBot(mc)
     build_house_bot = BuildHouse(mc)
     reflective_bot = ReflectiveBot(mc)
+    openai_bot = OpenAIBot(mc)
 
     # Add the bots to the BotManager
     bot_manager.add_agent("insult", insult_bot)
@@ -26,6 +31,7 @@ if __name__ == "__main__":
     bot_manager.add_agent("oracle", oracle_bot)
     bot_manager.add_agent("reflective", reflective_bot)
     bot_manager.add_agent("build_house", build_house_bot)
+    bot_manager.add_agent("openai", openai_bot) 
 
     # Run the BotManager to listen for commands
     bot_manager.run()
