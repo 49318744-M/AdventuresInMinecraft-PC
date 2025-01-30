@@ -1,592 +1,103 @@
-[19:28:42] [Server thread/INFO]: Starting minecraft server version 1.12
-[19:28:42] [Server thread/INFO]: Loading properties
-[19:28:42] [Server thread/INFO]: Default game type: CREATIVE
-[19:28:42] [Server thread/INFO]: Generating keypair
-[19:28:42] [Server thread/INFO]: Starting Minecraft server on *:25565
-[19:28:42] [Server thread/INFO]: Using default channel type
-[19:28:43] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
-[19:28:43] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
-[19:28:43] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
-[19:28:43] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
-[19:28:43] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
-[19:28:43] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
-[19:28:43] [Server thread/INFO]: Preparing level "world"
-[19:28:43] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3344744038352380145)
-[19:28:44] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3344744038352380145)
-[19:28:45] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3344744038352380145)
-[19:28:45] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
-[19:28:45] [Server thread/INFO]: [RaspberryJuice] Using port 4711
-[19:28:45] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
-[19:28:45] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
-[19:28:45] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
-[19:28:45] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
-[19:28:45] [Server thread/INFO]: Done (1,784s)! For help, type "help" or "?"
-[19:28:50] [Server thread/INFO]: aina_rovira[/127.0.0.1:57631] logged in with entity id 25 at ([world]2898.1830717669054, 72.0, 260.5712634026059)
-[19:29:18] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:29:34] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:29:34] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
-[19:29:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:57826.
-[19:29:34] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
-[19:31:50] [Thread-7/INFO]: [RaspberryJuice] Connection reset
-[19:31:50] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:57826.
-[19:31:51] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58420.
-[19:31:51] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
-[19:31:51] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
-[19:31:55] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:31:55] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:31:57] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:31:57] [Server thread/INFO]: Switched to openai bot.[m
-[19:31:57] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:32:03] [Netty Server IO #2/INFO]: <aina_rovira> how do i eat?[m
-[19:32:04] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:33:33] [Thread-9/INFO]: [RaspberryJuice] Connection reset
-[19:33:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58420.
-[19:33:34] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:58853.
-[19:33:34] [Thread-11/INFO]: [RaspberryJuice] Starting input thread
-[19:33:34] [Thread-12/INFO]: [RaspberryJuice] Starting output thread!
-[19:33:40] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:33:40] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:33:43] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
-[19:33:43] [Server thread/INFO]: Switched to oracle bot.[m
-[19:33:43] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[19:33:43] [Server thread/INFO]: - how do i move in minecraft[m
-[19:33:43] [Server thread/INFO]: - how do i open my inventory[m
-[19:33:43] [Server thread/INFO]: - how do i break blocks[m
-[19:33:43] [Server thread/INFO]: - how do i place blocks[m
-[19:33:49] [Netty Server IO #2/INFO]: <aina_rovira> how do i place blocks?[m
-[19:33:49] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[19:33:52] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
-[19:33:52] [Server thread/INFO]: Switched to tnt bot.[m
-[19:33:53] [Server thread/INFO]: TNTBot: Boom![m
-[19:34:04] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:34:04] [Server thread/INFO]: Switched to openai bot.[m
-[19:34:04] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:34:10] [Netty Server IO #2/INFO]: <aina_rovira> how do i sleep?[m
-[19:34:11] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:38:41] [Thread-11/INFO]: [RaspberryJuice] Connection reset
-[19:38:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:58853.
-[19:38:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60163.
-[19:38:42] [Thread-14/INFO]: [RaspberryJuice] Starting output thread!
-[19:38:42] [Thread-13/INFO]: [RaspberryJuice] Starting input thread
-[19:39:42] [Thread-13/INFO]: [RaspberryJuice] Connection reset
-[19:39:42] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60163.
-[19:39:43] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60425.
-[19:39:43] [Thread-15/INFO]: [RaspberryJuice] Starting input thread
-[19:39:43] [Thread-16/INFO]: [RaspberryJuice] Starting output thread!
-[19:40:38] [Thread-15/INFO]: [RaspberryJuice] Connection reset
-[19:40:38] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60425.
-[19:40:39] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:60686.
-[19:40:39] [Thread-18/INFO]: [RaspberryJuice] Starting output thread!
-[19:40:39] [Thread-17/INFO]: [RaspberryJuice] Starting input thread
-[19:40:43] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:40:44] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:40:46] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:40:46] [Server thread/INFO]: Switched to openai bot.[m
-[19:40:46] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:40:52] [Netty Server IO #2/INFO]: <aina_rovira> how do i sleep?[m
-[19:40:52] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:43:22] [Thread-17/INFO]: [RaspberryJuice] Connection reset
-[19:43:22] [Thread-18/WARN]: java.net.SocketException: Connection reset by peer: socket write error
-[19:43:22] [Thread-18/WARN]: 	at java.net.SocketOutputStream.socketWrite0(Native Method)
-[19:43:22] [Thread-18/WARN]: 	at java.net.SocketOutputStream.socketWrite(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at java.net.SocketOutputStream.write(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.writeBytes(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.implFlushBuffer(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.implFlush(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at sun.nio.cs.StreamEncoder.flush(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at java.io.OutputStreamWriter.flush(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at java.io.BufferedWriter.flush(Unknown Source)
-[19:43:22] [Thread-18/WARN]: 	at net.zhuoweizhang.raspberryjuice.RemoteSession$OutputThread.run(RemoteSession.java:665)
-[19:43:22] [Thread-18/WARN]: 	at java.lang.Thread.run(Unknown Source)
-[19:43:22] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:60686.
-[19:43:23] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:61365.
-[19:43:23] [Thread-20/INFO]: [RaspberryJuice] Starting output thread!
-[19:43:23] [Thread-19/INFO]: [RaspberryJuice] Starting input thread
-[19:43:28] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:43:28] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:43:31] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:43:31] [Server thread/INFO]: Switched to openai bot.[m
-[19:43:31] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:43:39] [Netty Server IO #2/INFO]: <aina_rovira> hello in spanish?[m
-[19:43:40] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:46:15] [Thread-19/INFO]: [RaspberryJuice] Connection reset
-[19:46:15] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:61365.
-[19:46:16] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62125.
-[19:46:16] [Thread-21/INFO]: [RaspberryJuice] Starting input thread
-[19:46:16] [Thread-22/INFO]: [RaspberryJuice] Starting output thread!
-[19:46:20] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:46:20] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:46:23] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:46:23] [Server thread/INFO]: Switched to openai bot.[m
-[19:46:23] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:46:28] [Netty Server IO #2/INFO]: <aina_rovira> how do i sleep?[m
-[19:46:30] [Server thread/INFO]: OpenAIBot: Here are some tips that can help you improve your sleep[m
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:46:30] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:47:04] [Netty Server IO #2/INFO]: <aina_rovira> how do i say hello in japanese?[m
-[19:47:09] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:47:13] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:48:01] [Thread-21/INFO]: [RaspberryJuice] Connection reset
-[19:48:01] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62125.
-[19:48:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:62587.
-[19:48:03] [Thread-23/INFO]: [RaspberryJuice] Starting input thread
-[19:48:03] [Thread-24/INFO]: [RaspberryJuice] Starting output thread!
-[19:48:05] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:48:05] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:48:09] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:48:10] [Server thread/INFO]: Switched to openai bot.[m
-[19:48:10] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:48:20] [Netty Server IO #2/INFO]: <aina_rovira> how is gat in english?[m
-[19:48:21] [Server thread/INFO]: OpenAIBot: In English, "gat" can be translated as "street" or "alley." It is a term commonly used in India and South Asia to refer to narrow lanes or backstreets.[m
-[19:48:33] [Netty Server IO #2/INFO]: <aina_rovira> how do i run faster?[m
-[19:48:35] [Server thread/INFO]: OpenAIBot: Here are some tips to help you run faster[m
-[19:48:35] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:36] [Server thread/WARN]: [RaspberryJuice] Task #2 for RaspberryJuice v1.10 generated an exception
-java.lang.StringIndexOutOfBoundsException: String index out of range: -1
-	at java.lang.String.substring(Unknown Source) ~[?:1.8.0_431]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.handleLine(RemoteSession.java:129) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RemoteSession.tick(RemoteSession.java:113) ~[?:?]
-	at net.zhuoweizhang.raspberryjuice.RaspberryJuicePlugin$TickHandler.run(RaspberryJuicePlugin.java:197) ~[?:?]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftTask.run(CraftTask.java:53) ~[craftbukkit.jar:git-Bukkit-ed8c725]
-	at org.bukkit.craftbukkit.v1_12_R1.scheduler.CraftScheduler.mainThreadHeartbeat(CraftScheduler.java:352) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.D(MinecraftServer.java:689) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.DedicatedServer.D(DedicatedServer.java:366) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.C(MinecraftServer.java:650) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at net.minecraft.server.v1_12_R1.MinecraftServer.run(MinecraftServer.java:554) [craftbukkit.jar:git-Bukkit-ed8c725]
-	at java.lang.Thread.run(Unknown Source) [?:1.8.0_431]
-[19:48:50] [Netty Server IO #2/INFO]: <aina_rovira> can i fly ?[m
-[19:48:51] [Server thread/INFO]: OpenAIBot: I'm just a virtual assistant, so I'm not entirely sure what you mean by "fly." If you are referring to flying on an airplane or another form of air travel, then yes, you can certainly do that if you book a flight. If you were referring to flying on your own like a bird, unfortunately, humans cannot fly without the assistance of technology such as airplanes or helicopters.[m
-[19:48:55] [Netty Server IO #2/INFO]: <aina_rovira> oracle[m
-[19:48:55] [Server thread/INFO]: Switched to oracle bot.[m
-[19:48:55] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
-[19:48:55] [Server thread/INFO]: - how do i move in minecraft[m
-[19:48:55] [Server thread/INFO]: - how do i open my inventory[m
-[19:48:55] [Server thread/INFO]: - how do i break blocks[m
-[19:48:55] [Server thread/INFO]: - how do i place blocks[m
-[19:49:01] [Netty Server IO #2/INFO]: <aina_rovira> how do i place blocks?[m
-[19:49:01] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
-[19:49:05] [Netty Server IO #2/INFO]: <aina_rovira> tnt[m
-[19:49:05] [Server thread/INFO]: Switched to tnt bot.[m
-[19:49:06] [Server thread/INFO]: TNTBot: Boom![m
-[19:51:03] [Thread-23/INFO]: [RaspberryJuice] Connection reset
-[19:51:03] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:62587.
-[19:51:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63375.
-[19:51:04] [Thread-26/INFO]: [RaspberryJuice] Starting output thread!
-[19:51:04] [Thread-25/INFO]: [RaspberryJuice] Starting input thread
-[19:51:07] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:51:07] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:51:09] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:51:09] [Server thread/INFO]: Switched to openai bot.[m
-[19:51:09] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:51:16] [Netty Server IO #2/INFO]: <aina_rovira> how do i say dog in japanese?[m
-[19:51:17] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:52:52] [Thread-25/INFO]: [RaspberryJuice] Connection reset
-[19:52:52] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63375.
-[19:52:53] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:63843.
-[19:52:53] [Thread-28/INFO]: [RaspberryJuice] Starting output thread!
-[19:52:53] [Thread-27/INFO]: [RaspberryJuice] Starting input thread
-[19:52:56] [Netty Server IO #2/INFO]: <aina_rovira> LIST[m
-[19:52:57] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:52:59] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:52:59] [Server thread/INFO]: Switched to openai bot.[m
-[19:52:59] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:53:02] [Netty Server IO #2/INFO]: <aina_rovira> hello[m
-[19:53:02] [Server thread/INFO]: Unknown command: hello[m
-[19:53:08] [Netty Server IO #2/INFO]: <aina_rovira> hello in spanish?[m
-[19:53:09] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:55:41] [Thread-27/INFO]: [RaspberryJuice] Connection reset
-[19:55:41] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:63843.
-[19:55:42] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:64579.
-[19:55:42] [Thread-29/INFO]: [RaspberryJuice] Starting input thread
-[19:55:42] [Thread-30/INFO]: [RaspberryJuice] Starting output thread!
-[19:55:46] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:55:46] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:55:49] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:55:49] [Server thread/INFO]: Switched to openai bot.[m
-[19:55:49] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:55:54] [Netty Server IO #2/INFO]: <aina_rovira> hello in shanish?[m
-[19:55:55] [Server thread/INFO]: OpenAIBot: Error generatins response: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:58:04] [Thread-29/INFO]: [RaspberryJuice] Connection reset
-[19:58:04] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:64579.
-[19:58:05] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:65195.
-[19:58:05] [Thread-31/INFO]: [RaspberryJuice] Starting input thread
-[19:58:05] [Thread-32/INFO]: [RaspberryJuice] Starting output thread!
-[19:58:11] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:58:11] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:58:13] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:58:13] [Server thread/INFO]: Switched to openai bot.[m
-[19:58:13] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:58:20] [Netty Server IO #2/INFO]: <aina_rovira> say hello in japanese?[m
-[19:58:20] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[19:59:37] [Thread-31/INFO]: [RaspberryJuice] Connection reset
-[19:59:37] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:65195.
-[19:59:38] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:49253.
-[19:59:38] [Thread-33/INFO]: [RaspberryJuice] Starting input thread
-[19:59:38] [Thread-34/INFO]: [RaspberryJuice] Starting output thread!
-[19:59:41] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[19:59:41] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[19:59:43] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[19:59:44] [Server thread/INFO]: Switched to openai bot.[m
-[19:59:44] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[19:59:46] [Netty Server IO #2/INFO]: <aina_rovira> hello?[m
-[19:59:47] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[20:03:02] [Thread-33/INFO]: [RaspberryJuice] Connection reset
-[20:03:02] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:49253.
-[20:03:03] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51191.
-[20:03:03] [Thread-35/INFO]: [RaspberryJuice] Starting input thread
-[20:03:03] [Thread-36/INFO]: [RaspberryJuice] Starting output thread!
-[20:03:06] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[20:03:06] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[20:03:08] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[20:03:08] [Server thread/INFO]: Switched to openai bot.[m
-[20:03:08] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[20:03:11] [Netty Server IO #2/INFO]: <aina_rovira> hello?[m
-[20:03:12] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[20:04:12] [Thread-35/INFO]: [RaspberryJuice] Connection reset
-[20:04:13] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51191.
-[20:04:14] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51481.
-[20:04:14] [Thread-38/INFO]: [RaspberryJuice] Starting output thread!
-[20:04:14] [Thread-37/INFO]: [RaspberryJuice] Starting input thread
-[20:04:18] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[20:04:18] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[20:04:20] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[20:04:21] [Server thread/INFO]: Switched to openai bot.[m
-[20:04:21] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[20:04:26] [Netty Server IO #2/INFO]: <aina_rovira> hello in spanish?[m
-[20:04:26] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[20:06:10] [Thread-37/INFO]: [RaspberryJuice] Connection reset
-[20:06:11] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51481.
-[20:06:12] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:51998.
-[20:06:12] [Thread-39/INFO]: [RaspberryJuice] Starting input thread
-[20:06:12] [Thread-40/INFO]: [RaspberryJuice] Starting output thread!
-[20:06:18] [Netty Server IO #2/INFO]: <aina_rovira> list[m
-[20:06:18] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
-[20:06:20] [Netty Server IO #2/INFO]: <aina_rovira> openai[m
-[20:06:20] [Server thread/INFO]: Switched to openai bot.[m
-[20:06:20] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
-[20:06:28] [Netty Server IO #2/INFO]: <aina_rovira> how do i say hello in japanese?[m
-[20:06:28] [Server thread/INFO]: OpenAIBot: Error generando respuesta: Error code: 401 - {'error': {'message': 'Incorrect API key provided: sk-proj-********************************************************************************************************************************************************KHMA. You can find your API key at https://platform.openai.com/account/api-keys.', 'type': 'invalid_request_error', 'param': None, 'code': 'invalid_api_key'}}[m
-[20:08:05] [Thread-39/INFO]: [RaspberryJuice] Connection reset
-[20:08:05] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:51998.
+[18:20:21] [Server thread/INFO]: Starting minecraft server version 1.12
+[18:20:21] [Server thread/INFO]: Loading properties
+[18:20:21] [Server thread/INFO]: Default game type: CREATIVE
+[18:20:21] [Server thread/INFO]: Generating keypair
+[18:20:21] [Server thread/INFO]: Starting Minecraft server on *:25565
+[18:20:21] [Server thread/INFO]: Using default channel type
+[18:20:26] [Server thread/INFO]: This server is running CraftBukkit version git-Bukkit-ed8c725 (MC: 1.12) (Implementing API version 1.12-R0.1-SNAPSHOT)
+[18:20:26] [Server thread/INFO]: [RaspberryJuice] Loading RaspberryJuice v1.10
+[18:20:26] [Server thread/WARN]: **** SERVER IS RUNNING IN OFFLINE/INSECURE MODE!
+[18:20:26] [Server thread/WARN]: The server will make no attempt to authenticate usernames. Beware.
+[18:20:26] [Server thread/WARN]: While this makes the game possible to play without internet access, it also opens up the ability for hackers to connect with any username they choose.
+[18:20:26] [Server thread/WARN]: To change this, set "online-mode" to "true" in the server.properties file.
+[18:20:26] [Server thread/INFO]: Preparing level "world"
+[18:20:27] [Server thread/INFO]: Preparing start region for level 0 (Seed: -3344744038352380145)
+[18:20:28] [Server thread/INFO]: Preparing spawn area: 3%
+[18:20:29] [Server thread/INFO]: Preparing spawn area: 47%
+[18:20:30] [Server thread/INFO]: Preparing spawn area: 89%
+[18:20:30] [Server thread/INFO]: Preparing start region for level 1 (Seed: -3344744038352380145)
+[18:20:31] [Server thread/INFO]: Preparing spawn area: 49%
+[18:20:32] [Server thread/INFO]: Preparing start region for level 2 (Seed: -3344744038352380145)
+[18:20:33] [Server thread/INFO]: [RaspberryJuice] Enabling RaspberryJuice v1.10
+[18:20:33] [Server thread/INFO]: [RaspberryJuice] Using port 4711
+[18:20:33] [Server thread/INFO]: [RaspberryJuice] Using ABSOLUTE locations
+[18:20:33] [Server thread/INFO]: [RaspberryJuice] Using BOTH clicks for hits
+[18:20:33] [Server thread/INFO]: [RaspberryJuice] ThreadListener Started
+[18:20:33] [Server thread/INFO]: Server permissions file permissions.yml is empty, ignoring it
+[18:20:33] [Server thread/INFO]: Done (6,505s)! For help, type "help" or "?"
+[18:20:34] [Server thread/INFO]: aina_rovira[/127.0.0.1:51701] logged in with entity id 25 at ([world]2884.312379687262, 70.0, 265.4587978997379)
+[18:20:37] [Server thread/WARN]: Can't keep up! Did the system time change, or is the server overloaded? Running 2997ms behind, skipping 59 tick(s)
+[18:21:05] [Netty Server IO #1/INFO]: <aina_rovira> LIST[m
+[18:21:15] [Netty Server IO #1/INFO]: <aina_rovira> list[m
+[18:22:04] [Netty Server IO #1/INFO]: <aina_rovira> list[m
+[18:22:04] [Thread-7/INFO]: [RaspberryJuice] Starting input thread
+[18:22:04] [Thread-8/INFO]: [RaspberryJuice] Starting output thread!
+[18:22:04] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52290.
+[18:22:08] [Netty Server IO #1/INFO]: <aina_rovira> insult[m
+[18:22:08] [Server thread/INFO]: Switched to insult bot.[m
+[18:22:08] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:22:13] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:22:18] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:22:20] [Netty Server IO #1/INFO]: <aina_rovira> tnt[m
+[18:22:20] [Server thread/INFO]: Switched to tnt bot.[m
+[18:22:21] [Server thread/INFO]: TNTBot: Boom![m
+[18:22:38] [Netty Server IO #1/INFO]: <aina_rovira> insult[m
+[18:22:38] [Server thread/INFO]: Switched to insult bot.[m
+[18:22:38] [Server thread/INFO]: InsultBot: You're slower than a turtle![m
+[18:22:43] [Server thread/INFO]: InsultBot: Do you even know how to play?[m
+[18:22:48] [Server thread/INFO]: InsultBot: You're a total m***[m
+[18:22:48] [Netty Server IO #1/INFO]: <aina_rovira> list[m
+[18:22:49] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[18:22:53] [Server thread/INFO]: InsultBot: You really are a c***[m
+[18:22:57] [Netty Server IO #1/INFO]: <aina_rovira> build_house[m
+[18:22:57] [Server thread/INFO]: Switched to build_house bot.[m
+[18:24:08] [Netty Server IO #1/INFO]: <aina_rovira> oracle[m
+[18:24:21] [Netty Server IO #1/INFO]: <aina_rovira> list[m
+[18:24:33] [Thread-7/INFO]: [RaspberryJuice] Connection reset
+[18:24:33] [Server thread/INFO]: [RaspberryJuice] Closed connection to/127.0.0.1:52290.
+[18:24:35] [Thread-5/INFO]: [RaspberryJuice] Opened connection to/127.0.0.1:52895.
+[18:24:35] [Thread-9/INFO]: [RaspberryJuice] Starting input thread
+[18:24:35] [Thread-10/INFO]: [RaspberryJuice] Starting output thread!
+[18:24:36] [Netty Server IO #1/INFO]: <aina_rovira> list[m
+[18:24:36] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[18:24:40] [Netty Server IO #1/INFO]: <aina_rovira> oracle[m
+[18:24:40] [Server thread/INFO]: Switched to oracle bot.[m
+[18:24:40] [Server thread/INFO]: OracleBot: You can ask the following questions:[m
+[18:24:40] [Server thread/INFO]: - how do i move in minecraft[m
+[18:24:40] [Server thread/INFO]: - how do i open my inventory[m
+[18:24:40] [Server thread/INFO]: - how do i break blocks[m
+[18:24:40] [Server thread/INFO]: - how do i place blocks[m
+[18:24:47] [Netty Server IO #1/INFO]: <aina_rovira> how do i place blocks?[m
+[18:24:47] [Server thread/INFO]: OracleBot: Right-click on a surface to place the block you're holding.[m
+[18:24:57] [Netty Server IO #1/INFO]: <aina_rovira> how do i break blocks?[m
+[18:24:57] [Server thread/INFO]: OracleBot: Left-click and hold on a block to break it.[m
+[18:25:01] [Netty Server IO #1/INFO]: <aina_rovira> openai[m
+[18:25:01] [Server thread/INFO]: Switched to openai bot.[m
+[18:25:01] [Server thread/INFO]: OpenAIBot: Ready to respond questions.[m
+[18:25:11] [Netty Server IO #1/INFO]: <aina_rovira> how do i jump in minecraft?[m
+[18:25:14] [Server thread/INFO]: OpenAIBot: To jump in Minecraft, you simply need to press the spacebar on your keyboard while playing the game. This will allow your character to perform a jump. Keep in mind that the height of the jump can be influenced by factors such as the terrain and any potions or enchantments your character may have.[m
+[18:25:39] [Netty Server IO #1/INFO]: <aina_rovira> how do i say dog in spanish?[m
+[18:25:41] [Server thread/INFO]: OpenAIBot: The word for "dog" in Spanish is "perro".[m
+[18:25:46] [Netty Server IO #1/INFO]: <aina_rovira> list[m
+[18:25:46] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[18:25:50] [Netty Server IO #1/INFO]: <aina_rovira> reflective[m
+[18:25:50] [Server thread/INFO]: Switched to reflective bot.[m
+[18:25:50] [Server thread/INFO]: ReflectiveBot: ReflectiveBot is active. Type 'reflective <command>' to interact.[m
+[18:25:50] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[18:25:57] [Netty Server IO #1/INFO]: <aina_rovira> reflective greet[m
+[18:25:57] [Server thread/INFO]: ReflectiveBot: Hello, I'm your reflective bot[m
+[18:26:02] [Netty Server IO #1/INFO]: <aina_rovira> reflective help[m
+[18:26:02] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[18:26:09] [Netty Server IO #1/INFO]: <aina_rovira> reflective help[m
+[18:26:09] [Server thread/INFO]: ReflectiveBot: Available commands: greet, help, joke, bye, place_block[m
+[18:26:17] [Netty Server IO #1/INFO]: <aina_rovira> reflective joke[m
+[18:26:17] [Server thread/INFO]: ReflectiveBot: joke joke joke.[m
+[18:26:24] [Netty Server IO #1/INFO]: <aina_rovira> reflective place_block[m
+[18:26:24] [Server thread/INFO]: ReflectiveBot: Placed a diamond block under your feet![m
+[18:26:34] [Netty Server IO #1/INFO]: <aina_rovira> build_house[m
+[18:26:34] [Server thread/INFO]: Switched to build_house bot.[m
+[18:27:07] [Netty Server IO #1/INFO]: <aina_rovira> list[m
+[18:27:07] [Server thread/INFO]: Available agents: insult, tnt, oracle, reflective, build_house, openai[m
+[18:27:10] [Netty Server IO #1/INFO]: <aina_rovira> tnt[m
+[18:27:10] [Server thread/INFO]: Switched to tnt bot.[m
+[18:27:11] [Server thread/INFO]: TNTBot: Boom![m

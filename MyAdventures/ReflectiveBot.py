@@ -38,6 +38,6 @@ class ReflectiveBot(MinecraftAgent):
     def respond(self, command):
         
         if hasattr(self, command):
-            getattr(self, command)()  # Llama a greet, joke, etc.
+            getattr(self, command)()  
         else:
             self.mc.postToChat(f"Unknown command: {command}")

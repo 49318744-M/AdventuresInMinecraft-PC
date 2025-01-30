@@ -1,4 +1,3 @@
-
 import asyncio
 from mcpi import minecraft
 
@@ -7,7 +6,7 @@ class BotManager:
         self.mc = mc
         self.agents = {}
         self.tasks = {}
-        self.current_agent_name = None  
+        self.current_agent_name = None  # Active bot
 
     def add_agent(self, name, agent):
         self.agents[name] = agent
@@ -17,6 +16,7 @@ class BotManager:
 
     async def handle_command(self, message):
         message = message.strip().lower()
+
         # bot list
         if message == "list":
             agents = await self.list_agents()
@@ -37,13 +37,14 @@ class BotManager:
 
             self.mc.postToChat(f"Switched to {message} bot.")
             return
-        
+
         # reflective 
         if self.current_agent_name == "reflective" and message.startswith("reflective "):
             command = message.split("reflective ", 1)[1]
             reflective_bot = self.agents["reflective"]
             reflective_bot.respond(command)
             return
+
         # none
         self.mc.postToChat(f"Unknown command: {message}")
 
@@ -51,23 +52,25 @@ class BotManager:
         while True:
             chat_events = self.mc.events.pollChatPosts()
             for event in chat_events:
-                message = event.message.strip()
+                message = event.message.strip().lower()
 
-                if message.endswith("?"):  
-                    if self.current_agent_name == "openai":
+              #questions
+                if message.endswith("?"):
+                    if self.current_agent_name == "openai": # OpenAI
                         openai_bot = self.agents["openai"]
                         response = await openai_bot.get_response(message)
                         self.mc.postToChat(f"OpenAIBot: {response}")
-
-                    elif self.current_agent_name == "oracle":
+                    elif  self.current_agent_name == "oracle": # Oracle
                         active_bot = self.agents[self.current_agent_name]
                         if hasattr(active_bot, "get_response"):
                             answer = active_bot.get_response(message)
                             self.mc.postToChat(f"{active_bot.name}: {answer}")
-
+                        else:
+                            self.mc.postToChat(f"{active_bot.name} doesn't support questions.")
                     else:
-                        self.mc.postToChat("No hay un bot activo para responder preguntas.")
-                else:  
+                        self.mc.postToChat("No active bot to answer questions.") # No active bot
+                else:
+                    # Not a question
                     await self.handle_command(message)
 
             await asyncio.sleep(0.1)
