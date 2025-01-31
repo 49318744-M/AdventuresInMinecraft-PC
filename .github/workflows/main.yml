@@ -9,33 +9,44 @@ on:
 jobs:
   build-and-test:
     runs-on: ubuntu-latest
-
+    
     steps:
-      # 1. Descargar el código
+      # 1. Download the code
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      # 2. Configurar Python
+      # 2. Configure Python
       - name: Set up Python
         uses: actions/setup-python@v3
         with:
           python-version: '3.9'
 
-      # 3. (Opcional) Configurar PYTHONPATH, si usas imports locales no empaquetados
       - name: Set PYTHONPATH
         run: echo "PYTHONPATH=${GITHUB_WORKSPACE}/MyAdventures" >> $GITHUB_ENV
 
-      # 4. Configurar variables de entorno
+      # 4. variables 
       - name: Set environment variables
         run: echo "OPENAI_API_KEY=test_key" >> $GITHUB_ENV
 
-      # 5. Instalar dependencias
+      # 5. install dependencies
       - name: Install dependencies
         run: |
-          python -m pip install --upgrade pip
+          pip install --upgrade pip
           pip install -r MyAdventures/requirements.txt
+          # Instala coverage en caso de que no esté en requirements.txt
+          pip install coverage
 
-      # 6. Ejecutar pruebas
-      - name: Run tests
+      # 6. coverage tests
+      - name: Run tests with coverage
         run: |
-          pytest
+          coverage run -m pytest
+          coverage xml -o coverage.xml
+
+      # 7. upload to codecov
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v5
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: coverage.xml
+          flags: unittests
+          name: codecov-coverage
